@@ -3,42 +3,10 @@
 @section('title', 'December For Women Who Code')
 
 @section('content')
-<style>
-.stage {
-  text-align:center;
-  float: right;
-  }
- .stage a {
-    line-height:1em;
-    letter-spacing:0.06em;
-    font-family: 'Lato', sans-serif;
-    font-weight:normal;
-    font-size:16px;
-    text-decoration:none;
-    color:#fff;
-    background:#231f20;
-    display:inline-block;
-    padding:15px 12px 15px 15px;
-    transition:background 200ms;
-    border-radius:4px;
-  }
-.stage  a:hover {
-    background:#410937;
-  }
- .stage a:after {
-    font-family: 'FontAwesome', sans-serif;
-    font-weight:300;
-    content: "\f105";
-    margin-left:20px;
-    color:#f3e2c4;
-    font-size:18px;
-    vertical-align:middle;
-    transition:color 200ms;
-  }
 
- .stage a:hover:after {
-    color:#f3e2c4;
-  }
+<style>
+
+
   ul.tabs{
     text-align: center;
   }
@@ -207,10 +175,12 @@
                     <div class="col-lg-10 mx-auto welcome-home-first">
 
                         <div class="text-center mt-2 text-md-right">
-                            <a href="aboutUs.html" class="btn btn-default">Read About Us</a>
+                            <a href="about_us" class="btn btn-default">Read About Us</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
 @endsection

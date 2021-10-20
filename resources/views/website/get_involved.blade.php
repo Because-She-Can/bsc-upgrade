@@ -320,35 +320,6 @@
     </section>
     <!-- Donation Style Start -->
 
-    <!-- About Us Style Start -->
-    <!-- <section class=" bg-white mb-spacer-md" style="padding:10vh 0px 30px 0px">
-            <div  class="ruu container">
-                <div class="row">
-                    <div class="col-lg-7 col-md-12">
-                        <h1 class="heading-main">
-                            <small> Become a Girls in Tech member — it’s free!</small>
-
-                        </h1>
-
-                        <p>
-                          As a member, you’ll have access to in-person and virtual events and workshops designed to help you grow professionally and personally. Plus, find a mentor, build meaningful relationships, and take advantage of our Jobs Board to find a job that’s right for you. Best part? Membership is free.
-
-                        </p>
-                        <a href="donation.html" class="btn btn-default popup-youtube">Join For Free Today!</a>
-
-                    </div>
-
-
-                    <div class="col-lg-5 col-md-12" style="text-align: right; margin-bottom:15px ;" >
-
-                         <img class="img-fluid" src="images/body-images/volunteer.png" alt="about-content-image" style="height:257px;" >
-
-
-                    </div>
-                </div>
-            </div>
-        </section> -->
-    <!-- About Us Style End -->
 
 
     <!--=================================

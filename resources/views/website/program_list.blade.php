@@ -244,7 +244,7 @@
                             <h3>DECEMBER FOR WOMEN WHO CODE</h3>
                             <p>A wonderful serenity has taken possession of my entire soul</p>
                             <div class="text-md-right">
-                                <a href="#" class="read-more-line"><span>Read More</span></a>
+                                <a href="dfwwc_program" class="read-more-line"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>

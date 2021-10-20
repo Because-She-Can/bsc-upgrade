@@ -421,7 +421,7 @@ our-service -->
                             </h1>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                                 industry's standard dummy text ever since the 1500s</p>
-                            <a class="btn btn-default" href="get-involved.html">Join Us Now</a>
+                            <a class="btn btn-default" href="get_involved">Join Us Now</a>
                         </div>
 
                         <!-- Spacer For Medium -->
