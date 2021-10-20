@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Bootstrap Footer Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <!-- Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+
+    <!-- Stylesheet -->
+    <link href="css/footer-4.css" rel="stylesheet" />
+
+    <style>
+        /*******************************/
+        /********* Footer 4 CSS ********/
+        /*******************************/
+
+        a {
+            transition: .3s;
+        }
+
+        a:hover,
+        a:active,
+        a:focus {
+            outline: none;
+            text-decoration: none;
+        }
+
+        .footer {
+            position: relative;
+            padding-top: 45px;
+            background: #121518;
+        }
+
+        .footer .footer-about,
+        .footer .footer-contact,
+        .footer .footer-links,
+        .footer .footer-project {
+            position: relative;
+            margin-bottom: 45px;
+            color: #999999;
+        }
+
+        .footer .footer-about h3,
+        .footer .footer-contact h3,
+        .footer .footer-links h3,
+        .footer .footer-project h3 {
+            position: relative;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #eeeeee;
+        }
+
+        .footer .footer-about h3::after,
+        .footer .footer-contact h3::after,
+        .footer .footer-links h3::after,
+        .footer .footer-project h3::after {
+            position: absolute;
+            content: "";
+            width: 50px;
+            height: 2px;
+            left: 0;
+            bottom: 0;
+            background: #eeeeee;
+        }
+
+        .footer .footer-social {
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .footer .footer-social a {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            padding: 6px 0;
+            text-align: center;
+            color: #999999;
+            font-size: 14px;
+            border: 1px solid #999999;
+            border-radius: 35px;
+        }
+
+        .footer .footer-social a:hover {
+            color: #ffffff;
+            background: #0085ff;
+            border-color: #0085ff;
+        }
+
+        .footer .footer-contact p {
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #999999;
+        }
+
+        .footer .footer-contact i {
+            margin-right: 10px;
+            font-size: 16px;
+            color: #999999;
+        }
+
+        .footer .footer-contact a:last-child i {
+            margin: 0;
+        }
+
+        .footer .footer-contact a:hover i {
+            color: #0085ff;
+        }
+
+        .footer .footer-links a {
+            display: block;
+            margin-bottom: 6px;
+            padding-left: 15px;
+            color: #999999;
+        }
+
+        .footer .footer-links a:last-child {
+            margin: 0;
+        }
+
+        .footer .footer-links a:hover {
+            color: #0085ff;
+        }
+
+        .footer .footer-links a::before {
+            position: absolute;
+            content: "\f105";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            left: 0;
+        }
+
+        .footer .footer-project {
+            float: left;
+            font-size: 0;
+        }
+
+        .footer .footer-project a {
+            padding: 0 8px 8px 0;
+            display: block;
+            width: 33.33%;
+            float: left;
+        }
+
+        .footer .footer-project a img {
+            width: 100%;
+        }
+
+        .footer .footer-newsletter {
+            margin-bottom: 35px;
+            max-width: 700px;
+            text-align: center;
+            color: #999999;
+        }
+
+        .footer .footer-newsletter input {
+            height: 35px;
+            border: none;
+            border-radius: 5px;
+            background: rgba(256, 256, 256, .15);
+            margin-bottom: 15px;
+        }
+
+        .footer .footer-newsletter .btn {
+            display: block;
+            width: 100%;
+            height: 35px;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ffffff;
+            background: #e9414a;
+            border-radius: 5px;
+            border: none;
+            transition: .3s;
+        }
+
+        .footer .footer-newsletter .btn:hover {
+            color: #0085ff;
+            background: #ffffff;
+        }
+
+        .footer .footer-newsletter .btn:focus {
+            box-shadow: none;
+        }
+
+
+        .footer .copyright {
+            position: relative;
+            padding: 25px 0;
+            background: #000000;
+        }
+
+        .footer .copyright .copy-text p {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 400;
+            color: #999999;
+        }
+
+        .footer .copyright .copy-text p a {
+            color: #0085ff;
+            text-decoration: none;
+        }
+
+        .footer .copyright .copy-text p a:hover {
+            color: #ff008c;
+        }
+
+        .footer .copyright .copy-menu {
+            position: relative;
+            font-size: 0;
+            text-align: right;
+        }
+
+        .footer .copyright .copy-menu a {
+            color: #999999;
+            font-size: 16px;
+            font-weight: 400;
+            margin-right: 15px;
+            padding-right: 15px;
+            border-right: 1px solid rgba(255, 255, 255, .3);
+        }
+
+        .footer .copyright .copy-menu a:hover {
+            color: #0085ff;
+        }
+
+        .footer .copyright .copy-menu a:last-child {
+            margin-right: 0;
+            padding-right: 0;
+            border-right: none;
+        }
+
+        @media (max-width: 767.98px) {
+
+            .footer .copyright .copy-text,
+            .footer .copyright .copy-menu {
+                text-align: center;
+            }
+
+            .footer .copyright .copy-text p {
+                margin-bottom: 5px;
+            }
+
+        }
+    </style>
+
+    <!-- modal style  -->
+    <style>
+        /* Please ❤ this if you like it! */
+
+
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.7;
+            color: #1f2029;
+        }
+
+        .section {
+            position: relative;
+            width: 100%;
+            display: block;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+
+        .full-height {
+            min-height: 100vh;
+        }
+
+        [type="checkbox"]:checked,
+        [type="checkbox"]:not(:checked) {
+            position: absolute;
+            left: -9999px;
+        }
+
+        .modal-btn:checked+label,
+        .modal-btn:not(:checked)+label {
+            position: relative;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 2;
+            height: 50px;
+            transition: all 200ms linear;
+            border-radius: 4px;
+            width: 240px;
+            letter-spacing: 1px;
+            display: -webkit-inline-flex;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            -webkit-align-items: center;
+            -moz-align-items: center;
+            -ms-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            -ms-justify-content: center;
+            justify-content: center;
+            -ms-flex-pack: center;
+            text-align: center;
+            -ms-flex-item-align: center;
+            align-self: center;
+            border: none;
+            cursor: pointer;
+            background-color: #102770;
+            color: #ffeba7;
+            box-shadow: 0 12px 35px 0 rgba(16, 39, 112, .25);
+        }
+
+        .modal-btn:not(:checked)+label:hover {
+            background-color: #ffeba7;
+            color: #102770;
+        }
+
+        .modal-btn:checked+label .uil,
+        .modal-btn:not(:checked)+label .uil {
+            margin-left: 10px;
+            font-size: 18px;
+        }
+
+        .modal-btn:checked+label:after,
+        .modal-btn:not(:checked)+label:after {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            z-index: 110;
+            width: 40px;
+            border-radius: 3px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            font-size: 18px;
+            background-color: #ffeba7;
+            color: #102770;
+            font-family: 'unicons';
+            content: '\eac6';
+            box-shadow: 0 12px 25px 0 rgba(16, 39, 112, .25);
+            transition: all 200ms linear;
+            opacity: 0;
+            pointer-events: none;
+            transform: translateY(20px);
+        }
+
+        .modal-btn:checked+label:hover:after,
+        .modal-btn:not(:checked)+label:hover:after {
+            background-color: #102770;
+            color: #ffeba7;
+        }
+
+        .modal-btn:checked+label:after {
+            transition: opacity 300ms 300ms ease, transform 300ms 300ms ease, background-color 250ms linear, color 250ms linear;
+            opacity: 1;
+            pointer-events: auto;
+            transform: translateY(0);
+        }
+
+        .modal {
+            position: fixed;
+            display: block;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -ms-flex-pack: center;
+            justify-content: center;
+            margin: 0 auto;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 100;
+            overflow-x: hidden;
+            background-color: rgba(31, 32, 41, .75);
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 250ms 700ms ease;
+        }
+
+        .modal-btn:checked~.modal {
+            pointer-events: auto;
+            opacity: 1;
+            transition: all 300ms ease-in-out;
+        }
+
+        .modal-wrap {
+            position: relative;
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            overflow: hidden;
+            padding-bottom: 20px;
+            background-color: #fff;
+            -ms-flex-item-align: center;
+            align-self: center;
+            box-shadow: 0 12px 25px 0 rgba(199, 175, 189, .25);
+            opacity: 0;
+            transform: scale(0.6);
+            transition: opacity 250ms 250ms ease, transform 300ms 250ms ease;
+        }
+
+        .modal-wrap img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .modal-wrap p {
+            padding: 20px 30px 0 30px;
+        }
+
+        .modal-btn:checked~.modal .modal-wrap {
+            opacity: 1;
+            transform: scale(1);
+            transition: opacity 250ms 500ms ease, transform 350ms 500ms ease;
+        }
+
+
+        .logo {
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            display: block;
+            z-index: 1000;
+            transition: all 250ms linear;
+        }
+
+        .logo img {
+            height: 26px;
+            width: auto;
+            display: block;
+            filter: brightness(10%);
+            transition: filter 250ms 700ms linear;
+        }
+
+        .modal-btn:checked~.logo img {
+            filter: brightness(100%);
+            transition: all 250ms linear;
+        }
+
+
+        @media screen and (max-width: 500px) {
+            .modal-wrap {
+                width: calc(100% - 40px);
+                padding-bottom: 15px;
+            }
+
+            .modal-wrap p {
+                padding: 15px 20px 0 20px;
+            }
+
+            .modal-active {
+                overflow: hidden;
+            }
+        }
+    </style>
+    <!-- modal style end -->
+</head>
+
+<!-- Footer Start -->
+<!-- <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="footer-about">
+                    <h3>About Us</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet elit. Quisque eu
+                        lectus a leo dictum nec non quam. Tortor eu
+                        placerat rhoncus, lorem quam iaculis felis, sed
+                        lacus neque id eros
+                    </p>
+                    <div class="footer-social">
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="footer-contact">
+                    <h3>Get In Touch</h3>
+                    <p>
+                        <i class="fa fa-map-marker-alt"></i>123 Street,
+                        New York, USA
+                    </p>
+                    <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
+                    <p>
+                        <i class="fa fa-envelope"></i>info@example.com
+                    </p>
+                    <p>
+                        <i class="far fa-clock"></i>Mon - Fri, 9AM -
+                        10PM
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="footer-links">
+                    <h3>Useful Links</h3>
+                    <a href="">Lorem ipsum</a>
+                    <a href="">tempus posuere </a>
+                    <a href="">velit id accumsan</a>
+                    <a href="">ut porttitor</a>
+                    <a href="">Nam pretium</a>
+                    <a href="">accumsan</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="footer-project">
+                    <h3>Latest Projects</h3>
+                    <a href=""><img
+                            src="https://1.bp.blogspot.com/-QcdXqARMFG8/YJ-ilo3-OzI/AAAAAAAACLI/IH2j_g6lf7A8K3F1gOMYcsyKV2UgSveLACNcBGAsYHQ/s200/img-6.jpg"
+                            alt="Image" /></a>
+                    <a href=""><img
+                            src="https://1.bp.blogspot.com/-NWD6pkamNsk/YJ-il8fTxcI/AAAAAAAACLM/7pXvLEQfrXcoFzcSdbE5izxaeZ1kkNvcQCNcBGAsYHQ/s200/img-5.jpg"
+                            alt="Image" /></a>
+                    <a href=""><img
+                            src="https://1.bp.blogspot.com/-UGgsprrqxMY/YJ-ilLL7GwI/AAAAAAAACLE/B5lcBeCB3psbSLtWtHFvzc87RvqXpG53wCNcBGAsYHQ/s200/img-4.jpg"
+                            alt="Image" /></a>
+                    <a href=""><img
+                            src="https://1.bp.blogspot.com/-SeyKTz_3L9c/YJ-ikIPZCEI/AAAAAAAACK4/-uwED3_vlFUQG0kqkubixVxcHLrSVaX3gCNcBGAsYHQ/s200/img-3.jpg"
+                            alt="Image" /></a>
+                    <a href=""><img
+                            src="https://1.bp.blogspot.com/-2se8tpaXosY/YJ-ikDH62bI/AAAAAAAACK8/6TiTnMompxAF_lQ_cT3qNNF_oVceN2GnACNcBGAsYHQ/s200/img-2.jpg"
+                            alt="Image" /></a>
+                    <a href=""><img
+                            src="https://1.bp.blogspot.com/-HeLbAZi4_po/YJ-ikWicOpI/AAAAAAAACLA/EywwYkoBf7UpSQHTvWsWi161UaSBbHCowCNcBGAsYHQ/s200/img-1.jpg"
+                            alt="Image" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container footer-newsletter">
+        <p>
+            Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo
+            dictum nec non quam. Tortor eu placerat rhoncus, lorem quam
+            iaculis felis, sed lacus neque id eros
+        </p>
+        <div class="row form">
+            <div class="col-sm-4">
+                <input class="form-control" placeholder="Your Name" />
+            </div>
+            <div class="col-sm-4">
+                <input class="form-control" placeholder="Your Email" />
+            </div>
+            <div class="col-sm-4">
+                <button class="btn">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="copy-text">
+                        <p>
+                            ©
+                            <a href="https://www.foolishdeveloper.com/">Foolish Developer</a>. All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="copy-menu">
+                        <a href="">About</a>
+                        <a href="">Terms</a>
+                        <a href="">Privacy</a>
+                        <a href="">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- Footer End -->
+
+<div class="section full-height">
+    <input class="modal-btn" type="checkbox" id="modal-btn" name="modal-btn" value="modal" />
+    <label for="modal-btn">Open Modal <i class="uil uil-expand-arrows"></i></label>
+    <div class="modal">
+        <div class="modal-wrap">
+            <img src="https://assets.codepen.io/1462889/sl3.jpg" alt="">
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+    </div>
+    <button class="modal-btn" id="modal-btn"> Open Modal </button>
+
+
+    <a href="https://front.codes/" class="logo" target="_blank">
+        <img src="https://assets.codepen.io/1462889/fcy.png" alt="">
+    </a>
+</div>
+<script>
+    $('.modal-btn').click(function () {
+        var buttonId = $(this).attr('id');
+        $('#modal-wrap').removeAttr('class').addClass(buttonId);
+        $('body').addClass('modal-active');
+    })
+
+    $('#modal-wrap').click(function () {
+        $(this).addClass('out');
+        $('body').removeClass('modal-active');
+    });
+</script>
+
+</html>

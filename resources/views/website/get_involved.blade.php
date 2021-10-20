@@ -1,65 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.master')
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="HTML5 Template" />
-    <meta name="description" content="Because She Can - WE'RE ON A MISSION TO CLOSE THE GENDER GAP IN TECH" />
-    <meta name="author" content="waalatech.com" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Because She Can - Showing HER That SHE Can</title>
+@section('title', 'December For Women Who Code')
 
-    <!-- Favicon -->
-    <!--<link rel="shortcut icon" href="images/faviconbsc.ico" /> -->
-
-    <!-- bootstrap -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-
-    <!-- flaticon -->
-    <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
-
-    <!-- mega menu -->
-    <link rel="stylesheet" type="text/css" href="css/mega-menu/mega_menu.css" />
-
-    <!-- mega menu -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-
-    <!-- main style -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-
-    <!-- responsive -->
-    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-
-    <!-- owl-carousel -->
-    <link rel="stylesheet" type="text/css" href="css/owl-carousel/owl.carousel.css" />
-
-    <!-- revolution -->
-    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css" />
-
-    <!-- Links from Gracious -->
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="images/faviconbsc.ico" />
-
-    <!-- Animate CSSS -->
-    <link href="assets/library/animate/animate.min.css" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link href="assets/library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Dropdown Hover CSS -->
-    <link href="assets/library/bootstrap/css/bootstrap-dropdownhover.min.css" rel="stylesheet">
-    <!-- Icofont CSS -->
-    <link href="assets/library/icofont/icofont.min.css" rel="stylesheet">
-    <!-- Owl Carousel CSS -->
-    <link href="assets/library/owlcarousel/css/owl.carousel.min.css" rel="stylesheet">
-    <!-- Select Dropdown CSS -->
-    <link href="assets/library/select2/css/select2.min.css" rel="stylesheet">
-    <!-- Magnific Popup CSS -->
-    <link href="assets/library/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <!-- Main Theme CSS -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <!-- Links from Gracious end -->
-    <style>
+@section('content')
+ <style>
         .inner-intro {
             height: 660px;
             display: block;
@@ -255,121 +199,8 @@
             padding-left: 130px;
         }
     </style>
-
-</head>
-
-<body>
-
-
-    <header id="header" class="defualt">
-        <div class="topbar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="topbar-left text-lg-left text-center">
-                            <ul class="list-inline">
-                                <li> <i class="fa fa-envelope-o"> </i>info@becauseshecan.tech
-                                </li>
-                                <!-- <li> <i class="fa fa-clock-o"></i> Mon - Sat 8.00 - 18.00. Sunday CLOSED</li> -->
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="topbar-right text-lg-right text-center">
-                            <ul class="list-inline">
-                                <li> <i class="fa fa-phone"></i>(+233) 123 456 789
-                                </li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--================================= mega menu -->
-
-        <div class="menu">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <!-- menu start -->
-                        <nav id="menu" class="mega-menu">
-                            <!-- menu list items container -->
-                            <section class="menu-list-items">
-                                <!-- menu logo -->
-                                <ul class="menu-logo">
-                                    <li>
-                                        <a href="index.html"><img id="logo_dark_img" src="images/logo-light.png"
-                                                alt="logo"> </a>
-                                    </li>
-                                </ul>
-                                <!-- menu links -->
-                                <ul class="menu-links">
-                                    <!-- active class -->
-                                    <li><a href="index.html"> Home </i></a>
-
-                                    </li>
-
-
-                                    <li><a href="aboutUs.html">About Us </i></a>
-                                    </li>
-
-                                    <li><a href="projects-list.html">Programs<i
-                                                class="fa fa-angle-down fa-indicator"></i></a>
-                                        <!-- drop down multilevel  -->
-                                        <ul class="drop-down-multilevel">
-                                            <li><a href="#"> December for women who code</a></li>
-                                            <li><a href="#"> Bootcamps</a></li>
-                                            <li><a href="#"> Celebrating women in tech</a></li>
-                                            <li><a href="#"> Webinars</a></li>
-                                        </ul>
-
-                                    </li>
-
-
-                                    <!-- <li><a href="javascript:void(0)"> Become a Volunteer </i></a>
-              </li> -->
-                                    <li class="active"><a href="/get_involved">Get Involved</i></a>
-
-                                    </li>
-                                    <li><a href="javascript:void(0)">Jobs<i
-                                                class="fa fa-angle-down fa-indicator"></i></a>
-                                        <!-- drop down multilevel  -->
-                                        <ul class="drop-down-multilevel right-menu">
-                                            <li><a href="#">See All Jobs</a></li>
-                                            <li><a href="#">Post A Job</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <!-- Topbar Buttons Start -->
-                                        <div
-                                            class="d-inline-flex request-btn order-lg-last col-auto p-0 align-items-center">
-
-                                            <a class="nav-link btn btn-default ml-3 donate-btn" target="blank"
-                                                href="donation.html">Donate</a>
-                                        </div>
-
-                                    </li>
-                                </ul>
-                            </section>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!--=================================
- header -->
-
-
-
     <!-- Page Breadcrumbs Start -->
-    <section class="breadcrumbs-page-wrap">
+    <section class="breadcrumbs-page-wrap" style="margin-top:135px;position:relative;">
         <div class="bg-fixed pos-rel breadcrumbs-page">
             <div class="container">
                 <h1>Tech needs you. <br>
@@ -430,10 +261,6 @@
                     </div>
                 </div>
 
-                <script>
-                    const return_data='{{session('status')}}';
-                    alert(return_data);
-                </script>
 
                 <!-- Spacer For Medium -->
                 <div class="w-100 d-none d-sm-none d-md-block d-lg-none spacer-60"></div>
@@ -527,7 +354,7 @@
     <!--=================================
  our-service -->
 
-    <section class="our-service white-bg topPad1 " style="padding-bottom: 50px ;">
+    <section class="our-service bg-white topPad1 " style="padding-bottom: 50px ;">
         <div class=" ruu container">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
@@ -596,7 +423,7 @@
      <!--=================================
  our-service -->
 
- <section class=" our-service white-bg topPad "  style=" padding-bottom: 50px ;">
+ <section class=" our-service bg-white topPad "  style=" padding-bottom: 50px ;">
 
                                     <div class="container">
                                         <div class="row">
@@ -664,7 +491,7 @@
 
 
     <!-- Images Gallery Style Start -->
-    <section class="wide-tb-100">
+    <section class="wide-tb-100 bg-white">
         <div class="container">
             <div class="row img-gallery slider-link popup-video">
                 <div class="col-lg-4">
@@ -815,186 +642,4 @@
     </section>
     <!-- Images Gallery Style End -->
 
-    <!--=================================
- footer -->
-
-    <footer class="footer bg-3 bg-overlay-black-90">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="about-content">
-                        <img class="img-fluid" id="logo-footer" src="images/logo-light.png" alt="">
-                        <p class="text-gray">Because She Can is on a mission to close the gender gap in technology and
-                            to change
-                            the image of what a programmer looks like and does.
-
-                        </p>
-                    </div>
-                    <!-- <div class="social">
-        <ul>
-          <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-          <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
-          <li><a href="#"> <i class="fa fa-pinterest-p"></i> </a></li>
-          <li><a href="#"> <i class="fa fa-dribbble"></i> </a></li>
-        </ul>
-       </div> -->
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="usefull-link">
-                        <h6 class="text-white">Useful Links</h6>
-                        <ul>
-                            <li> <a href="#"> <i class="fa fa-angle-right"></i> Job Boards </a></li>
-                            <li> <a href="#"> <i class="fa fa-angle-right"></i> Start a campus club</a></li>
-                            <li> <a href="#"> <i class="fa fa-angle-right"></i> Partner With Us</a></li>
-                            <li> <a href="#"> <i class="fa fa-angle-right"></i> Reports and Research </a></li>
-                            <li> <a href="#"> <i class="fa fa-angle-right"></i> Reach</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="usefull-link">
-                        <h6 class="text-white">Our Programs</h6>
-                        <ul>
-                            <li> <a href="#"> <i class="fa fa-angle-right"></i> Bootcamps </a></li>
-                            <li> <a href="#"> <i class="fa fa-angle-right"></i> Celebrating women in tech</a></li>
-                            <li> <a href="#"> <i class="fa fa-angle-right"></i> Webinars</a></li>
-                            <li> <a href="#"> <i class="fa fa-angle-right"></i> December for women who code </a></li>
-                            <li> <a href="#"> <i class="fa fa-angle-right"></i> Club House Discussions</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="keep-touch">
-                        <h6 class="text-white">keep in touch</h6>
-                        <div class="address">
-                            <ul>
-                                <li> <i class="fa fa-map-marker"></i><span>220E Front St. Agyei-Kojo NC 27215</span>
-                                </li>
-                                <li> <i class="fa fa-phone"></i><span>(+233) 123 456 789</span> </li>
-                                <li> <i class="fa fa-envelope-o"></i><span>info@becauseshecan.tech</span> </li>
-                            </ul>
-                        </div>
-                        <div class="news-letter">
-                            <form>
-                                <div class="input-group divcenter">
-                                    <h6> Subscribe To Our News Letter</h6>
-                                    <input type="email" placeholder="Enter your Email" class="form-control placeholder">
-                                    <span class="input-group-btn">
-                                        <button type="submit" class="btn btn-icon"><i
-                                                class="fa fa-paper-plane"></i></button>
-                                    </span>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="text-lg-left text-center">
-                            <p>©Copyright 2021 Because She Can
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <ul class="list-inline text-lg-right text-center">
-                            <li>Developed By<a href="#">Waala Tech </a> | </li>
-                            <li><a href="#">contact us </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!--=================================
- footer -->
-
-
-
-    <!--=================================
- back to top -->
-
-    <div class="car-top">
-        <span id="btp"><img src="images/uu.png" alt=""></span>
-    </div>
-
-
-    <!--=================================
- back to top -->
-
-    <!--=================================
- jquery -->
-
-    <!-- jquery  -->
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-
-    <!-- bootstrap -->
-    <script type="text/javascript" src="js/popper.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-    <!-- mega-menu -->
-    <script type="text/javascript" src="js/mega-menu/mega_menu.js"></script>
-
-    <!-- appear -->
-    <script type="text/javascript" src="js/jquery.appear.js"></script>
-
-    <!-- owl-carousel -->
-    <script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
-
-    <!-- counter -->
-    <script type="text/javascript" src="js/counter/jquery.countTo.js"></script>
-
-    <!-- select -->
-    <script type="text/javascript" src="js/select/jquery-select.js"></script>
-
-    <!-- magnific popup -->
-    <script type="text/javascript" src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- custom -->
-    <script type="text/javascript" src="js/custom.js"></script>
-
-
-    <!-- Script From Gracious  -->
-
-    <!-- Back To Top Start -->
-    <a id="mkdf-back-to-top" href="#" class="off"><i data-feather="corner-right-up"></i></a>
-    <!-- Back To Top End -->
-
-    <!-- Jquery Library JS -->
-    <script src="assets/library/jquery/jquery.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="assets/library/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Bootstrap Dropdown JS -->
-    <script src="assets/library/bootstrap/js/bootstrap-dropdownhover.min.js"></script>
-    <!-- Feather Icon JS -->
-    <script src="assets/library/feather-icons/feather.min.js"></script>
-    <!-- Owl Carousel JS -->
-    <script src="assets/library/owlcarousel/js/owl.carousel.min.js"></script>
-    <!-- Select2 Dropdown JS -->
-    <script src="assets/library/select2/js/select2.min.js"></script>
-    <!-- Magnific Popup JS -->
-    <script src="assets/library/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <!-- Instagram Images JS -->
-    <script src="assets/library/jquery-instagramFeed/jquery.instagramFeed.min.js"></script>
-    <!-- Way Points JS -->
-    <script src="assets/library/jquery-waypoints/jquery.waypoints.min.js"></script>
-    <!-- Count Down JS -->
-    <script src="assets/library/countdown/jquery.countdown.min.js"></script>
-    <!-- Appear JS -->
-    <script src="assets/library/jquery-appear/jquery.appear.js"></script>
-    <!-- Jquery Easing JS -->
-    <script src="assets/library/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Counter JS -->
-    <script src="assets/library/jquery.counterup/jquery.counterup.min.js"></script>
-    <!-- Form Validation JS -->
-    <script src="assets/library/jquery-validate/jquery.validate.min.js"></script>
-    <!-- Theme Custom -->
-    <script src="assets/js/site-custom.js"></script>
-    <!-- End Script From Gracious  -->
-</body>
-
-</html>
+@endsection

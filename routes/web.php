@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('website.home');
+    return view('website.index');
 });
 
 Route::get('/about_us', function () {
@@ -27,13 +27,28 @@ Route::get('/get_involved', function () {
     return view('website.get_involved');
 });
 
+Route::get('/dfwwc_program', function () {
+    return view('website.dfWwc_program');
+});
+
 Route::get('/donation', function () {
     return view('website.donation');
+});
+Route::get('/program_list', function () {
+    return view('website.program_list');
+});
+
+Route::get('/donation', function () {
+    return view('website.donation');
+});
+Route::get('/about', function () {
+    return view('website.about_us');
 });
 
 Route::get('/program_list', function () {
     return view('website.program_list');
 });
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
