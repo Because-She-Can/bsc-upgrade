@@ -37,7 +37,243 @@
     <!-- Home SLider CSS -->
     <link rel="stylesheet" href="assets/css/home-main.css">
     <!-- Links from Gracious end -->
+    <!-- footer styles  -->
 
+    <style>
+        a {
+            transition: .3s;
+        }
+
+        a:hover,
+        a:active,
+        a:focus {
+            outline: none;
+            text-decoration: none;
+        }
+
+        .footer {
+            position: relative;
+            padding-top: 45px;
+            background: #121518;
+        }
+
+        .footer .footer-about,
+        .footer .footer-contact,
+        .footer .footer-links,
+        .footer .footer-project {
+            position: relative;
+            margin-bottom: 45px;
+            color: #999999;
+        }
+
+        .footer .footer-about h3,
+        .footer .footer-contact h3,
+        .footer .footer-links h3,
+        .footer .footer-project h3 {
+            position: relative;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #eeeeee;
+        }
+
+        .footer .footer-about h3::after,
+        .footer .footer-contact h3::after,
+        .footer .footer-links h3::after,
+        .footer .footer-project h3::after {
+            position: absolute;
+            content: "";
+            width: 50px;
+            height: 2px;
+            left: 0;
+            bottom: 0;
+            background: #eeeeee;
+        }
+
+        .footer .footer-social {
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .footer .footer-social a {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            padding: 6px 0;
+            text-align: center;
+            color: #999999;
+            font-size: 14px;
+            border: 1px solid #999999;
+            border-radius: 35px;
+        }
+
+        .footer .footer-social a:hover {
+            color: #ffffff;
+            background: #0085ff;
+            border-color: #0085ff;
+        }
+
+        .footer .footer-contact p {
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #999999;
+        }
+
+        .footer .footer-contact i {
+            margin-right: 10px;
+            font-size: 16px;
+            color: #999999;
+        }
+
+        .footer .footer-contact a:last-child i {
+            margin: 0;
+        }
+
+        .footer .footer-contact a:hover i {
+            color: #0085ff;
+        }
+
+        .footer .footer-links a {
+            display: block;
+            margin-bottom: 4px;
+            /* padding-left: 5px; */
+            color: #999999;
+        }
+
+        .footer .footer-links a:last-child {
+            margin: 0;
+        }
+
+        .footer .footer-links a:hover {
+            color: #0085ff;
+        }
+
+        /* .footer .footer-links a::before {
+            position: absolute;
+            content: "\f105";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            left: 0;
+        } */
+
+        .footer .footer-project {
+            float: left;
+            font-size: 0;
+        }
+
+        .footer .footer-project a {
+            padding: 0 8px 8px 0;
+            display: block;
+            width: 33.33%;
+            float: left;
+        }
+
+        .footer .footer-project a img {
+            width: 100%;
+        }
+
+        .footer .footer-newsletter {
+            margin-bottom: 35px;
+            max-width: 700px;
+            text-align: center;
+            color: #999999;
+        }
+
+        .footer .footer-newsletter input {
+            height: 35px;
+            border: none;
+            border-radius: 5px;
+            background: rgba(256, 256, 256, .15);
+            margin-bottom: 15px;
+        }
+
+        .footer .footer-newsletter .btn {
+            display: block;
+            width: 100%;
+            height: 35px;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ffffff;
+            background: #e9414a;
+            border-radius: 5px;
+            border: none;
+            transition: .3s;
+        }
+
+        .footer .footer-newsletter .btn:hover {
+            color: #0085ff;
+            background: #ffffff;
+        }
+
+        .footer .footer-newsletter .btn:focus {
+            box-shadow: none;
+        }
+
+
+        .footer .copyright {
+            position: relative;
+            padding: 25px 0;
+            background: #000000;
+        }
+
+        .footer .copyright .copy-text p {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 400;
+            color: #999999;
+        }
+
+        .footer .copyright .copy-text p a {
+            color: #999999;
+            text-decoration: none;
+        }
+
+        .footer .copyright .copy-text p a:hover {
+            color: #ff008c;
+        }
+
+        .footer .copyright .copy-menu {
+            position: relative;
+            font-size: 0;
+            text-align: right;
+        }
+
+        .footer .copyright .copy-menu a {
+            color: #999999;
+            font-size: 16px;
+            font-weight: 400;
+            margin-right: 15px;
+            padding-right: 15px;
+            border-right: 1px solid rgba(255, 255, 255, .3);
+        }
+
+        .footer .copyright .copy-menu a:hover {
+            color: #0085ff;
+        }
+
+        .footer .copyright .copy-menu a:last-child {
+            margin-right: 0;
+            padding-right: 0;
+            border-right: none;
+        }
+
+        @media (max-width: 767.98px) {
+
+            .footer .copyright .copy-text,
+            .footer .copyright .copy-menu {
+                text-align: center;
+            }
+
+            .footer .copyright .copy-text p {
+                margin-bottom: 5px;
+            }
+
+        }
+    </style>
+
+    <!-- footer style end -->
 </head>
 
 @yield('css')
@@ -81,7 +317,7 @@
             <div class="container text-nowrap">
                 <div class="d-flex align-items-center w-100 col p-0 logo-brand">
                     <a class="navbar-brand rounded-bottom light-bg" href="/">
-                        <img src="assets/images/logo-dark.png" alt="BSC Logo." style="max-width: 150px;">
+                        <img src="assets/images/logo-dark.png" alt="BSC Logo." style="max-width: 130px;">
                     </a>
                 </div>
                 <!-- Topbar Buttons Start -->
@@ -112,9 +348,8 @@
                             <a class="nav-link" href="about_us">About Us</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle-mob" href="program_list" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Programs <i
-                                    class="icofont-rounded-down"></i></a>
+                            <a class="nav-link dropdown-toggle-mob" href="program_list" aria-haspopup="true"
+                                aria-expanded="false">Programs <i class="icofont-rounded-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="dfwwc_program">December For Women Who Code</a>
                                 </li>
@@ -153,6 +388,115 @@
         @yield('content')
 
     </main>
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-about">
+
+                        <a class="navbar-brand rounded-bottom light-bg" href="/">
+                            <img src="assets/images/logo-light.png" alt="BSC Logo." style="max-width: 130px;">
+                        </a>
+                        <br><br>
+
+                        <div class="footer-social">
+                            <a href=""><i class="icofont-twitter"></i></a>
+                            <a href=""><i class="icofont-instagram"></i></a>
+                            <a href=""><i class="icofont-facebook"></i></a>
+                            <a href=""><i class="icofont-linkedin"></i></a>
+                            <a href=""><i class="icofont-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-contact">
+                        <h3>Get In Touch</h3>
+                        <p>
+                            <i data-feather="map"></i> Front St. Agyei-Kojo NC 27215
+                        </p>
+                        <p><i data-feather="phone"></i><a href="tel:+233501367305"
+                                style="color: #999999; padding-left:5px"> (+233) 50 136
+                                7305</a></p>
+
+                        <p>
+                            <i data-feather="mail"></i><a href="mailto:info@becauseshecan.tech"
+                                style="color: #999999; padding-left:5px">
+                                info@becauseshecan.tech</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-links">
+                        <h3>Useful Links</h3>
+                        <a href="dfwwc_program"><i class="icofont-rounded-right"></i>December 4 women who code</a>
+                        <a href=""><i class="icofont-rounded-right"></i>Bootcamps </a>
+                        <a href=""><i class="icofont-rounded-right"></i>Celebrating women in tech</a>
+                        <a href=""><i class="icofont-rounded-right"></i>Webinars</a>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-links">
+                        <h3>About Us</h3>
+
+                        Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat
+                        rhoncus, lorem quam iaculis felis, sed lacus neque id eros
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-newsletter">
+            <h5> Subscribe To Our News Letter</h5>
+
+            <div class="row form">
+                <div class="col-sm-4">
+                    <input class="form-control" placeholder="Your Name" name="" />
+                </div>
+                <div class="col-sm-4">
+                    <input class="form-control" placeholder="Your Email" name="" />
+                </div>
+                <div class="col-sm-4">
+                    <button class="btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="copy-text">
+                            <p>
+                                ©
+                                <a href="#" target="_blank">Because She Can </a>Copyright 2021 All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="copy-menu">
+                            <!-- <ul class="list-inline text-lg-right text-center">
+                                <li>Developed By<a href="#">Waala Tech </a> |</li>
+                                <li><a href="#">contact us </a></li>
+                            </ul> -->
+
+                            <a href="#" target="_blank"> Developed by Waala tech</a>
+
+                            <a href="#">About</a>
+                            <a href="#">Terms</a>
+                            <a href="#">Privacy</a>
+                            <!-- <a href="">Contact</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End-->
 
 
     <!-- Script From Gracious  -->
@@ -254,7 +598,6 @@
 </body>
 @yield('scripts')
 
-</body>
 
 
 </html>

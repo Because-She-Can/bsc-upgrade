@@ -27,7 +27,7 @@
 <body>
 <main id="body-content">
     <!-- About Us Style Start -->
-    <section class="wide-tb-100">
+    <section class="wide-tb-100" style="margin-top:120px;position:relative;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-12">
