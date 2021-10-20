@@ -121,12 +121,13 @@
             background-image: url(../images/bg_1.jpg);
 
         }
-
-        .main-banner::after {
-
-            background: #d9e7db url(../images/topography-background.png) repeat center center;
+        .main-banner {
+            margin-top: 138px;
+          position: relative;
+          margin-bottom: 100px;
 
         }
+     
     </style>
 
 
