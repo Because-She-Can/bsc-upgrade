@@ -1,68 +1,10 @@
-<!doctype html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="HTML5 Template" />
-    <meta name="description" content="Because She Can - WE'RE ON A MISSION TO CLOSE THE GENDER GAP IN TECH" />
-    <meta name="author" content="waalatech.com" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Because She Can - Showing HER That SHE Can</title>
+@extends('layouts.master')
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="images/faviconbsc.ico" />
+@section('title', 'December For Women Who Code')
 
-    <!-- bootstrap -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-
-    <!-- flaticon -->
-    <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
-
-    <!-- mega menu -->
-    <link rel="stylesheet" type="text/css" href="css/mega-menu/mega_menu.css" />
-
-    <!-- mega menu -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-
-    <!-- main style -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-
-    <!-- responsive -->
-    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-
-    <!-- owl-carousel -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/owl-carousel/owl.carousel.css" /> -->
-
-    <!-- revolution -->
-    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css" />
-
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="images/faviconbsc.ico" />
-
-    <!-- Animate CSSS -->
-    <link href="assets/library/animate/animate.min.css" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link href="assets/library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Dropdown Hover CSS -->
-    <link href="assets/library/bootstrap/css/bootstrap-dropdownhover.min.css" rel="stylesheet">
-    <!-- Icofont CSS -->
-    <link href="assets/library/icofont/icofont.min.css" rel="stylesheet">
-    <!-- Owl Carousel CSS -->
-    <link href="assets/library/owlcarousel/css/owl.carousel.min.css" rel="stylesheet">
-    <!-- Select Dropdown CSS -->
-    <link href="assets/library/select2/css/select2.min.css" rel="stylesheet">
-    <!-- Magnific Popup CSS -->
-    <link href="assets/library/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <!-- Main Theme CSS -->
-    <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- Home SLider CSS -->
-    <link rel="stylesheet" href="assets/css/home-main.css">
-    <!-- Links from Gracious end -->
-
-    <!--Volunteer Modal CSS -->
+@section('content')
+<!--Volunteer Modal CSS -->
     <style>
         /* The Modal (background) */
         .modal {
@@ -130,9 +72,9 @@
             scroll-behavior: smooth;
         }
 
-        .main-banner {
+        /* .main-banner {
             margin-top: 0px;
-        }
+        } */
 
         /* .slides-wrap .owl-carousel .owl-nav {
             right: 100px;
@@ -187,112 +129,7 @@
         }
     </style>
 
-</head>
 
-<body>
-<!-- header start -->
-
-<header id="header" class="defualt">
-    <div class="topbar">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <div class="topbar-left text-lg-left text-center">
-                        <ul class="list-inline">
-                            <li> <i class="fa fa-envelope-o"> </i>info@becauseshecan.tech
-                            </li>
-                            <!-- <li> <i class="fa fa-clock-o"></i> Mon - Sat 8.00 - 18.00. Sunday CLOSED</li> -->
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="topbar-right text-lg-right text-center">
-                        <ul class="list-inline">
-                            <li> <i class="fa fa-phone"></i>(+233) 123 456 789
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--================================= mega menu -->
-
-    <div class="menu">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- menu start -->
-                    <nav id="menu" class="mega-menu">
-                        <!-- menu list items container -->
-                        <section class="menu-list-items">
-                            <!-- menu logo -->
-                            <ul class="menu-logo">
-                                <li>
-                                    <a href="index.html"><img id="logo_dark_img" src="images/logo-light.png"
-                                                              alt="logo"> </a>
-                                </li>
-                            </ul>
-                            <!-- menu links -->
-                            <ul class="menu-links">
-                                <!-- active class -->
-                                <li><a href="index.html"> Home</a>
-
-                                </li>
-
-
-                                <li><a href="aboutUs.html">About Us</a>
-                                </li>
-
-                                <li class="active"><a href="projects-list.html">Programs<i
-                                            class="fa fa-angle-down fa-indicator"></i></a>
-                                    <!-- drop down multilevel  -->
-                                    <ul class="drop-down-multilevel">
-                                        <li><a href="#"> December for women who code</a></li>
-                                        <li><a href="#"> Bootcamps</a></li>
-                                        <li><a href="#"> Celebrating women in tech</a></li>
-                                        <li><a href="#"> Webinars</a></li>
-                                    </ul>
-
-                                </li>
-
-
-                                <!-- <li><a href="javascript:void(0)"> Become a Volunteer </i></a></li> -->
-                                <li><a href="get-involved.html">Get Involved</a>
-
-                                </li>
-                                <li><a href="javascript:void(0)">Jobs<i
-                                            class="fa fa-angle-down fa-indicator"></i></a>
-                                    <!-- drop down multilevel  -->
-                                    <ul class="drop-down-multilevel right-menu">
-                                        <li><a href="#">See All Jobs</a></li>
-                                        <li><a href="#">Post A Job</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <!-- Topbar Buttons Start -->
-                                    <div
-                                        class="d-inline-flex request-btn order-lg-last col-auto p-0 align-items-center">
-
-                                        <a class="nav-link btn btn-default ml-3 donate-btn" target="blank"
-                                           href="donation.html">Donate</a>
-                                    </div>
-
-                                </li>
-                            </ul>
-                        </section>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-<!-- header end -->
 
 
 <!-- Banner Start -->
@@ -302,7 +139,7 @@
             <div class="owl-carousel owl-theme">
                 <!--/owl-slide-->
                 <div class="owl-slide d-flex align-items-center cover"
-                     style="background-image: url(assets/images/slider/slider_home_first_1.jpgg);">
+                     style="background-image: url(assets/images/slider/slider_home_first_1.jpg);">
                     <div class="container">
                         <div class="row justify-content-center justify-content-md-start no-gutters">
                             <div class="col-10 col-md-6 static">
@@ -327,7 +164,7 @@
 
                 <!--/owl-slide-->
                 <div class="owl-slide d-flex align-items-center cover"
-                     style="background-image: url(assets/images/slider/slider_home_first_2.jpgg);">
+                     style="background-image: url(assets/images/slider/slider_home_first_2.jpg);">
                     <div class="container">
                         <div class="row justify-content-center justify-content-md-start no-gutters">
                             <div class="col-10 col-md-6 static">
@@ -350,7 +187,7 @@
 
                 <!--/owl-slide-->
                 <div class="owl-slide d-flex align-items-center cover"
-                     style="background-image: url(assets/images/slider/slider_home_first_3.jpgg);">
+                     style="background-image: url(assets/images/slider/slider_home_first_3.jpg);">
                     <div class="container">
                         <div class="row justify-content-center justify-content-md-start no-gutters">
                             <div class="col-10 col-md-6 static">
@@ -401,7 +238,7 @@
                     <!-- Icon Boxes Image Style -->
                     <div class="icon-box-with-img">
                         <div class="img">
-                            <a href="#"><img src="assets/images/causes/causes_img_1.jpggg" alt=""></a>
+                            <a href="#"><img src="assets/images/causes/causes_img_1.jpg" alt=""></a>
                         </div>
                         <div class="text">
                             <h3>DECEMBER FOR WOMEN WHO CODE</h3>
@@ -418,7 +255,7 @@
                     <!-- Icon Boxes Image Style -->
                     <div class="icon-box-with-img">
                         <div class="img">
-                            <a href="#"><img src="assets/images/causes/causes_img_4.jpggg" alt=""></a>
+                            <a href="#"><img src="assets/images/causes/causes_img_4.jpg" alt=""></a>
                         </div>
                         <div class="text">
                             <h3>MENTORSHIP</h3>
@@ -439,7 +276,7 @@
                     <!-- Icon Boxes Image Style -->
                     <div class="icon-box-with-img">
                         <div class="img">
-                            <a href="#"><img src="assets/images/causes/causes_img_3.jpggg" alt=""></a>
+                            <a href="#"><img src="assets/images/causes/causes_img_3.jpg" alt=""></a>
                         </div>
                         <div class="text">
                             <h3>BOOTCAMPS</h3>
@@ -497,7 +334,7 @@
                             <div class="date-box">
                                 05 <span>Aug</span>
                             </div>
-                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_1.jpggg"
+                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_1.jpg"
                                                               alt=""></a>
                             <div class="content-wrap">
                                 <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
@@ -521,7 +358,7 @@
                             <div class="date-box">
                                 05 <span>Aug</span>
                             </div>
-                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_2.jpggg"
+                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_2.jpg"
                                                               alt=""></a>
                             <div class="content-wrap">
                                 <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
@@ -545,7 +382,7 @@
                             <div class="date-box">
                                 05 <span>Aug</span>
                             </div>
-                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_3.jpgg"
+                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_3.jpg"
                                                               alt=""></a>
                             <div class="content-wrap">
                                 <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
@@ -569,7 +406,7 @@
                             <div class="date-box">
                                 05 <span>Aug</span>
                             </div>
-                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_4.jpggg"
+                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_4.jpg"
                                                               alt=""></a>
                             <div class="content-wrap">
                                 <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
@@ -593,7 +430,7 @@
                             <div class="date-box">
                                 05 <span>Aug</span>
                             </div>
-                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_5.jpgg"
+                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_5.jpg"
                                                               alt=""></a>
                             <div class="content-wrap">
                                 <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
@@ -617,7 +454,7 @@
                             <div class="date-box">
                                 05 <span>Aug</span>
                             </div>
-                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_6.jpggg"
+                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_6.jpg"
                                                               alt=""></a>
                             <div class="content-wrap">
                                 <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
@@ -856,7 +693,7 @@
                         <!-- Client Logo -->
                         <div class="item">
                             <div class="clients-logo">
-                                <img src="assets/images/clients/client1.pnggg" alt="">
+                                <img src="assets/images/clients/client1.png" alt="">
                             </div>
                         </div>
                         <!-- Client Logo -->
@@ -864,7 +701,7 @@
                         <!-- Client Logo -->
                         <div class="item">
                             <div class="clients-logo">
-                                <img src="assets/images/clients/client2.pnggg" alt="">
+                                <img src="assets/images/clients/client2.png" alt="">
                             </div>
                         </div>
                         <!-- Client Logo -->
@@ -872,7 +709,7 @@
                         <!-- Client Logo -->
                         <div class="item">
                             <div class="clients-logo">
-                                <img src="assets/images/clients/client3.pngg" alt="">
+                                <img src="assets/images/clients/client3.png" alt="">
                             </div>
                         </div>
                         <!-- Client Logo -->
@@ -880,7 +717,7 @@
                         <!-- Client Logo -->
                         <div class="item">
                             <div class="clients-logo">
-                                <img src="assets/images/clients/client4.pngg" alt="">
+                                <img src="assets/images/clients/client4.png" alt="">
                             </div>
                         </div>
                         <!-- Client Logo -->
@@ -888,7 +725,7 @@
                         <!-- Client Logo -->
                         <div class="item">
                             <div class="clients-logo">
-                                <img src="assets/images/clients/client5.pngg" alt="">
+                                <img src="assets/images/clients/client5.png" alt="">
                             </div>
                         </div>
                         <!-- Client Logo -->
@@ -907,240 +744,7 @@
 
 
 </main>
-<!--=================================
-footer -->
-
-<footer class="footer bg-3 bg-overlay-black-90">
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-3 col-md-6">
-                <div class="about-content">
-                    <img class="img-fluid" id="logo-footer" src="images/logo-light.pngg" alt="">
-                    <p class="text-gray">Because She Can is on a mission to close the gender gap in technology and
-                        to change
-                        the image of what a programmer looks like and does.
-
-                    </p>
-                </div>
-                <!-- <div class="social">
-<ul>
-  <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-  <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
-  <li><a href="#"> <i class="fa fa-pinterest-p"></i> </a></li>
-  <li><a href="#"> <i class="fa fa-dribbble"></i> </a></li>
-</ul>
-</div> -->
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="usefull-link">
-                    <h6 class="text-white">Useful Links</h6>
-                    <ul>
-                        <li> <a href="#"> <i class="fa fa-angle-right"></i> Job Boards </a></li>
-                        <li> <a href="#"> <i class="fa fa-angle-right"></i> Start a campus club</a></li>
-                        <li> <a href="#"> <i class="fa fa-angle-right"></i> Partner With Us</a></li>
-                        <li> <a href="#"> <i class="fa fa-angle-right"></i> Reports and Research </a></li>
-                        <li> <a href="#"> <i class="fa fa-angle-right"></i> Reach</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="usefull-link">
-                    <h6 class="text-white">Our Programs</h6>
-                    <ul>
-                        <li> <a href="#"> <i class="fa fa-angle-right"></i> Bootcamps </a></li>
-                        <li> <a href="#"> <i class="fa fa-angle-right"></i> Celebrating women in tech</a></li>
-                        <li> <a href="#"> <i class="fa fa-angle-right"></i> Webinars</a></li>
-                        <li> <a href="#"> <i class="fa fa-angle-right"></i> December for women who code </a></li>
-                        <li> <a href="#"> <i class="fa fa-angle-right"></i> Club House Discussions</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="keep-touch">
-                    <h6 class="text-white">keep in touch</h6>
-                    <div class="address">
-                        <ul>
-                            <li> <i class="fa fa-map-marker"></i><span>220E Front St. Agyei-Kojo NC 27215</span>
-                            </li>
-                            <li> <i class="fa fa-phone"></i><span>(+233) 123 456 789</span> </li>
-                            <li> <i class="fa fa-envelope-o"></i><span>info@becauseshecan.tech</span> </li>
-                        </ul>
-                    </div>
-                    <div class="news-letter">
-                        <form>
-                            <div class="input-group divcenter">
-                                <h6> Subscribe To Our News Letter</h6>
-                                <input type="email" placeholder="Enter your Email" class="form-control placeholder">
-                                <span class="input-group-btn">
-                                        <button type="submit" class="btn btn-icon"><i
-                                                class="fa fa-paper-plane"></i></button>
-                                    </span>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <div class="text-lg-left text-center">
-                        <p>©Copyright 2021 Because She Can
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <ul class="list-inline text-lg-right text-center">
-                        <li>Developed By<a href="#">Waala Tech </a> | </li>
-                        <li><a href="#">contact us </a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<!--=================================
-footer -->
 
 
 
-<!-- Search Popup Start -->
-<div class="overlay overlay-hugeinc">
-    <form class="form-inline mt-2 mt-md-0">
-        <div class="form-inner">
-            <div class="form-inner-div d-inline-flex align-items-center no-gutters">
-                <div class="col-md-1">
-                    <i class="icofont-search"></i>
-                </div>
-                <div class="col-10">
-                    <input class="form-control w-100 p-0" type="text" placeholder="Search" aria-label="Search">
-                </div>
-                <div class="col-md-1">
-                    <a href="#" class="overlay-close link-oragne"><i class="icofont-close-line"></i></a>
-                </div>
-            </div>
-        </div>
-    </form>
-</div>
-<!-- Search Popup End -->
-
-
-<!--=================================
-back to top -->
-
-<!-- <div class="car-top">
-    <span id="btp"><img src="images/uu.pngg" alt=""></span>
-</div> -->
-
-
-<!--=================================
-back to top -->
-
-<!--=================================
-jquery -->
-
-<!-- jquery  -->
-<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-
-<!-- bootstrap -->
-<script type="text/javascript" src="js/popper.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-<!-- mega-menu -->
-<script type="text/javascript" src="js/mega-menu/mega_menu.js"></script>
-
-<!-- appear -->
-<script type="text/javascript" src="js/jquery.appear.js"></script>
-
-<!-- owl-carousel -->
-<!-- <script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script> -->
-
-<!-- counter -->
-<script type="text/javascript" src="js/counter/jquery.countTo.js"></script>
-
-<!-- select -->
-<script type="text/javascript" src="js/select/jquery-select.js"></script>
-
-<!-- magnific popup -->
-<script type="text/javascript" src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-<!-- custom -->
-<script type="text/javascript" src="js/custom.js"></script>
-
-<!-- Volunteer Modal Javascript  -->
-<script>
-    // Get the modal
-    var modal = document.getElementById("myModal");
-
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks the button, open the modal
-    btn.onclick = function () {
-        modal.style.display = "block";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function () {
-        modal.style.display = "none";
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-</script>
-<!-- Volunteer Modal Javascript End  -->
-
-<!-- Script From Gracious  -->
-
-<!-- Back To Top Start -->
-<a id="mkdf-back-to-top" href="#" class="off"><i data-feather="corner-right-up"></i></a>
-<!-- Back To Top End -->
-
-<!-- Jquery Library JS -->
-<script src="assets/library/jquery/jquery.min.js"></script>
-<!-- Jquery Library JS -->
-<script src="assets/library/jquery/jquery.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="assets/library/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- Bootstrap Dropdown JS -->
-<script src="assets/library/bootstrap/js/bootstrap-dropdownhover.min.js"></script>
-<!-- Feather Icon JS -->
-<script src="assets/library/feather-icons/feather.min.js"></script>
-<!-- Owl Carousel JS -->
-<script src="assets/library/owlcarousel/js/owl.carousel.min.js"></script>
-<!-- Select2 Dropdown JS -->
-<script src="assets/library/select2/js/select2.min.js"></script>
-<!-- Magnific Popup JS -->
-<script src="assets/library/magnific-popup/jquery.magnific-popup.min.js"></script>
-<!-- Instagram Images JS -->
-<script src="assets/library/jquery-instagramFeed/jquery.instagramFeed.min.js"></script>
-<!-- Way Points JS -->
-<script src="assets/library/jquery-waypoints/jquery.waypoints.min.js"></script>
-<!-- Count Down JS -->
-<script src="assets/library/countdown/jquery.countdown.min.js"></script>
-<!-- Appear JS -->
-<script src="assets/library/jquery-appear/jquery.appear.js"></script>
-<!-- Jquery Easing JS -->
-<script src="assets/library/jquery-easing/jquery.easing.min.js"></script>
-<!-- Counter JS -->
-<script src="assets/library/jquery.counterup/jquery.counterup.min.js"></script>
-<!-- Form Validation JS -->
-<script src="assets/library/jquery-validate/jquery.validate.min.js"></script>
-<!-- Theme Custom -->
-<script src="assets/js/site-custom.js"></script>
-<!-- Home Slider (Only For Home pages) -->
-<script src="assets/js/home-slider.js"></script>
-<!-- End Script From Gracious  -->
-</body>
-
-</html>
+@endsection
