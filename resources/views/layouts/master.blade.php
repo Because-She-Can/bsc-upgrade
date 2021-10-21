@@ -41,18 +41,20 @@
 
     <style>
         /* banner of header style not prt of footer */
-        .banner-top{
-            margin-top:135px;
-            position:relative;
-        }
-        @media (max-width: 767px){
-        
-            .banner-top{
-            margin-top:5px;
-            position:relative;
+        .banner-top {
+            margin-top: 135px;
+            position: relative;
         }
 
-}       
+        @media (max-width: 767px) {
+
+            .banner-top {
+                margin-top: 5px;
+                position: relative;
+            }
+
+        }
+
         /*END banner of header style not prt of footer */
         a {
             transition: .3s;
@@ -122,11 +124,51 @@
             border-radius: 35px;
         }
 
-        .footer .footer-social a:hover {
-            color: #ffffff;
-            background: #0085ff;
-            border-color: #0085ff;
+
+        .footer .footer-contact p:hover {
+
+            color: #F9F4E8;
         }
+
+        a.tel-mail:hover {
+            color: #F9F4E8 !important;
+        }
+
+        .footer .footer-social .twitter:hover {
+            color: #F9F4E8;
+            background: #1da1f2;
+            border-color: #1da1f2;
+
+        }
+
+        .footer .footer-social .instagram:hover {
+            color: #F9F4E8;
+            background: #c32aa3;
+            border-color: #c32aa3;
+
+        }
+
+        .footer .footer-social .facebook:hover {
+            color: #F9F4E8;
+            background: #1877f2;
+            border-color: #1877f2;
+
+        }
+
+        .footer .footer-social .linkedin:hover {
+            color: #F9F4E8;
+            background: #0a66c2;
+            border-color: #0a66c2;
+
+        }
+
+        .footer .footer-social .youtube:hover {
+            color: #F9F4E8;
+            background: #ff0000;
+            border-color: #ff0000;
+
+        }
+
 
         .footer .footer-contact p {
             margin-bottom: 10px;
@@ -145,7 +187,7 @@
         }
 
         .footer .footer-contact a:hover i {
-            color: #0085ff;
+            color: #F9F4E8;
         }
 
         .footer .footer-links a {
@@ -160,7 +202,7 @@
         }
 
         .footer .footer-links a:hover {
-            color: #0085ff;
+            color: #F9F4E8;
         }
 
         /* .footer .footer-links a::before {
@@ -217,7 +259,7 @@
         }
 
         .footer .footer-newsletter .btn:hover {
-            color: #0085ff;
+            color: #F9F4E8;
             background: #ffffff;
         }
 
@@ -264,7 +306,7 @@
         }
 
         .footer .copyright .copy-menu a:hover {
-            color: #0085ff;
+            color: #F9F4E8;
         }
 
         .footer .copyright .copy-menu a:last-child {
@@ -416,11 +458,12 @@
                         <br><br>
 
                         <div class="footer-social">
-                            <a href=""><i class="icofont-twitter"></i></a>
-                            <a href=""><i class="icofont-instagram"></i></a>
-                            <a href=""><i class="icofont-facebook"></i></a>
-                            <a href=""><i class="icofont-linkedin"></i></a>
-                            <a href=""><i class="icofont-youtube"></i></a>
+                            <a class="twitter" href="https://twitter.com/becauseshecan_?lang=en" target="_blank"><i
+                                    class="icofont-twitter"></i></a>
+                            <a class="instagram" href=""><i class="icofont-instagram"></i></a>
+                            <a class="facebook" href=""><i class="icofont-facebook"></i></a>
+                            <a class="linkedin" href=""><i class="icofont-linkedin"></i></a>
+                            <a class="youtube" href=""><i class="icofont-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -430,12 +473,12 @@
                         <p>
                             <i data-feather="map"></i> Front St. Agyei-Kojo NC 27215
                         </p>
-                        <p><i data-feather="phone"></i><a href="tel:+233501367305"
+                        <p><i data-feather="phone"></i><a class="tel-mail" href="tel:+233501367305"
                                 style="color: #999999; padding-left:5px"> (+233) 50 136
                                 7305</a></p>
 
                         <p>
-                            <i data-feather="mail"></i><a href="mailto:info@becauseshecan.tech"
+                            <i data-feather="mail"></i><a class="tel-mail" href="mailto:info@becauseshecan.tech"
                                 style="color: #999999; padding-left:5px">
                                 info@becauseshecan.tech</a>
                         </p>
@@ -456,8 +499,8 @@
                     <div class="footer-links">
                         <h3>About Us</h3>
 
-                        Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat
-                        rhoncus, lorem quam iaculis felis, sed lacus neque id eros
+                        Our Mission is to encourage & empower girls to pursue Tech roles by exposing them to women in
+                        such fields through personal interactions and mentorship.
 
 
 
