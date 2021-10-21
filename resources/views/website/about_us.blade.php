@@ -78,7 +78,7 @@
         }
 
         .bg-1 {
-            background: url(images/bg/aboutHeader.jpeg);
+            background: url(images/bg/aboutHeader2.jpg);
             background-clip: initial;
             background-color: rgba(0, 0, 0, 0.144);
             background-origin: initial;

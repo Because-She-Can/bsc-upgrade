@@ -1670,7 +1670,7 @@ i[class*="charity-"] {
     -webkit-box-shadow: 0px 14px 47px 0px rgba(28, 28, 28, 0.24);
     -moz-box-shadow: 0px 14px 47px 0px rgba(28, 28, 28, 0.24);
     box-shadow: 0px 14px 47px 0px rgba(28, 28, 28, 0.24);
-    background-color: #5a3a31;
+    background-color: #723b69;
     box-sizing: border-box;
     -webkit-transition: opacity 0.2s ease-out, visibility 0.2s ease-out,
         color 0.2s ease-out, background-color 0.2s ease-out, right 0.1s ease-out;
@@ -2136,7 +2136,7 @@ footerr .social-icons a:hover {
 }
 .client-testimonial-icon .text {
     margin-bottom: -32px;
-    font-family: "Playfair Display", serif;
+    font-family: "Recoleta-medium";
 }
 .client-testimonial-icon .name {
     color: #27304b;
@@ -3791,7 +3791,7 @@ footerr .social-icons a:hover {
     color: #27304b;
     font-weight: 700;
     text-transform: capitalize;
-    font-family: "Playfair Display", serif;
+    font-family: "Recoleta-medium";
     display: inline-flex;
     align-items: center;
 }
@@ -4200,7 +4200,7 @@ footerr .social-icons a:hover {
 .featured-cause-timer #featured-cause {
     margin: 0;
     font-weight: 600;
-    font-family: "Playfair Display", serif;
+    font-family: "Recoleta-medium";
 }
 .featured-cause-timer #featured-cause li {
     width: 24%;
@@ -4211,12 +4211,12 @@ footerr .social-icons a:hover {
     display: inline-block;
 }
 .featured-cause-timer #featured-cause span {
-    font-family: "Nunito", sans-serif;
+    font-family: "Recoleta-medium";
     font-size: 2.8rem;
     color: #27304b;
     font-weight: 800;
     line-height: 1.2;
-    font-family: "Playfair Display", serif;
+    font-family: "Recoleta-medium";
 }
 .share-on-text {
     display: flex;
