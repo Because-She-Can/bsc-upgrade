@@ -4,6 +4,72 @@
 
 @section('content')
 
+<!--Volunteer Modal CSS -->
+<style>
+    /* The Modal (background) */
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 100px;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+        z-index: 1000;
+
+    }
+
+    .select2-container {
+        z-index: 1000;
+    }
+
+    /* Modal Content */
+    .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        color: #000;
+    }
+
+    /* The Close Button */
+    .close {
+        color: #160202;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    @media only screen and (max-width: 760px) {
+        #Vol-side-text {
+            display: none;
+        }
+
+    }
+</style>
+<!-- Volunteer Modal Css End -->
+
     <!-- Banner Start -->
     <section class="main-banner">
         <div class="container start">
@@ -106,9 +172,11 @@
                             <!-- Causes Single Wrap -->
                             <div class="causes-wrap single">
                                 <div class="img-wrap">
-                                    <span class="tag-single">Education</span>
+                                    <a href="javascript:void" class="become-volunteers-links" id="myBtn"><span class="tag-single">Volunteer</span></a>
                                     <img src="assets/images/causes/causes_single_img.jpg" alt="">
                                 </div>
+
+                                @include('website.volunteer_form')
 
                                 <div class="content-wrap-single">
                                     <div class="featured-cause-timer">
