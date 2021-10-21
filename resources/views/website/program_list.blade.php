@@ -74,60 +74,10 @@
         scroll-behavior: smooth;
     }
 
-    /* .main-banner {
-            margin-top: 0px;
-        } */
 
-    /* .slides-wrap .owl-carousel .owl-nav {
-            right: 100px;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-            margin: 0;
-        } */
-    .owl-carousel .owl-nav button.owl-prev {
-        left: -125px;
-    }
-
-    .slides-wrap .owl-carousel .owl-nav {
-        right: 100px;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
-        margin: 0;
-    }
-
-    .owl-carousel:hover .owl-nav .owl-prev {
-        left: -125px;
-    }
-
-    .owl-carousel:hover .owl-nav .owl-next {
-        right: 0;
-    }
-
-    .mega-menu.desktopTopFixed .menu-list-items {
-        background: #323232;
-        padding: 0px 30px 0px 30px;
-    }
-
-    .welcome-broke-grid .container {
-        position: relative;
-        z-index: 99;
-    }
-
-    .make-white {
-        color: #fff;
-    }
 
     .bg-img-1 {
         background-image: url(../images/bg_1.jpg);
-
-    }
-
-    .main-banner {
-        margin-top: 138px;
-        position: relative;
-        margin-bottom: 100px;
 
     }
 </style>
@@ -136,7 +86,7 @@
 
 
 <!-- Banner Start -->
-<section class="main-banner">
+<section class="main-banner banner-top">
     <div class="container start">
         <div class="slides-wrap">
             <div class="owl-carousel owl-theme">

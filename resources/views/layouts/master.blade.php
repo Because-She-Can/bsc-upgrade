@@ -40,6 +40,20 @@
     <!-- footer styles  -->
 
     <style>
+        /* banner of header style not prt of footer */
+        .banner-top{
+            margin-top:135px;
+            position:relative;
+        }
+        @media (max-width: 767px){
+        
+            .banner-top{
+            margin-top:5px;
+            position:relative;
+        }
+
+}       
+        /*END banner of header style not prt of footer */
         a {
             transition: .3s;
         }

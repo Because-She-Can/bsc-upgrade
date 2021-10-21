@@ -61,10 +61,13 @@
     width: 100%;
     z-index: 0;
 }
+
+
 @media (max-width: 767px){
     .section-title {
     margin-bottom: 40px;
 }
+
 
 }
 
@@ -129,7 +132,8 @@
             background-repeat: no-repeat;
             background-position: center center;
         }
-
+        
+      
         
     </style>
 
@@ -154,7 +158,7 @@ header -->
 <!--=================================
 inner-intro -->
 
-<section class="inner-intro  bg-1 bg-overlay-black-70" style="margin-top:135px;position:relative;">
+<section class="inner-intro  bg-1 bg-overlay-black-70 banner-top">
     <div class="container">
         <div class="row text-center intro-title">
             <!-- <div class="col-8  d-inline-block">
