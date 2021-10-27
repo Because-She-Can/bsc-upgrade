@@ -356,12 +356,12 @@
 
                     <div class="col-md-auto">
                         <div class="social-icons">
-                            <a href="#"><i class="icofont-facebook"></i></a>
-                            <a href="https://twitter.com/becauseshecan_?lang=en" target="_blank"><i
+                            <a class="facebook" href="#"><i class="icofont-facebook"></i></a>
+                            <a class="twitter" href="https://twitter.com/becauseshecan_?lang=en" target="_blank"><i
                                     class="icofont-twitter"></i></a>
-                            <a href="#"><i class="icofont-instagram"></i></a>
-                            <a href="#"><i class="icofont-linkedin"></i></a>
-                            <a href="#"><i class="icofont-youtube-play"></i></a>
+                            <a class="instagram" href="#"><i class="icofont-instagram"></i></a>
+                            <a class="linkedin" href="#"><i class="icofont-linkedin"></i></a>
+                            <a class="youtube" href="#"><i class="icofont-youtube-play"></i></a>
                         </div>
                     </div>
                 </div>
@@ -404,10 +404,12 @@
                             <a class="nav-link" href="about_us">About Us</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle-mob" href="program_list" aria-haspopup="true"
+                            <a class="nav-link dropdown-toggle-mob" href="#" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">Programs <i class="icofont-rounded-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="dfwwc_program">December For Women Who Code</a>
+                            <li><a class="dropdown-item" href="dfwwc_program">All Programs</a>
+                                </li>
+                            <li><a class="dropdown-item" href="dfwwc_program">December For Women Who Code</a>
                                 </li>
                                 <li><a class="dropdown-item" href="#">Bootcamps</a></li>
                                 <li><a class="dropdown-item" href="#">Celebrating women in tech</a>
@@ -415,6 +417,7 @@
                                 <li><a class="dropdown-item" href="#">Webinars</a></li>
                             </ul>
                         </li>
+                    
                         <li class="nav-item ">
                             <a class="nav-link " href="get_involved">Get Involved </a>
 
@@ -460,10 +463,10 @@
                         <div class="footer-social">
                             <a class="twitter" href="https://twitter.com/becauseshecan_?lang=en" target="_blank"><i
                                     class="icofont-twitter"></i></a>
-                            <a class="instagram" href=""><i class="icofont-instagram"></i></a>
-                            <a class="facebook" href=""><i class="icofont-facebook"></i></a>
-                            <a class="linkedin" href=""><i class="icofont-linkedin"></i></a>
-                            <a class="youtube" href=""><i class="icofont-youtube"></i></a>
+                            <a class="instagram" href="https://www.instagram.com/becauseshecan_/" target="_blank"><i class="icofont-instagram"></i></a>
+                            <a class="facebook" href="https://www.facebook.com/becauseshecan.africa" target="_blank"><i class="icofont-facebook"></i></a>
+                            <a class="linkedin" href="https://www.linkedin.com/company/becauseshecan" target="_blank"><i class="icofont-linkedin"></i></a>
+                            <a class="youtube" href="" target="_blank"><i class="icofont-youtube"></i></a>
                         </div>
                     </div>
                 </div>

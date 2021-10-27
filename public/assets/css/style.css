@@ -284,8 +284,35 @@ a:focus {
     transition: all 0.3s;
     text-decoration: none;
 }
-.top-bar-right .social-icons a:hover {
-    color: #4f0a44;
+.top-bar-right .social-icons .instagram:hover {
+    color: #f9f4e8;
+    background: #c32aa3;
+    border-color: #c32aa3;
+    border-radius: 44%;
+}
+.top-bar-right .social-icons .facebook:hover {
+    color: #f9f4e8;
+    background: #1877f2;
+    border-color: #1877f2;
+    border-radius: 34%;
+}
+.top-bar-right .social-icons .twitter:hover {
+    color: #f9f4e8;
+    background: #1da1f2;
+    border-color: #1da1f2;
+    border-radius: 30%;
+}
+.top-bar-right .social-icons .linkedin:hover {
+    color: #f9f4e8;
+    background: #0a66c2;
+    border-color: #0a66c2;
+    border-radius: 2%;
+}
+.top-bar-right .social-icons .youtube:hover {
+    color: #f9f4e8;
+    background: #ff0000;
+    border-color: #ff0000;
+    border-radius: 20%;
 }
 .request-btn a#search_home {
     border-radius: 100px;
