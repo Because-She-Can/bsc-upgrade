@@ -23,7 +23,7 @@
                                             Every Female Dev Deserves a Working Laptop
                                         </h1>
                                         <div class="owl-slide-animated owl-slide-cta">
-                                            <a class="btn btn-default mr-3" href="#" role="button">Read More</a>
+                                            <!-- <a class="btn btn-default mr-3" href="#" role="button">Read More</a> -->
                                             <a class="slider-link popup-video"
                                                 href="http://player.vimeo.com/video">Watch the video <i
                                                     class="charity-play_button"></i></a>
@@ -276,7 +276,7 @@
                             <!-- Sidebar Secondary Start -->
                             <div class="sidebar-secondary col-lg-12 col-md-6">
                                 <!-- Widget Wrap -->
-                                <div class="widget-wrap">
+                                <!-- <div class="widget-wrap">
                                     <h3 class="widget-title">Our Donators</h3>
                                     
                                     <div class="our-donators">
@@ -299,12 +299,13 @@
 
                                         <a href="donation-page.html" class="btn-block btn btn-default">Become Donators</a>
                                     </div>
-                                </div>
+                                </div> -->
+
                                 <!-- Widget Wrap -->
 
 
                                 <!-- Widget Wrap -->
-                                <div class="widget-wrap">
+                                <!-- <div class="widget-wrap">
                                     <h3 class="widget-title">Categories</h3>
                                     
                                     <div class="blog-list-categories">
@@ -316,7 +317,7 @@
                                             <li><a href="#">Environment</a></li>                                        
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Widget Wrap -->
                             </div>
                             <!-- Sidebar Secondary End -->
