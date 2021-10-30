@@ -3812,7 +3812,7 @@ footerr .social-icons a:hover {
 .static-banner {
     padding: 15rem 0 9rem 0;
     position: relative;
-    box-shadow: 0px 0px 57px 0px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0px 0px 57px 0px rgba(0, 0, 0, 0.5); */
 }
 .static-banner .slider-link {
     color: #27304b;

@@ -8,7 +8,7 @@
     <meta name="description" content="Because She Can - WE'RE ON A MISSION TO CLOSE THE GENDER GAP IN TECH" />
     <meta name="author" content="waalatech.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>@yield('title') - Showing HER That SHE Can</title>
+    <title>@yield('title') - Because She Can </title>
 
 
 
@@ -327,6 +327,11 @@
             }
 
         }
+
+        .gee {
+        background-image: linear-gradient(to left, #51324c, #63425d, #75536f, #876481, #9a7694, #a885a2, #b695b0, #c5a5bf, #d1b6cc, #dec8da, #ead9e7, #f7ebf5);
+    }
+     
     </style>
 
     <!-- footer style end -->
@@ -337,7 +342,7 @@
 <body>
 
     <!-- Header Start -->
-    <header class="fixed-top wow fadeInDown header-fullpage">
+    <header id="gee" class="fixed-top wow fadeInDown header-fullpage " >
         <div class="top-bar-right d-flex align-items-center text-md-left">
             <div class="container">
                 <div class="row align-items-center">
@@ -654,6 +659,12 @@
             $('.js-example-basic-single').select2();
         });
     </script>
+
+@if (\Request::is('/'))  
+<script> 
+$('#gee').addClass("gee");
+</script>
+@endif
     <!-- End Script From Gracious  -->
 </body>
 @yield('scripts')
