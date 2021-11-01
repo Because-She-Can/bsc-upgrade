@@ -211,7 +211,7 @@ inner-intro -->
                 <!-- Spacer For Medium -->
 
                 <div class="col-lg-6 col-md-12">
-                    <img class="img-fluid" src="images/body-images/aboutSide.pngg" alt="about-content-image"
+                    <img class="img-fluid" src="images/body-images/aboutSide.png" alt="about-content-image"
                         style="border-radius:7px">
 
 

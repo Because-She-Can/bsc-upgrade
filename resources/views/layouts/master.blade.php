@@ -329,9 +329,8 @@
         }
 
         .gee {
-        background-image: linear-gradient(to left, #51324c, #63425d, #75536f, #876481, #9a7694, #a885a2, #b695b0, #c5a5bf, #d1b6cc, #dec8da, #ead9e7, #f7ebf5);
-    }
-     
+            background-image: linear-gradient(to left, #51324c, #63425d, #75536f, #876481, #9a7694, #a885a2, #b695b0, #c5a5bf, #d1b6cc, #dec8da, #ead9e7, #f7ebf5);
+        }
     </style>
 
     <!-- footer style end -->
@@ -342,7 +341,7 @@
 <body>
 
     <!-- Header Start -->
-    <header id="gee" class="fixed-top wow fadeInDown header-fullpage " >
+    <header id="gee" class="fixed-top wow fadeInDown header-fullpage ">
         <div class="top-bar-right d-flex align-items-center text-md-left">
             <div class="container">
                 <div class="row align-items-center">
@@ -410,11 +409,12 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle-mob" href="#" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">Programs <i class="icofont-rounded-down"></i></a>
+                                aria-expanded="false">Programs <i class="icofont-rounded-down"></i>
+                            </a>
                             <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="dfwwc_program">All Programs</a>
+                                <li><a class="dropdown-item" href="program_list">All Programs</a>
                                 </li>
-                            <li><a class="dropdown-item" href="dfwwc_program">December For Women Who Code</a>
+                                <li><a class="dropdown-item" href="dfwwc_program">December For Women Who Code</a>
                                 </li>
                                 <li><a class="dropdown-item" href="#">Bootcamps</a></li>
                                 <li><a class="dropdown-item" href="#">Celebrating women in tech</a>
@@ -422,7 +422,7 @@
                                 <li><a class="dropdown-item" href="#">Webinars</a></li>
                             </ul>
                         </li>
-                    
+
                         <li class="nav-item ">
                             <a class="nav-link " href="get_involved">Get Involved </a>
 
@@ -468,9 +468,12 @@
                         <div class="footer-social">
                             <a class="twitter" href="https://twitter.com/becauseshecan_?lang=en" target="_blank"><i
                                     class="icofont-twitter"></i></a>
-                            <a class="instagram" href="https://www.instagram.com/becauseshecan_/" target="_blank"><i class="icofont-instagram"></i></a>
-                            <a class="facebook" href="https://www.facebook.com/becauseshecan.africa" target="_blank"><i class="icofont-facebook"></i></a>
-                            <a class="linkedin" href="https://www.linkedin.com/company/becauseshecan" target="_blank"><i class="icofont-linkedin"></i></a>
+                            <a class="instagram" href="https://www.instagram.com/becauseshecan_/" target="_blank"><i
+                                    class="icofont-instagram"></i></a>
+                            <a class="facebook" href="https://www.facebook.com/becauseshecan.africa" target="_blank"><i
+                                    class="icofont-facebook"></i></a>
+                            <a class="linkedin" href="https://www.linkedin.com/company/becauseshecan" target="_blank"><i
+                                    class="icofont-linkedin"></i></a>
                             <a class="youtube" href="" target="_blank"><i class="icofont-youtube"></i></a>
                         </div>
                     </div>
@@ -660,11 +663,11 @@
         });
     </script>
 
-@if (\Request::is('/'))  
-<script> 
-$('#gee').addClass("gee");
-</script>
-@endif
+    @if (\Request::is('/'))
+    <script>
+        $('#gee').addClass("gee");
+    </script>
+    @endif
     <!-- End Script From Gracious  -->
 </body>
 @yield('scripts')
