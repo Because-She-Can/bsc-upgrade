@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'December For Women Who Code')
+@section('title', 'About Us')
 
 @section('content')
 
@@ -395,6 +395,100 @@ our-service -->
         </div>
     </section>
     <!-- Faq's Style End -->
+
+    <!-- Our Proframs start -->
+
+    <section class="wide-tb-100 bg-green  welcome-broke-grid">
+        <div class="container">
+            <!-- <div class="welcome-icon"><i class="charity-love_hearts"></i></div> -->
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <h1 class="heading-main">
+                        <small>Tech Needs You Just Are You Are</small>
+                        Our Programs
+                    </h1>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <!-- Icon Boxes Image Style -->
+                    <div class="icon-box-with-img">
+                        <div class="img">
+                            <a href="#"><img src="assets/images/causes/causes_img_1.jpg" alt=""></a>
+                        </div>
+                        <div class="text">
+                            <h3>DECEMBER FOR WOMEN WHO CODE</h3>
+                            <p>A wonderful serenity has taken possession of my entire soul</p>
+                            <div class="text-md-right">
+                                <a href="dfwwc_program" class="read-more-line"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Icon Boxes Image Style -->
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <!-- Icon Boxes Image Style -->
+                    <div class="icon-box-with-img">
+                        <div class="img">
+                            <a href="#"><img src="assets/images/causes/causes_img_4.jpg" alt=""></a>
+                        </div>
+                        <div class="text">
+                            <h3>MENTORSHIP</h3>
+                            <p>A wonderful serenity has taken possession of my entire soul</p>
+                            <div class="text-md-right">
+                                <a href="#" class="read-more-line"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Icon Boxes Image Style -->
+                </div>
+
+                <!-- Spacer For Medium -->
+                <div class="w-100 d-none d-sm-none d-md-block d-lg-none spacer-60"></div>
+                <!-- Spacer For Medium -->
+
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <!-- Icon Boxes Image Style -->
+                    <div class="icon-box-with-img">
+                        <div class="img">
+                            <a href="#"><img src="assets/images/causes/causes_img_3.jpg" alt=""></a>
+                        </div>
+                        <div class="text">
+                            <h3>BOOTCAMPS</h3>
+                            <p>A wonderful serenity has taken possession of my entire soul</p>
+                            <div class="text-md-right">
+                                <a href="#" class="read-more-line"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Icon Boxes Image Style -->
+                </div>
+
+
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-7 mx-auto welcome-home-first">
+                    <div class="text-center mt-5">
+                        Girls Who Code values diversity, equity and inclusion as essential to our mission. We focus
+                        our work not only on gender diversity but also on young women who are historically
+                        underrepresented in computer science fields.
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our Programs End -->
 
     <!-- Inclusion Policy Style Start -->
     <!-- <section class="wide-tb-150 bg-scroll bg-img-6 pos-rel callout-style-1">

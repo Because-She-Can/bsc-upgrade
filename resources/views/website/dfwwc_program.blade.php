@@ -7,11 +7,10 @@
 
 
     <!-- Banner Start -->
-    <section class="main-banner">
+    <!-- <section class="main-banner">
         <div class="container start">
             <div class="slides-wrap">
                 <div class="owl-carousel owl-theme">
-                    <!--/owl-slide-->
                     <div class="owl-slide d-flex align-items-center cover"
                         style="background-image: url(assets/images/slider/slider_home_first_1.jpgg);">
                         <div class="container">
@@ -23,7 +22,7 @@
                                             Every Female Dev Deserves a Working Laptop
                                         </h1>
                                         <div class="owl-slide-animated owl-slide-cta">
-                                            <!-- <a class="btn btn-default mr-3" href="#" role="button">Read More</a> -->
+                                            <a class="btn btn-default mr-3" href="#" role="button">Read More</a>
                                             <a class="slider-link popup-video"
                                                 href="http://player.vimeo.com/video">Watch the video <i
                                                     class="charity-play_button"></i></a>
@@ -33,10 +32,8 @@
                             </div>
                         </div>
                     </div>
-                    <!--/owl-slide-->
 
 
-                    <!--/owl-slide-->
                     <div class="owl-slide d-flex align-items-center cover"
                         style="background-image: url(assets/images/slider/slider_home_first_2.jpgg);">
                         <div class="container">
@@ -59,7 +56,6 @@
                         </div>
                     </div>
 
-                    <!--/owl-slide-->
                     <div class="owl-slide d-flex align-items-center cover"
                         style="background-image: url(assets/images/slider/slider_home_first_3.jpgg);">
                         <div class="container">
@@ -81,7 +77,6 @@
                             </div>
                         </div>
                     </div>
-                    <!--/owl-slide-->
                 </div>
 
             </div>
@@ -92,11 +87,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
            <!-- About Us Style Start -->
            <section>
-            <div class="container">
+            <div class="container banner-top">
                 <div class="row">                    
                     <div class="col-lg-9 col-md-12">
                         <div class="sidebar-spacer">

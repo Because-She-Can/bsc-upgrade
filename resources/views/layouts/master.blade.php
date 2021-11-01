@@ -327,10 +327,10 @@
             }
 
         }
-
+/* 
         .gee {
             background-image: linear-gradient(to left, #51324c, #63425d, #75536f, #876481, #9a7694, #a885a2, #b695b0, #c5a5bf, #d1b6cc, #dec8da, #ead9e7, #f7ebf5);
-        }
+        } */
     </style>
 
     <!-- footer style end -->
@@ -412,8 +412,8 @@
                                 aria-expanded="false">Programs <i class="icofont-rounded-down"></i>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="program_list">All Programs</a>
-                                </li>
+                                <!-- <li><a class="dropdown-item" href="program_list">All Programs</a>
+                                </li> -->
                                 <li><a class="dropdown-item" href="dfwwc_program">December For Women Who Code</a>
                                 </li>
                                 <li><a class="dropdown-item" href="#">Bootcamps</a></li>
@@ -663,11 +663,11 @@
         });
     </script>
 
-    @if (\Request::is('/'))
+    <!-- @if (\Request::is('/'))
     <script>
         $('#gee').addClass("gee");
     </script>
-    @endif
+    @endif -->
     <!-- End Script From Gracious  -->
 </body>
 @yield('scripts')

@@ -3,294 +3,594 @@
 @section('title', 'Home')
 
 @section('content')
-
+<!--Volunteer Modal CSS -->
 <style>
-    ul.tabs {
-        text-align: center;
+    /* The Modal (background) */
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 100px;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+        z-index: 1000;
+
     }
 
-    @media only screen and (max-width: 412px) {
-        ul.tabs {
-            text-align: left;
-        }
+    .select2-container {
+        z-index: 1000;
     }
 
-    @media only screen and (max-width: 412px) {
-        #btp {
-            display: none;
-        }
+    /* Modal Content */
+    .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        color: #000;
     }
 
-    .mega-menu .drop-down a,
-    .mega-menu .drop-down-tab-bar a {
-        padding: 0 0;
+    /* The Close Button */
+    .close {
+        color: #160202;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
     }
 
-    .welcome-broke-grid .container {
-        position: relative;
-        z-index: 99;
-    }
-
-    .social-space {
-        margin-right: 15px;
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
         cursor: pointer;
     }
 
-    .vl {
-        border-left: 1px solid grey;
-        height: 100%;
-    }
-
-    .causes-wrap .img-wrap img {
-        border-radius: 10px 10px 0 0;
-        width: 100%;
-        height: 350px;
-    }
-
-    .fluid-space {
-        max-width: 1346px;
-        margin-top: 50px;
-
-    }
-
-    .no-padding {
-        padding: 0px;
-    }
-
-    .navbar-expand-lg .navbar-nav .nav-link {
-        color: #000;
-        text-transform: capitalize;
-        padding: 0.5rem 0.9rem;
-        font-weight: 700;
-        font-size: 1rem;
-    }
-
-    .centered {
-        color: white;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-    }
-
-    /*.textnow {
-        vertical-align: middle;
-    }*/
-
-    .wrapper {
-        height: 100vh;
-        /*This part is important for centering*/
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .typing-demo {
-        width: 27ch;
-        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-        white-space: nowrap;
-        overflow: hidden;
-        border-right: 3px solid;
-        font-family: Recoleta-Bold;
-        font-size: 2em;
-    }
-
-    @keyframes typing {
-        from {
-            width: 0
+    @media only screen and (max-width: 760px) {
+        #Vol-side-text {
+            display: none;
         }
+
+    }
+</style>
+<!-- Volunteer Modal Css End -->
+
+<style>
+    html {
+        scroll-behavior: smooth;
     }
 
-    @keyframes blink {
-        50% {
-            border-color: transparent
-        }
+
+
+    .bg-img-1 {
+        background-image: url(../images/bg_1.jpg);
+
     }
 </style>
 
-<body>
-    <!-- Banner Start -->
-    <section class="gee" style="margin-top:125px;position:relative;">
-        <div class="container-fluid wrapper " style="min-height: 650px; padding:60px 0px;">
-            <h1 class="centered typing-demo"
-                style="text-align: center;font-size:50px;background: rgba(20, 16, 16, 0.308);">WE'RE
-                BUILDING THE
-                WORLD'S
-                LARGEST PIPELINE
-                OF
-                FUTURE FEMALE ENGINEERS.
-            </h1>
+
+<!-- Banner Start -->
+<section class="main-banner banner-top">
+    <div class="container start">
+        <div class="slides-wrap">
+            <div class="owl-carousel owl-theme">
+                <!--/owl-slide-->
+                <div class="owl-slide d-flex align-items-center cover"
+                    style="background-image: url(assets/images/slider/slider_home_first_1.jpg);">
+                    <div class="container">
+                        <div class="row justify-content-center justify-content-md-start no-gutters">
+                            <div class="col-10 col-md-6 static">
+                                <div class="owl-slide-text">
+                                    <h3 class="owl-slide-animated owl-slide-title">Raising Hope</h3>
+                                    <h1 class="owl-slide-animated owl-slide-subtitle">
+                                        Every Female Dev Deserves a Working Laptop
+                                    </h1>
+                                    <div class="owl-slide-animated owl-slide-cta">
+                                        <a class="btn btn-default mr-3" href="dfwwc_program" role="button">Read More</a>
+                                        <a class="slider-link popup-video" href="http://player.vimeo.com/video">Watch
+                                            the video <i class="charity-play_button"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/owl-slide-->
 
 
-            <!-- 
-            <div class="row">
-
-                <div style="text-align: left; max-width:40%">
-                    <img src="/assets/images/h3.jpg" alt="">
-
+                <!--/owl-slide-->
+                <div class="owl-slide d-flex align-items-center cover"
+                    style="background-image: url(assets/images/slider/slider_home_first_2.jpg);">
+                    <div class="container">
+                        <div class="row justify-content-center justify-content-md-start no-gutters">
+                            <div class="col-10 col-md-6 static">
+                                <div class="owl-slide-text">
+                                    <h3 class="owl-slide-animated owl-slide-title">Raising Hope</h3>
+                                    <h1 class="owl-slide-animated owl-slide-subtitle">
+                                        Supporting 20 Dev women With Working Laptops
+                                    </h1>
+                                    <div class="owl-slide-animated owl-slide-cta">
+                                        <a class="btn btn-default mr-3" href="#" role="button">Read More</a>
+                                        <a class="slider-link popup-video" href="http://player.vimeo.com/video">Watch
+                                            the video <i class="charity-play_button"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div style="text-align:center; max-width:32%; padding-top:15%;">
-                    <img src="/assets/images/h1.jpg" alt="">
-
+                <!--/owl-slide-->
+                <div class="owl-slide d-flex align-items-center cover"
+                    style="background-image: url(assets/images/slider/slider_home_first_3.jpg);">
+                    <div class="container">
+                        <div class="row justify-content-center justify-content-md-start no-gutters">
+                            <div class="col-10 col-md-6 static">
+                                <div class="owl-slide-text">
+                                    <h3 class="owl-slide-animated owl-slide-title">Raising Hope</h3>
+                                    <h1 class="owl-slide-animated owl-slide-subtitle">
+                                        December For Women Who Code
+                                    </h1>
+                                    <div class="owl-slide-animated owl-slide-cta">
+                                        <a class="btn btn-default mr-3" href="#" role="button">Read More</a>
+                                        <a class="slider-link popup-video" href="http://player.vimeo.com/video">Watch
+                                            the video <i class="charity-play_button"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div style="text-align: right; max-width:28%">
-                    <img src="/assets/images/h2.jpg" alt="">
+                <!--/owl-slide-->
+            </div>
 
-                </div>
-
-            </div> -->
-
-            <!-- 
-            <div class="row">
-
-
-                <div class="col-5 no-padding" style="border: dotted;">
-
-                </div>
-
-                <div class="col-4 no-padding" style="border: dotted red; margin-top:100px">
-                    <img src="/assets/images/video_img.png" alt="">
-                </div>
-                <div class="col-3 no-padding" style="border: dotted red;">
-                    <img src="/assets/images/video_img.png" alt="">
-
-                </div>
-            </div> -->
         </div>
+        <!-- <div class="container pos-rel">
+            <div class="funds-committed">
+                <small>Total Funds Committed</small>
+                <span class="counter">14,721</span>
+            </div>
+        </div> -->
+    </div>
+</section>
+<!-- Banner Start -->
 
-    </section>
+<!-- Welcome Home Style Start -->
+<section class="pt-0 pb-0 ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-12">
+                <h1 class="heading-main">
+                    <small>Showing Her That She Can</small>
+                    <!-- What We Do -->
+                </h1>
 
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s
 
-
-
-
-
-    <!-- Welcome Home Style Start -->
-    <section class="wide-tb-100 pb-0 ">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-12">
-                    <h1 class="heading-main">
-                        <small>Showing Her That She Can</small>
-                        <!-- What We Do -->
-                    </h1>
-
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s
-
-                        <!-- Spacer For Medium -->
-                    <div class="w-100 d-none d-sm-block d-lg-none spacer-60"></div>
                     <!-- Spacer For Medium -->
-                    We're reaching girls around the world and are on track to close the gender gap in new entry-level
-                    tech jobs by 2030.
+                <div class="w-100 d-none d-sm-block d-lg-none spacer-60"></div>
+                <!-- Spacer For Medium -->
+                We're reaching girls around the world and are on track to close the gender gap in new entry-level
+                tech jobs by 2030.
 
-                    </p>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="w-100 d-none d-sm-block d-lg-none spacer-60"></div>
+
+<section class="wide-tb-100 bg-green pt-0 welcome-broke-grid">
+
+    <div class="container">
+        <!-- <div class="welcome-icon"><i class="charity-love_hearts"></i></div> -->
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <!-- Icon Boxes Image Style -->
+                <div class="icon-box-with-img">
+                    <div class="img">
+                        <img src="images/body-images/home/sisterhood.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>SisterHood</h3>
+                        <p>A wonderful serenity has taken possession of my entire soul</p>
+                        <div class="text-md-right">
+                            <a href="#" class="read-more-line"><span>Read More</span></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Icon Boxes Image Style -->
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <!-- Icon Boxes Image Style -->
+                <div class="icon-box-with-img">
+                    <div class="img">
+                        <img src="images/body-images/home/collaborate.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Collaborate</h3>
+                        <p>A wonderful serenity has taken possession of my entire soul</p>
+                        <div class="text-md-right">
+                            <a href="#" class="read-more-line"><span>Read More</span></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Icon Boxes Image Style -->
+            </div>
+
+            <!-- Spacer For Medium -->
+            <div class="w-100 d-none d-sm-none d-md-block d-lg-none spacer-60"></div>
+            <!-- Spacer For Medium -->
+
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <!-- Icon Boxes Image Style -->
+                <div class="icon-box-with-img">
+                    <div class="img">
+                        <img src="images/body-images/home/Community.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Get Involved</h3>
+                        <p>A wonderful serenity has taken possession of my entire soul</p>
+                        <div class="text-md-right">
+                            <a href="#" class="read-more-line"><span>Read More</span></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Icon Boxes Image Style -->
+            </div>
+
+
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <!-- Icon Boxes Image Style -->
+                <div class="icon-box-with-img">
+                    <div class="img">
+                        <img src="images/body-images/home/Change.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Change</h3>
+                        <p>A wonderful serenity has taken possession of my entire soul</p>
+                        <div class="text-md-right">
+                            <a href="#" class="read-more-line"><span>Read More</span></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Icon Boxes Image Style -->
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-10 mx-auto welcome-home-first">
+
+                <div class="text-center mt-2 text-md-right">
+                    <a href="about_us" class="btn btn-default">Read About Us</a>
                 </div>
             </div>
         </div>
-    </section>
-    <div class="w-100 d-none d-sm-block d-lg-none spacer-60"></div>
+    </div>
+</section>
 
-    <section class="wide-tb-100 bg-green pt-0 welcome-broke-grid">
+<!-- Main Body Content Start -->
+<main id="body-content" class="body-non-overflow">
 
+    <!-- Event Style Start -->
+    <section class="wide-tb-100">
         <div class="container">
-            <div class="welcome-icon"><i class="charity-love_hearts"></i></div>
-            <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <!-- Icon Boxes Image Style -->
-                    <div class="icon-box-with-img">
-                        <div class="img">
-                            <img src="images/body-images/home/sisterhood.jpeg" alt="">
-                        </div>
-                        <div class="text">
-                            <h3>SisterHood</h3>
-                            <p>A wonderful serenity has taken possession of my entire soul</p>
-                            <div class="text-md-right">
-                                <a href="#" class="read-more-line"><span>Read More</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Icon Boxes Image Style -->
-                </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <!-- Icon Boxes Image Style -->
-                    <div class="icon-box-with-img">
-                        <div class="img">
-                            <img src="images/body-images/home/collaborate.jpeg" alt="">
-                        </div>
-                        <div class="text">
-                            <h3>Collaborate</h3>
-                            <p>A wonderful serenity has taken possession of my entire soul</p>
-                            <div class="text-md-right">
-                                <a href="#" class="read-more-line"><span>Read More</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Icon Boxes Image Style -->
-                </div>
-
-                <!-- Spacer For Medium -->
-                <div class="w-100 d-none d-sm-none d-md-block d-lg-none spacer-60"></div>
-                <!-- Spacer For Medium -->
-
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <!-- Icon Boxes Image Style -->
-                    <div class="icon-box-with-img">
-                        <div class="img">
-                            <img src="images/body-images/home/Community.jpeg" alt="">
-                        </div>
-                        <div class="text">
-                            <h3>Get Involved</h3>
-                            <p>A wonderful serenity has taken possession of my entire soul</p>
-                            <div class="text-md-right">
-                                <a href="#" class="read-more-line"><span>Read More</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Icon Boxes Image Style -->
-                </div>
-
-
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                    <!-- Icon Boxes Image Style -->
-                    <div class="icon-box-with-img">
-                        <div class="img">
-                            <img src="images/body-images/home/Change.jpeg" alt="">
-                        </div>
-                        <div class="text">
-                            <h3>Change</h3>
-                            <p>A wonderful serenity has taken possession of my entire soul</p>
-                            <div class="text-md-right">
-                                <a href="#" class="read-more-line"><span>Read More</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Icon Boxes Image Style -->
+            <div class="row justify-content-between align-items-end">
+                <div class="col-lg-6 col-md-8">
+                    <h1 class="heading-main">
+                        <small>We Just Love What We Do</small>
+                        Some OF Our Most Recent Projects
+                    </h1>
                 </div>
 
             </div>
 
-            <div class="row">
-                <div class="col-lg-10 mx-auto welcome-home-first">
+            <div class="owl-carousel owl-theme" id="home-second-causes">
 
-                    <div class="text-center mt-2 text-md-right">
-                        <a href="about_us" class="btn btn-default">Read About Us</a>
+                <!-- Events Alternate Wrap -->
+                <div class="item">
+                    <div class="event-wrap-alternate">
+                        <!-- Event Wrap -->
+                        <div class="img-wrap">
+                            <div class="date-box">
+                                05 <span>Aug</span>
+                            </div>
+                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_1.jpg"
+                                    alt=""></a>
+                            <div class="content-wrap">
+                                <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
+                                </h3>
+                                <div class="event-details">
+                                    <div><i data-feather="clock"></i> 09:00 Am</div>
+                                    <div><i data-feather="map-pin"></i> Midpoint Center</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Event Wrap -->
+                    </div>
+                </div>
+                <!-- Events Alternate Wrap -->
+
+                <!-- Events Alternate Wrap -->
+                <div class="item">
+                    <div class="event-wrap-alternate">
+                        <!-- Event Wrap -->
+                        <div class="img-wrap">
+                            <div class="date-box">
+                                05 <span>Aug</span>
+                            </div>
+                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_2.jpg"
+                                    alt=""></a>
+                            <div class="content-wrap">
+                                <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
+                                </h3>
+                                <div class="event-details">
+                                    <div><i data-feather="clock"></i> 09:00 Am</div>
+                                    <div><i data-feather="map-pin"></i> Midpoint Center</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Event Wrap -->
+                    </div>
+                </div>
+                <!-- Events Alternate Wrap -->
+
+                <!-- Events Alternate Wrap -->
+                <div class="item">
+                    <div class="event-wrap-alternate">
+                        <!-- Event Wrap -->
+                        <div class="img-wrap">
+                            <div class="date-box">
+                                05 <span>Aug</span>
+                            </div>
+                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_3.jpg"
+                                    alt=""></a>
+                            <div class="content-wrap">
+                                <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
+                                </h3>
+                                <div class="event-details">
+                                    <div><i data-feather="clock"></i> 09:00 Am</div>
+                                    <div><i data-feather="map-pin"></i> Midpoint Center</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Event Wrap -->
+                    </div>
+                </div>
+                <!-- Events Alternate Wrap -->
+
+                <!-- Events Alternate Wrap -->
+                <div class="item">
+                    <div class="event-wrap-alternate">
+                        <!-- Event Wrap -->
+                        <div class="img-wrap">
+                            <div class="date-box">
+                                05 <span>Aug</span>
+                            </div>
+                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_4.jpg"
+                                    alt=""></a>
+                            <div class="content-wrap">
+                                <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
+                                </h3>
+                                <div class="event-details">
+                                    <div><i data-feather="clock"></i> 09:00 Am</div>
+                                    <div><i data-feather="map-pin"></i> Midpoint Center</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Event Wrap -->
+                    </div>
+                </div>
+                <!-- Events Alternate Wrap -->
+
+                <!-- Events Alternate Wrap -->
+                <div class="item">
+                    <div class="event-wrap-alternate">
+                        <!-- Event Wrap -->
+                        <div class="img-wrap">
+                            <div class="date-box">
+                                05 <span>Aug</span>
+                            </div>
+                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_5.jpg"
+                                    alt=""></a>
+                            <div class="content-wrap">
+                                <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
+                                </h3>
+                                <div class="event-details">
+                                    <div><i data-feather="clock"></i> 09:00 Am</div>
+                                    <div><i data-feather="map-pin"></i> Midpoint Center</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Event Wrap -->
+                    </div>
+                </div>
+                <!-- Events Alternate Wrap -->
+
+                <!-- Events Alternate Wrap -->
+                <div class="item">
+                    <div class="event-wrap-alternate">
+                        <!-- Event Wrap -->
+                        <div class="img-wrap">
+                            <div class="date-box">
+                                05 <span>Aug</span>
+                            </div>
+                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_6.jpg"
+                                    alt=""></a>
+                            <div class="content-wrap">
+                                <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
+                                </h3>
+                                <div class="event-details">
+                                    <div><i data-feather="clock"></i> 09:00 Am</div>
+                                    <div><i data-feather="map-pin"></i> Midpoint Center</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Event Wrap -->
+                    </div>
+                </div>
+                <!-- Events Alternate Wrap -->
+
+            </div>
+
+            <!-- <div class="text-center mt-5">
+                <a href="events-alternate.html" class="btn btn-outline-dark">View All Events</a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Event Style End -->
+
+    <!-- Callout Style Start -->
+    <section class="wide-tb-100 bg-scroll bg-img-1 pos-rel callout-style-1">
+        <div class="bg-overlay black opacity-50"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="heading-main light-mode orange">
+                        <small>Our Statistics</small>
+                        We Provide Effortless Help To People
+                    </h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been the industry's standard dummy text ever since the 1500s </p>
+
+                    <div class="row mt-5">
+                        <!-- Counter Col Start -->
+                        <div class="col col-12 col-lg-6 col-sm-6 mb-sm-0">
+                            <div class="counter-style-box bg-dark-shade bg-green">
+                                <div class="counter-txt"><span class="counter">180</span>+</div>
+                                <h4 class="make-white ">Fundraising & Donation Campaign </h4>
+                            </div>
+                        </div>
+                        <!-- Counter Col End -->
+
+                        <!-- Counter Col Start -->
+                        <div class="col col-12 col-lg-6 col-sm-6">
+                            <div class="counter-style-box bg-dark-shade bg-orange">
+                                <div class="counter-txt"><span class="counter">7120</span>+</div>
+                                <h4>Success Full Project Complate</h4>
+                            </div>
+                        </div>
+                        <!-- Counter Col End -->
+                    </div>
+
+                    <div class="spacer-40"></div>
+
+                    <div class="row">
+                        <!-- Counter Col Start -->
+                        <div class="col col-12 col-lg-6 col-sm-6 offset-lg-2  mb-sm-0">
+                            <div class="counter-style-box">
+                                <div class="counter-txt"><span class="counter">250</span>+</div>
+                                <h4>Award Winning Campaign</h4>
+                            </div>
+
+                        </div>
+                        <!-- Counter Col End -->
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="become-volunteers-links">
+                                <a class="" id="myBtn">
+                                    <i class="icofont-plus"></i>
+                                    <h3 class="make-white ">Become a Volunteer</h3>
+                                </a>
+                            </div>
+                            @include('website.volunteer_form')
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <script>
-
-        jQuery(document).ready(function ($) {
-            $('#gee').addClass("gee");
-        });
+    <!-- Callout Style End -->
 
 
-    </script>
-    @endsection
+    <!-- Our Partners Start -->
+    <section class="wide-tb-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <h1 class="heading-main">
+                        <small>Global Providers</small>
+                        Our World Wide Partner
+                    </h1>
+                </div>
+                <div class="col-sm-12">
+                    <div class="owl-carousel owl-theme" id="home-clients">
+
+                        <!-- Client Logo -->
+                        <div class="item">
+                            <div class="clients-logo">
+                                <img src="assets/images/clients/client1.png" alt="">
+                            </div>
+                        </div>
+                        <!-- Client Logo -->
+
+                        <!-- Client Logo -->
+                        <div class="item">
+                            <div class="clients-logo">
+                                <img src="assets/images/clients/client2.png" alt="">
+                            </div>
+                        </div>
+                        <!-- Client Logo -->
+
+                        <!-- Client Logo -->
+                        <div class="item">
+                            <div class="clients-logo">
+                                <img src="assets/images/clients/client3.png" alt="">
+                            </div>
+                        </div>
+                        <!-- Client Logo -->
+
+                        <!-- Client Logo -->
+                        <div class="item">
+                            <div class="clients-logo">
+                                <img src="assets/images/clients/client4.png" alt="">
+                            </div>
+                        </div>
+                        <!-- Client Logo -->
+
+                        <!-- Client Logo -->
+                        <div class="item">
+                            <div class="clients-logo">
+                                <img src="assets/images/clients/client5.png" alt="">
+                            </div>
+                        </div>
+                        <!-- Client Logo -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Partners End -->
+
+
+
+
+
+
+
+</main>
+
+
+
+@endsection
