@@ -291,7 +291,7 @@
                                 <div class="form-group">
                                     <label for="number"><strong>Phone Number </strong></label>
                                     <input type="number" class="form-control form-light" name="phone"
-                                        placeholder="(ps. add country code)" />
+                                        placeholder="(ps. add country code)" onkeypress="inpNum(event)" />
                                 </div>
 
                             </div>
@@ -1038,6 +1038,17 @@
         </div>
     </div>
 </section>
+
+
+<script>
+    function inpNum(e) {
+        e = e || window.event;
+        var charCode = (typeof e.which == "undefined") ? e.keyCode : e.which;
+        var charStr = String.fromCharCode(charCode);
+        if (!charStr.match(/^[0-9]+$/))
+            e.preventDefault();
+    }
+</script>
 <!-- Images Gallery Style End -->
 
 @endsection
