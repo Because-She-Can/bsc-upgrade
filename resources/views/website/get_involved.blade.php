@@ -40,7 +40,7 @@
         z-index: -1;
     }
 
-    @media only screen and (max-width: 412px) {
+    @media only screen and (max-width: 600px) {
         .inner-intro {
             height: 410px;
             display: block;

@@ -326,8 +326,20 @@
                 margin-bottom: 5px;
             }
 
+            .w-50 {
+                    width: 100%!important;
+                }
+
         }
-     
+
+        @media (max-width: 575px) {
+            .top-bar-right .contact-info div:last-child, .donate-btn {
+             display: block;
+                }
+         
+        }
+
+            
 /* 
         .gee {
             background-image: linear-gradient(to left, #51324c, #63425d, #75536f, #876481, #9a7694, #a885a2, #b695b0, #c5a5bf, #d1b6cc, #dec8da, #ead9e7, #f7ebf5);
