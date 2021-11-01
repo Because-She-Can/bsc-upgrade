@@ -427,14 +427,14 @@
                             <a class="nav-link " href="get_involved">Get Involved </a>
 
                         </li>
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle-mob" href="#" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">Jobs <i class="icofont-rounded-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">See All Jobs</a></li>
                                 <li><a class="dropdown-item" href="#">Post A Job</a></li>
                             </ul>
-                        </li>
+                        </li> -->
 
 
                     </ul>
