@@ -195,13 +195,34 @@
         scroll-behavior: smooth;
     }
 
-    .home-second-donation-form .funds-committed {
+    /* .home-second-donation-form .funds-committed {
         padding-left: 130px;
+    } */
+
+    @media only screen and (max-width: 412px) {
+        .bg-fixed {
+            height: 410px;
+            display: block;
+        }
+
+        .breadcrumbs-page h1 {
+            color: #FFF;
+            text-transform: capitalize;
+            font-size: 1.6rem;
+            font-weight: 500;
+            line-height: 1.2;
+            padding: 0rem 0;
+        }
+
+    }
+
+    #form-title {
+        text-align: center !important;
     }
 </style>
 <!-- Page Breadcrumbs Start -->
-<section class="breadcrumbs-page-wrap" style="margin-top:135px;position:relative;">
-    <div class="bg-fixed pos-rel breadcrumbs-page">
+<section class="breadcrumbs-page-wrap banner-top">
+    <div class="bg-fixed pos-rel  breadcrumbs-page">
         <div class="container">
             <h1> Join our growing community of Tech Women
             </h1>
@@ -226,7 +247,7 @@
             <div class="col-lg-6 col-md-12 order-lg-last">
                 <div class="home-second-donation-form">
                     <div class="funds-committed">
-                        <h3 class="h3-sm fw-7 txt-white mb-3" style="text-align: center !important;">Get Involved -
+                        <h3 class="h3-sm fw-7 txt-white mb-3" id="form-title" style="">Get Involved -
                             Become A Member </h3>
                     </div>
 
@@ -235,33 +256,34 @@
                         {{csrf_field()}}
 
                         <div class="input-group">
-                            <div class="col-6">
+                            <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
-                                    <label for="name"><strong>Full Name</strong></label>
+                                    <label for="firstName"><strong>First Name</strong></label>
                                     <input type="text" class="form-control form-light" name="name"
-                                        placeholder="e.g John Doe">
+                                        placeholder="Enter Your First Name">
                                 </div>
 
                             </div>
-                            <div class="col-6">
+                            <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
-                                    <label for="email"><strong>Email Address</strong></label>
-                                    <input type="email" class="form-control form-light" name="email"
-                                        placeholder="e.g example@sitename.com">
+                                    <label for="last_name"><strong>Middle and Last Name</strong></label>
+                                    <input type="text" class="form-control form-light" name="last_name"
+                                        placeholder="Enter Your Middle and Last Name">
                                 </div>
 
                             </div>
                         </div>
 
                         <div class="input-group">
-                            <div class="col-6">
+                            <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
-                                    <label for="number"><strong>Phone Number (ps. add country code)</strong></label>
-                                    <input type="number" class="form-control form-light" name="phone" placeholder="" />
+                                    <label for="number"><strong>Phone Number </strong></label>
+                                    <input type="number" class="form-control form-light" name="phone"
+                                        placeholder="(ps. add country code)" />
                                 </div>
 
                             </div>
-                            <div class="col-6">
+                            <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
                                     <label for="Residence"><strong>Country Of Residence </strong></label>
                                     <select class=" theme-combo donation-select js-example-basic-single form-control"
@@ -603,7 +625,7 @@
                         </div>
 
                         <div class="input-group">
-                            <div class="col-6">
+                            <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
                                     <label for="email"><strong>Email Address</strong></label>
                                     <input type="email" class="form-control form-light" name="email"
@@ -612,10 +634,10 @@
                             </div>
 
 
-                            <div class="col-6">
+                            <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
-                                    <label for="Residence"><strong>What stage would you put yourself in
-                                            *</strong></label>
+                                    <label for="Residence"><strong>What stage would you put yourself
+                                            in*</strong></label>
                                     <select class=" theme-combo donation-select js-example-basic-single form-control"
                                         name="state" style=" width: 100% !important;">
                                         <option>Select Your Stage</option>
