@@ -198,7 +198,7 @@
         padding-left: 130px;
     } */
 
-    @media only screen and (max-width: 412px) {
+    @media only screen and (max-width: 600px) {
         .bg-fixed {
             height: 410px;
             display: block;
