@@ -327,11 +327,7 @@
             }
 
         }
-        /* style for the arrow up and down that appears in numbers this style removes it  */
-        input[type=number]::-webkit-inner-spin-button,
-    input[type=number]::-webkit-outer-spin-button {
-        -webkit-appearance: none;
-    }
+     
 /* 
         .gee {
             background-image: linear-gradient(to left, #51324c, #63425d, #75536f, #876481, #9a7694, #a885a2, #b695b0, #c5a5bf, #d1b6cc, #dec8da, #ead9e7, #f7ebf5);
@@ -688,7 +684,7 @@
     @endif -->
     <!-- End Script From Gracious  -->
 
-    <script>
+    <!-- <script>
     function inpNum(e) {
         e = e || window.event;
         var charCode = (typeof e.which == "undefined") ? e.keyCode : e.which;
@@ -696,6 +692,39 @@
         if (!charStr.match(^[-+()][0-9][-+()0-9]$))
             e.preventDefault();
     }
+</script> -->
+<!-- 
+<script>
+    function inpNum(e) {
+        e = e || window.event;
+        var charCode = (typeof e.which == "undefined") ? e.keyCode : e.which;
+        var charStr = String.fromCharCode(charCode);
+        if (!charStr.match(/^[0-9]+$/))
+            e.preventDefault();
+    }
+</script> -->
+<script>
+    var inputEl = document.getElementById('tel');
+var goodKey = '0123456789+ ';
+
+var checkInputTel = function(e) {
+  var key = (typeof e.which == "number") ? e.which : e.keyCode;
+  var start = this.selectionStart,
+    end = this.selectionEnd;
+
+  var filtered = this.value.split('').filter(filterInput);
+  this.value = filtered.join("");
+
+  /* Prevents moving the pointer for a bad character */
+  var move = (filterInput(String.fromCharCode(key)) || (key == 0 || key == 8)) ? 0 : 1;
+  this.setSelectionRange(start - move, end - move);
+}
+
+var filterInput = function(val) {
+  return (goodKey.indexOf(val) > -1);
+}
+
+inputEl.addEventListener('input', checkInputTel);
 </script>
 </body>
 @yield('scripts')
