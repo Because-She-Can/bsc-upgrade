@@ -108,7 +108,7 @@
                             <!-- Causes Single Wrap -->
                             <div class="causes-wrap single">
                                 <div class="img-wrap">
-                                    <a href="javascript:void" class="become-volunteers-links" id="myBtn"><span class="tag-single">Volunteer</span></a>
+                                    <a href="javascript:void" class="become-volunteers-links" id="myBtn"><span class="tag-single">Become a Volunteers</span></a>
                                     <img src="assets/images/causes/causes_single_img.jpg" alt="">
                                 </div>
 

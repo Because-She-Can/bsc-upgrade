@@ -58,7 +58,7 @@
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
-        color: #fff;
+        color: #000;
         text-transform: capitalize;
         padding: 0.5rem 0.9rem;
         font-weight: 700;
