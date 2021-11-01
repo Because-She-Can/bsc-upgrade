@@ -1622,7 +1622,21 @@ i[class*="charity-"] {
     font-weight: 400;
     text-align: center;
     top: 0;
-    background: #31231e url(../images/topography-background.png) repeat;
+    background: linear-gradient(
+        to left,
+        #51324c,
+        #63425d,
+        #75536f,
+        #876481,
+        #9a7694,
+        #a885a2,
+        #b695b0,
+        #c5a5bf,
+        #d1b6cc,
+        #dec8da,
+        #ead9e7,
+        #f7ebf5
+    );
 }
 .loader-item {
     left: 50%;
@@ -1645,7 +1659,8 @@ i[class*="charity-"] {
     width: 0px;
     height: 0px;
     border-radius: 100%;
-    background: rgba(213, 155, 45, 1);
+    background: #4f0a44;
+    /* background: rgba(213, 155, 45, 1); */
     animation: radar 3s ease-out infinite;
     box-shadow: 0px 0px 10px rgba(181, 129, 29, 0.5);
 }
@@ -3786,7 +3801,7 @@ footerr .social-icons a:hover {
     background-image: url(../images/topography-background.png);
     background-color: #5a3a31;
     background-repeat: repeat;
-    padding: 4rem 3rem;
+    padding: 1rem 0rem;
     border-radius: 0 0 10px 10px;
     margin-bottom: -109px;
 }

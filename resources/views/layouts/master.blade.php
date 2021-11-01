@@ -327,6 +327,11 @@
             }
 
         }
+        /* style for the arrow up and down that appears in numbers this style removes it  */
+        input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+    }
 /* 
         .gee {
             background-image: linear-gradient(to left, #51324c, #63425d, #75536f, #876481, #9a7694, #a885a2, #b695b0, #c5a5bf, #d1b6cc, #dec8da, #ead9e7, #f7ebf5);
@@ -335,6 +340,19 @@
 
     <!-- footer style end -->
 </head>
+
+    <!-- Page loader Start -->
+    <div id="pageloader">   
+        <div class="loader-item">
+            <div class="loader">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+        </div>
+    </div>
+    <!-- Page loader End -->
 
 @yield('css')
 
