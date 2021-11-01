@@ -118,9 +118,8 @@
 
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <input type="number" class="form-control" id="card_name"
-                                                placeholder="Phone number ( Include country code)"
-                                                onkeypress="inpNum(event)" />
+                                            <input type="tel" id="tel" class="form-control"
+                                                placeholder="Phone number ( Include country code)" maxlength="14" />
                                         </div>
                                     </div>
 

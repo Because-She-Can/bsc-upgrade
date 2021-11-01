@@ -290,8 +290,8 @@
                             <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
                                     <label for="number"><strong>Phone Number </strong></label>
-                                    <input type="number" class="form-control form-light" name="phone"
-                                        placeholder="(ps. add country code)" onkeypress="inpNum(event)" />
+                                    <input type="tel" class="form-control form-light" name="phone"
+                                        placeholder="(ps. add country code)" id="tel" maxlength="14" />
                                 </div>
 
                             </div>
@@ -1039,7 +1039,7 @@
     </div>
 </section>
 
-
+<!-- 
 <script>
     function inpNum(e) {
         e = e || window.event;
@@ -1048,7 +1048,7 @@
         if (!charStr.match(/^[0-9]+$/))
             e.preventDefault();
     }
-</script>
+</script> -->
 <!-- Images Gallery Style End -->
 
 @endsection
