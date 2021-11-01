@@ -61,6 +61,11 @@
         }
 
     }
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+    }
 </style>
 <!-- Volunteer Modal Css End -->
 
@@ -94,40 +99,39 @@
                         </p>
 
                         <div class="donation-wrap">
-
-
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="name" placeholder="First Name" />
+                                        <input type="text" class="form-control" id="name" placeholder="First Name"
+                                            name="first_name" />
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="last_name"
-                                            placeholder="Last Name" />
+                                        <input type="text" class="form-control" id="last_name" name="last_name"
+                                            placeholder=" Enter Last Name" />
                                     </div>
                                 </div>
 
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="form-group">
                                         <input type="email" class="form-control" id="email" placeholder="Your Email" />
                                     </div>
                                 </div>
 
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="form-group">
-                                        <input type="tel" class="form-control" id="card_name"
-                                            placeholder="Your Phone number" />
+                                        <input type="number" class="form-control" id="card_name"
+                                            placeholder="Phone number ( Include country code)" />
                                     </div>
                                 </div>
 
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="form-group">
 
                                         <select
                                             class=" theme-combo donation-select js-example-basic-single form-control"
-                                            name="state" style="height: 400px; width: 100% !important;;">
+                                            name="state" style="height: 400pxx; width: 100% !important;">
                                             <option>Select Country</option>
                                             <option value="Afganistan">Afghanistan</option>
                                             <option value="Albania">Albania</option>
@@ -460,7 +464,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="form-group">
                                         <input type="text" class="form-control" id="zip" placeholder="Zip Code" />
                                     </div>
@@ -471,77 +475,73 @@
                             <h3 class="h3-sm fw-5 txt-blue mb-3 mt-3">Talk To Us</h3>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="how-you-know-us"><strong>How did you
-                                                hear about us</strong></label>
+                                    <div class="form-group" style="min-width: 100%;">
+                                        <label for="how-you-know-us"><strong>Which volunteer roles are you interested in? </strong></label>
 
-                                        <select class="pos-rel" id="how-you-know-us" name="Causes"
-                                            style=" width: 100% !important;;">
-                                            <option>Please Select</option>
-                                            <option value="DECEMBER FOR WOMEN WHO CODE">
-                                                Twitter</option>
-                                            <option value="MIDYEAR BOOTCAMP">Facebook
-                                            </option>
-                                            <option value="WEBINARS AND DISCUSSIONS">
-                                                Instagram</option>
-                                            <option value="MENTORSHIP">linkedin</option>
-                                            <option value="MENTORSHIP">Google Searh /
-                                                Website</option>
-                                            <option value="MENTORSHIP">Other</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="specify-other" style="visibility: hidden;"><strong>How did you
-                                                hear about us</strong></label>
-
-                                        <div class="pos-rel">
-                                            <input type="text" class="form-control"
-                                                placeholder="If Other please specify" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-
-                                    <div class="form-group">
-                                        <label for="tech-Experience "><strong>What Stage
-                                                Would You Put Yourself In</strong></label>
-
-                                        <select class="theme-combo donation-select" id="tech-Experience "
-                                            name="tech-Experience " style="height: 400px; width: 100% !important;;">
-                                            <option>Please Select</option>
-                                            <option value="DECEMBER FOR WOMEN WHO CODE">
-                                                I have established myself in a Tech field
-                                                (3+ years or expereinece)</option>
-                                            <option value="MIDYEAR BOOTCAMP">I literally
-                                                just started my carrer in Tech (0-1year
-                                                expereince)</option>
-                                            <option value="WEBINARS AND DISCUSSIONS">
-                                                I have a growing interest in Tech</option>
-                                            <option value="MENTORSHIP">I have no clue what i
-                                                am doing in life</option>
-                                            <option value="MENTORSHIP">Tech seems cool. I am
-                                                curious about what i can learn at BSC
-                                            </option>
-                                            <option value="MENTORSHIP">I just want to join
-                                                this awesomem family and spread the word
-                                            </option>
+                                        <select
+                                            class=" theme-combo donation-select js-example-basic-single form-control"
+                                            id="how-you-know-us" name="Causes" style=" width: 100% !important;"
+                                            multiple>
+                                            <option value="Fundraising">Fundraising</option>
+                                            <option value="Digital_marketing_and_promotion">Digital marketing and promotion</option>
+                                            <option value="Content_creation_and_social_media">Content creation and social media</option>
+                                            <option value="Adminstrative_operations">Adminstrative operations</option>
+                                            <option value="Event_planning_and_coordination">Event planning and coordination</option>
+                                            <option value="Community_and_growth">Community and growth</option>
                                         </select>
                                     </div>
                                 </div>
 
-
-
-
-
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="msg"><strong>Your
-                                                Comments</strong></label>
+                                        <label for="msg"><strong>Please tell us about any work, volunteering, personal experience or skills that you have that are relevant to the role you are interested in </strong></label>
 
                                         <textarea class="form-control form-light" rows="5" name="msg"></textarea>
 
+                                    </div>
+                                </div>
+                               
+                                <div class="col-md-6">
+                                    <div class="form-group" style="min-width: 100%;">
+                                        <label for="how-you-know-us"><strong>Availability - Number of months (Please select all available months) </strong></label>
+
+                                        <select
+                                            class=" theme-combo donation-select js-example-basic-single form-control"
+                                            id="availability" name="Causes" style=" width: 100% !important;"
+                                            multiple>
+                                            <option value="January">January</option>
+                                            <option value="February">February</option>
+                                            <option value="March">March</option>
+                                            <option value="April">April</option>
+                                            <option value="May">May</option>
+                                            <option value="June">June</option>
+                                            <option value="July">July</option>
+                                            <option value="August">August</option>
+                                            <option value="Septemeber">Septemeber</option>
+                                            <option value="October">October</option>
+                                            <option value="November">November</option>
+                                            <option value="December">December</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+
+
+
+
+                                <div class="col-md-6">
+                                    <div class="form-group" style="min-width: 100%;">
+                                        <label for="how-you-know-us"><strong>Availability - Number of months (Please select all available months) </strong></label>
+
+                                        <select
+                                            class=" theme-combo donation-select js-example-basic-single form-control"
+                                            id="Number_of_hours" name="Causes" style=" width: 100% !important;"
+                                            >
+                                            <option value="3_hours_a_week">3 hours a week</option>
+                                            <option value="4_hours_a_week">4 hours a week</option>
+                                            <option value="5_hours_a_week">5 hours a week</option>
+
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="col-md-12 mt-3">

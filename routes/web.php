@@ -27,8 +27,8 @@ Route::get('/get_involved', function () {
     return view('website.get_involved');
 });
 
-Route::get('/dfwwc_program', function () {
-    return view('website.dfWwc_program');
+Route::get('dfwwc_program', function () {
+    return view('website.dfwwc_program');
 });
 
 Route::get('/donation', function () {
