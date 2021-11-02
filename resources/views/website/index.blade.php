@@ -10,9 +10,30 @@
     }
 
 
-
+    /* 
     .bg-img-1 {
         background-image: url(../images/bg_1.jpg);
+
+    } */
+
+
+
+
+    @media (min-width: 1025px) {
+        #show-on-mobile {
+            display: none !important;
+        }
+    }
+
+    @media (max-width: 1281px) {
+
+        #wipe-on-mobile {
+            display: none !important;
+        }
+
+        #show-on-mobile {
+            display: block !important;
+        }
 
     }
 </style>
@@ -131,9 +152,10 @@
 </section>
 <div class="w-100 d-none d-sm-block d-lg-none spacer-60"></div>
 
-<section class="wide-tb-100 bg-green pt-0 welcome-broke-grid">
 
-    <div class="container">
+<section class=" wide-tb-100 bg-green pt-0 welcome-broke-grid">
+
+    <div class="container" id="wipe-on-mobile">
         <!-- <div class="welcome-icon"><i class="charity-love_hearts"></i></div> -->
         <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-3">
@@ -221,6 +243,108 @@
         </div>
     </div>
 </section>
+
+<!-- Vissible only on mobile -->
+<section id="show-on-mobile" class="pt-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="owl-carousel owl-theme" id="home-client-testimonials">
+
+                    <!-- Client Testimonials Slider Item -->
+                    <div class="item">
+                        <div class="client-testimonial dark">
+                            <!-- <div class="client-inner-content">
+                                <p>Gracious is a nonproﬁt organization supported by community leaders, corporate
+                                    sponsors, churches,
+                                    helpless etc. and concerned citizens</p>
+                            </div> -->
+                            <div class="text">
+                                <h3>SisterHood</h3>
+                                <p>A wonderful serenity has taken possession of my entire soul</p>
+                                <div class="text-md-right">
+                                    <a href="#" class="read-more-line"><span>Read More</span></a>
+                                </div>
+                            </div>
+                            <div class="client-testimonial-icon">
+                                <img src="assets/images/team_1.jpg" alt="">
+                                <div class="text">
+                                    <div class="name">Josefin Fashkin</div>
+                                    <div class="post">Senior Activist</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Client Testimonials Slider Item -->
+
+                    <!-- Client Testimonials Slider Item -->
+                    <div class="item">
+                        <div class="client-testimonial dark">
+                            <div class="client-inner-content">
+                                <i class="charity-quotes"></i>
+                                <p>Gracious is a nonproﬁt organization supported by community leaders, corporate
+                                    sponsors, churches,
+                                    helpless etc. and concerned citizens</p>
+                            </div>
+                            <div class="client-testimonial-icon">
+                                <img src="assets/images/team_2.jpg" alt="">
+                                <div class="text">
+                                    <div class="name">Josefin Fashkin</div>
+                                    <div class="post">Senior Activist</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Client Testimonials Slider Item -->
+
+                    <!-- Client Testimonials Slider Item -->
+                    <div class="item">
+                        <div class="client-testimonial dark">
+                            <div class="client-inner-content">
+                                <i class="charity-quotes"></i>
+                                <p>Gracious is a nonproﬁt organization supported by community leaders, corporate
+                                    sponsors, churches,
+                                    helpless etc. and concerned citizens</p>
+                            </div>
+                            <div class="client-testimonial-icon">
+                                <img src="assets/images/team_3.jpg" alt="">
+                                <div class="text">
+                                    <div class="name">Josefin Fashkin</div>
+                                    <div class="post">Senior Activist</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Client Testimonials Slider Item -->
+
+                    <!-- Client Testimonials Slider Item -->
+                    <div class="item">
+                        <div class="client-testimonial dark">
+                            <div class="client-inner-content">
+                                <i class="charity-quotes"></i>
+                                <p>Gracious is a nonproﬁt organization supported by community leaders, corporate
+                                    sponsors, churches,
+                                    helpless etc. and concerned citizens</p>
+                            </div>
+                            <div class="client-testimonial-icon">
+                                <img src="assets/images/team_1.jpg" alt="">
+                                <div class="text">
+                                    <div class="name">Josefin Fashkin</div>
+                                    <div class="post">Senior Activist</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Client Testimonials Slider Item -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Visible only on mobile  -->
+
+
 
 <!-- Main Body Content Start -->
 <main id="body-content" class="body-non-overflow">

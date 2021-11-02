@@ -61,6 +61,19 @@
         }
 
     }
+
+    @media (max-width: 575px) {
+
+        .become-volunteers .inner-form,
+        .donation-wrap {
+            padding: 2px
+        }
+
+        .modal-content {
+            padding: 10px !important;
+        }
+
+    }
 </style>
 <!-- Volunteer Modal Css End -->
 
