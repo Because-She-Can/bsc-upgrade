@@ -814,7 +814,6 @@
         </div>
 
     </div>
-    </div>
 
 </section>
 
