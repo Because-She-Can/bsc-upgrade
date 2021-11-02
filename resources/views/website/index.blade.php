@@ -150,44 +150,40 @@
         </div>
     </div>
 </section>
-<div class="w-100 d-none d-sm-block d-lg-none spacer-60"></div>
+<div class="ww-100 d-none d-sm-block d-lg-none spacer-60"></div>
 
 
-<section class=" wide-tb-100 bg-green pt-0 welcome-broke-grid">
+<section class=" pb-0 bg-green pt-0 welcome-broke-grid">
 
     <div class="container" id="wipe-on-mobile">
         <!-- <div class="welcome-icon"><i class="charity-love_hearts"></i></div> -->
         <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-3">
-                <!-- Icon Boxes Image Style -->
-                <div class="icon-box-with-img">
-                    <div class="img">
-                        <img src="images/body-images/home/sisterhood.jpeg" alt="">
+
+                <div class="team-section-wrap mb-0">
+                    <div class="img green">
+
+                        <img src="images/body-images/home/sisterhood.jpeg" alt="" class="rounded-circle">
                     </div>
-                    <div class="text">
-                        <h3>SisterHood</h3>
-                        <p>A wonderful serenity has taken possession of my entire soul</p>
-                        <div class="text-md-right">
-                            <a href="#" class="read-more-line"><span>Read More</span></a>
-                        </div>
-                    </div>
+                    <h4>SisterHood</h4>
+                    <h5>A wonderful serenity has taken possession of my entire soul A wonderful serenity has
+                        taken possession of my entire soul</h5>
+
                 </div>
                 <!-- Icon Boxes Image Style -->
             </div>
 
             <div class="col-sm-6 col-md-6 col-lg-3">
                 <!-- Icon Boxes Image Style -->
-                <div class="icon-box-with-img">
-                    <div class="img">
-                        <img src="images/body-images/home/collaborate.jpeg" alt="">
+                <div class="team-section-wrap mb-0">
+                    <div class="img green">
+
+                        <img src="images/body-images/home/collaborate.jpeg" alt="" class="rounded-circle">
                     </div>
-                    <div class="text">
-                        <h3>Collaborate</h3>
-                        <p>A wonderful serenity has taken possession of my entire soul</p>
-                        <div class="text-md-right">
-                            <a href="#" class="read-more-line"><span>Read More</span></a>
-                        </div>
-                    </div>
+                    <h4>Collaborate</h4>
+                    <h5> A wonderful serenity has taken possession of my entire soul A wonderful serenity
+                        has taken possession of my entire soul </h5>
+
                 </div>
                 <!-- Icon Boxes Image Style -->
             </div>
@@ -198,17 +194,15 @@
 
             <div class="col-sm-6 col-md-6 col-lg-3">
                 <!-- Icon Boxes Image Style -->
-                <div class="icon-box-with-img">
-                    <div class="img">
-                        <img src="images/body-images/home/Community.jpeg" alt="">
+                <div class="team-section-wrap mb-0">
+                    <div class="img green">
+
+                        <img src="images/body-images/home/Community.jpeg" alt="" class="rounded-circle">
                     </div>
-                    <div class="text">
-                        <h3>Get Involved</h3>
-                        <p>A wonderful serenity has taken possession of my entire soul</p>
-                        <div class="text-md-right">
-                            <a href="#" class="read-more-line"><span>Read More</span></a>
-                        </div>
-                    </div>
+                    <h4>Get Involved</h4>
+                    <h5>A wonderful serenity has taken possession of my entire soul A wonderful serenity has
+                        taken possession of my entire soul</h5>
+
                 </div>
                 <!-- Icon Boxes Image Style -->
             </div>
@@ -216,17 +210,17 @@
 
             <div class="col-sm-6 col-md-6 col-lg-3">
                 <!-- Icon Boxes Image Style -->
-                <div class="icon-box-with-img">
-                    <div class="img">
-                        <img src="images/body-images/home/Change.jpeg" alt="">
+                <div class="team-section-wrap mb-0">
+                    <div class="img green">
+
+                        <img src="images/body-images/home/Change.jpeg" alt="" class="rounded-circle">
                     </div>
-                    <div class="text">
-                        <h3>Change</h3>
-                        <p>A wonderful serenity has taken possession of my entire soul</p>
-                        <div class="text-md-right">
-                            <a href="#" class="read-more-line"><span>Read More</span></a>
-                        </div>
-                    </div>
+                    <h4> Change</h4>
+                    <h5>A wonderful serenity has taken possession of my entire soul A wonderful serenity has
+                        taken possession of my entire soul Change possession f my entire soul Change
+                        possession ssion of my entire soul Change possession f my entire soul Change
+                        possession </h5>
+
                 </div>
                 <!-- Icon Boxes Image Style -->
             </div>
@@ -254,24 +248,35 @@
                     <!-- Client Testimonials Slider Item -->
                     <div class="item">
                         <div class="client-testimonial dark">
-                            <!-- <div class="client-inner-content">
-                                <p>Gracious is a nonproﬁt organization supported by community leaders, corporate
-                                    sponsors, churches,
-                                    helpless etc. and concerned citizens</p>
-                            </div> -->
-                            <div class="text">
-                                <h3>SisterHood</h3>
-                                <p>A wonderful serenity has taken possession of my entire soul</p>
-                                <div class="text-md-right">
-                                    <a href="#" class="read-more-line"><span>Read More</span></a>
+                            <!-- Team Column One -->
+                            <div class="team-section-wrap mb-0">
+                                <div class="img green">
+
+                                    <img src="images/body-images/home/sisterhood.jpeg" alt="" class="rounded-circle">
                                 </div>
+                                <h4>SisterHood</h4>
+                                <h5>A wonderful serenity has taken possession of my entire soul A wonderful serenity has
+                                    taken possession of my entire soul</h5>
+
                             </div>
-                            <div class="client-testimonial-icon">
-                                <img src="assets/images/team_1.jpg" alt="">
-                                <div class="text">
-                                    <div class="name">Josefin Fashkin</div>
-                                    <div class="post">Senior Activist</div>
+
+                        </div>
+                    </div>
+                    <!-- Client Testimonials Slider Item -->
+
+                    <!-- Client Testimonials Slider Item -->
+                    <div class="item">
+                        <div class="client-testimonial dark">
+                            <!-- Team Column One -->
+                            <div class="team-section-wrap mb-0">
+                                <div class="img green">
+
+                                    <img src="images/body-images/home/collaborate.jpeg" alt="" class="rounded-circle">
                                 </div>
+                                <h4>Collaborate</h4>
+                                <h5> A wonderful serenity has taken possession of my entire soul A wonderful serenity
+                                    has taken possession of my entire soul </h5>
+
                             </div>
                         </div>
                     </div>
@@ -280,18 +285,16 @@
                     <!-- Client Testimonials Slider Item -->
                     <div class="item">
                         <div class="client-testimonial dark">
-                            <div class="client-inner-content">
-                                <i class="charity-quotes"></i>
-                                <p>Gracious is a nonproﬁt organization supported by community leaders, corporate
-                                    sponsors, churches,
-                                    helpless etc. and concerned citizens</p>
-                            </div>
-                            <div class="client-testimonial-icon">
-                                <img src="assets/images/team_2.jpg" alt="">
-                                <div class="text">
-                                    <div class="name">Josefin Fashkin</div>
-                                    <div class="post">Senior Activist</div>
+                            <!-- Team Column One -->
+                            <div class="team-section-wrap mb-0">
+                                <div class="img green">
+
+                                    <img src="images/body-images/home/Community.jpeg" alt="" class="rounded-circle">
                                 </div>
+                                <h4>Get Involved</h4>
+                                <h5>A wonderful serenity has taken possession of my entire soul A wonderful serenity has
+                                    taken possession of my entire soul</h5>
+
                             </div>
                         </div>
                     </div>
@@ -300,38 +303,17 @@
                     <!-- Client Testimonials Slider Item -->
                     <div class="item">
                         <div class="client-testimonial dark">
-                            <div class="client-inner-content">
-                                <i class="charity-quotes"></i>
-                                <p>Gracious is a nonproﬁt organization supported by community leaders, corporate
-                                    sponsors, churches,
-                                    helpless etc. and concerned citizens</p>
-                            </div>
-                            <div class="client-testimonial-icon">
-                                <img src="assets/images/team_3.jpg" alt="">
-                                <div class="text">
-                                    <div class="name">Josefin Fashkin</div>
-                                    <div class="post">Senior Activist</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Client Testimonials Slider Item -->
+                            <!-- Team Column One -->
+                            <div class="team-section-wrap mb-0">
+                                <div class="img green">
 
-                    <!-- Client Testimonials Slider Item -->
-                    <div class="item">
-                        <div class="client-testimonial dark">
-                            <div class="client-inner-content">
-                                <i class="charity-quotes"></i>
-                                <p>Gracious is a nonproﬁt organization supported by community leaders, corporate
-                                    sponsors, churches,
-                                    helpless etc. and concerned citizens</p>
-                            </div>
-                            <div class="client-testimonial-icon">
-                                <img src="assets/images/team_1.jpg" alt="">
-                                <div class="text">
-                                    <div class="name">Josefin Fashkin</div>
-                                    <div class="post">Senior Activist</div>
+                                    <img src="images/body-images/home/Change.jpeg" alt="" class="rounded-circle">
                                 </div>
+                                <h4> Change</h4>
+                                <h5>A wonderful serenity has taken possession of my entire soul A wonderful serenity has
+                                    taken possession of my entire soul Change possession f my entire soul Change
+                                    possession </h5>
+
                             </div>
                         </div>
                     </div>
@@ -517,6 +499,69 @@
     </section>
 
     <!-- Event Style End -->
+    <!--=================================
+ Member benefits -->
+
+    <section class="wide-tb-100 our-service bg-white topPad " style=" padding-bottom: 50px ;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>A membership that gives <br> you what you need</h2>
+                    <p>You’re going places. And whether you’re just starting your career or
+                        you’re contemplating a <br> career change, Girls in Tech is here to
+                        help lift you up. </p>
+                </div>
+            </div>
+        </div>
+        <div class="container three-columns columns-wrap">
+            <div class="row" style="text-align: center;">
+                <!-- image 1 -->
+
+                <div class="col-12 col-md-4 text-center">
+                    <figure>
+                        <img width="260" height="260" src="images/team/afi.jpeg" class="" alt="" loading="lazy">
+                    </figure>
+                    <div class="text">
+                        <h4>Career Development</h4>
+                        <p>Add a new skill to your resume, or change career tracks. </p>
+                    </div>
+                </div>
+                <!-- imgae 2 -->
+                <div class="col-12 col-md-4 text-center">
+                    <figure>
+                        <img width="260" height="260" src="images/team/otema.jpeg" class="" alt="" loading="lazy">
+                    </figure>
+                    <div class="text">
+                        <h4>Connections & Guidance</h4>
+                        <p>Learn from a mentor, and connect with other professionals.</p>
+                    </div>
+                </div>
+                <!-- image 3 -->
+                <div class="col-12 col-md-4 text-center">
+                    <figure>
+                        <img width="260" height="260" src="images/team/samira.jpeg" class="" alt="" loading="lazy">
+                    </figure>
+                    <div class="text">
+                        <h4>The Right Job</h4>
+                        <p>Make your next move. Our Jobs Board has new listings every week.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a class="nav-link btn btn-default ml-3 donate-btn" href="get_involved">Join
+                        For Free Today</a>
+                    <p>Be a part of something great. Membership is free.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=================================
+Member Benefits-->
 
     <!-- Callout Style Start -->
     <section class="wide-tb-100 bg-scroll bg-img-1 pos-rel callout-style-1">
@@ -580,6 +625,7 @@
         </div>
     </section>
     <!-- Callout Style End -->
+
 
 
     <!-- Our Partners Start -->
