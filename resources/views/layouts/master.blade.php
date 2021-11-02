@@ -46,7 +46,7 @@
             position: relative;
         }
 
-        @media (max-width: 767px) {
+        @media (max-width: 992px) {
 
             .banner-top {
                 margin-top: 5px;
@@ -54,6 +54,13 @@
             }
 
         }
+
+    @media only screen and (max-width: 760px) {
+        #usefulLinks, #aboutus {
+            display: none;
+        }
+
+    }
 
         /*END banner of header style not prt of footer */
         a {
@@ -522,7 +529,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div id="usefulLinks" class="col-md-6 col-lg-3">
                     <div class="footer-links">
                         <h3>Useful Links</h3>
                         <a href="dfwwc_program"><i class="icofont-rounded-right"></i>December 4 women who code</a>
@@ -532,7 +539,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div id="aboutus" class="col-md-6 col-lg-3">
                     <div class="footer-links">
                         <h3>About Us</h3>
 

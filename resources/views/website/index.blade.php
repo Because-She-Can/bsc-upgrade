@@ -16,16 +16,18 @@
 
     } */
 
+    /* #show-on-mobile {
+            display: block !important;
+        } */
 
 
-
-    @media (min-width: 1025px) {
+    @media (min-width: 1020px) {
         #show-on-mobile {
             display: none !important;
         }
     }
 
-    @media (max-width: 1281px) {
+    @media (max-width: 600px) {
 
         #wipe-on-mobile {
             display: none !important;
@@ -33,6 +35,18 @@
 
         #show-on-mobile {
             display: block !important;
+        }
+
+    }
+
+    @media (max-width: 990px) {
+
+        #show-on-mobile {
+            display: none;
+        }
+
+        .spacer-60 {
+            min-height: 10px;
         }
 
     }
@@ -217,9 +231,7 @@
                     </div>
                     <h4> Change</h4>
                     <h5>A wonderful serenity has taken possession of my entire soul A wonderful serenity has
-                        taken possession of my entire soul Change possession f my entire soul Change
-                        possession ssion of my entire soul Change possession f my entire soul Change
-                        possession </h5>
+                        taken possession of my </h5>
 
                 </div>
                 <!-- Icon Boxes Image Style -->
@@ -519,7 +531,7 @@
 
                 <div class="col-12 col-md-4 text-center">
                     <figure>
-                        <img width="260" height="260" src="images/team/afi.jpeg" class="" alt="" loading="lazy">
+                        <img width="260" height="260" src="images/body-images/home/Change.jpeg" alt="">
                     </figure>
                     <div class="text">
                         <h4>Career Development</h4>
@@ -529,7 +541,7 @@
                 <!-- imgae 2 -->
                 <div class="col-12 col-md-4 text-center">
                     <figure>
-                        <img width="260" height="260" src="images/team/otema.jpeg" class="" alt="" loading="lazy">
+                        <img width="260" height="260" src="images/body-images/home/Change.jpeg" class="" alt="">
                     </figure>
                     <div class="text">
                         <h4>Connections & Guidance</h4>
@@ -539,7 +551,7 @@
                 <!-- image 3 -->
                 <div class="col-12 col-md-4 text-center">
                     <figure>
-                        <img width="260" height="260" src="images/team/samira.jpeg" class="" alt="" loading="lazy">
+                        <img width="260" height="260" src="images/body-images/home/Change.jpeg" class="" alt="">
                     </figure>
                     <div class="text">
                         <h4>The Right Job</h4>
