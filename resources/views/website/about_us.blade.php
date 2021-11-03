@@ -190,14 +190,14 @@ inner-intro -->
                     <h2 style="color: aliceblue;font-size:25px;">WE ARE ON A MISSION TO BRIDGE THE GENDER
                         DIGITAL DIVIDE</h2>
                     <br>
-                    <q style="color: aliceblue;">The gender digital divide in connectivity, devices and use, skills and
+                    <q style="color: aliceblue; font-size:20px">The gender digital divide in connectivity, devices and use, skills and
                         jobs is real. It is an inequity and an exclusion gap across geographies and generations
                         that is
-                        our challenge to address if the digital revolution is to be for all,<br> with all and by all.
+                        our challenge to address if the digital revolution is to be for all,<br> with all and by all. -UN 
 
 
 
-                    </q> <span style="color:#db2d2e;font-size: 22px; font-weight:bold"> -UN </span>
+                    </q>
 
                 </div>
 
@@ -221,7 +221,7 @@ inner-intro -->
 
                     <p>
                         Because She Can LBG is a non-profit that is actively interested and involved in assisting women
-                        looking to pursue careers in Technology mainly through mentorship and training opportunities..
+                        looking to pursue careers in Technology mainly through mentorship and training opportunities
 
 
                         <!-- Spacer For Medium -->
@@ -241,7 +241,7 @@ inner-intro -->
                 <!-- Spacer For Medium -->
 
                 <div class="col-lg-6 col-md-12">
-                    <img class="img-fluid" src="images/body-images/aboutSide.png" alt="about-content-image"
+                    <img class="img-fluid" src="images/body-images/aboutSide.jpeg" alt="about-content-image"
                         style="border-radius:7px">
 
 
@@ -272,7 +272,7 @@ our-service -->
                                                 class="icon-list "></span>Our History
                                         </li>
                                         <li data-tabs="tab2" class=""> <span aria-hidden="true"
-                                                class="icon-equalizer"></span> Our Vission
+                                                class="icon-equalizer"></span> Our Vision
                                         </li>
                                         <li data-tabs="tab3" class=""> <span aria-hidden="true"
                                                 class="icon-diamond"></span> Our Mission
@@ -433,11 +433,11 @@ our-service -->
     <!-- Faq's Style End -->
 
     <!-- Our Proframs start -->
-
+<!-- 
     <section class="wide-tb-100 bg-green  welcome-broke-grid">
-        <div class="container">
+        <div class="container"> -->
             <!-- <div class="welcome-icon"><i class="charity-love_hearts"></i></div> -->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-5 col-md-12">
                     <h1 class="heading-main">
                         <small>Tech Needs You Just Are You Are</small>
@@ -447,9 +447,9 @@ our-service -->
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="col-sm-6 col-md-6 col-lg-4"> -->
                     <!-- Icon Boxes Image Style -->
-                    <div class="icon-box-with-img">
+                    <!-- <div class="icon-box-with-img">
                         <div class="img">
                             <a href="#"><img src="assets/images/causes/causes_img_1.jpg" alt=""></a>
                         </div>
@@ -460,13 +460,13 @@ our-service -->
                                 <a href="dfwwc_program" class="read-more-line"><span>Read More</span></a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Icon Boxes Image Style -->
-                </div>
+                <!-- </div>
 
-                <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="col-sm-6 col-md-6 col-lg-4"> -->
                     <!-- Icon Boxes Image Style -->
-                    <div class="icon-box-with-img">
+                    <!-- <div class="icon-box-with-img">
                         <div class="img">
                             <a href="#"><img src="assets/images/causes/causes_img_4.jpg" alt=""></a>
                         </div>
@@ -477,17 +477,17 @@ our-service -->
                                 <a href="#" class="read-more-line"><span>Read More</span></a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Icon Boxes Image Style -->
                 </div>
 
                 <!-- Spacer For Medium -->
-                <div class="w-100 d-none d-sm-none d-md-block d-lg-none spacer-60"></div>
+                <!-- <div class="w-100 d-none d-sm-none d-md-block d-lg-none spacer-60"></div> -->
                 <!-- Spacer For Medium -->
 
-                <div class="col-sm-6 col-md-6 col-lg-4">
+                <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
                     <!-- Icon Boxes Image Style -->
-                    <div class="icon-box-with-img">
+                    <!-- <div class="icon-box-with-img">
                         <div class="img">
                             <a href="#"><img src="assets/images/causes/causes_img_3.jpg" alt=""></a>
                         </div>
@@ -498,9 +498,9 @@ our-service -->
                                 <a href="#" class="read-more-line"><span>Read More</span></a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Icon Boxes Image Style -->
-                </div>
+                <!-- </div>
 
 
 
@@ -521,7 +521,7 @@ our-service -->
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!-- Our Programs End -->
@@ -578,10 +578,10 @@ our-service -->
                             <img src="images/team/Afi.jpeg" alt="Afi image" class="rounded-circle">
                         </div>
                         <h4>Kweyakie Afi Blebo</h4>
-                        <h5>co-Founder</h5>
-                        <div class="text-md-right">
+                        <h5>co-Founder || Programs Manager</h5>
+                        <!-- <div class="text-md-right">
                             <a href="#" class="read-more-line"><span>Read More</span></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <!-- Team Column One -->
@@ -596,13 +596,13 @@ our-service -->
                                 <!-- <a href="#"><i class="icofont-twitter"></i></a>
                             <a href="#"><i class="icofont-instagram"></i></a> -->
                             </div>
-                            <img src="images/team/Otema.jpeg" alt="otema image" class="rounded-circle">
+                            <img src="images/team/Otema.png" alt="otema image" class="rounded-circle">
                         </div>
                         <h4>Otema Yirenkyi</h4>
-                        <h5>co-Founder</h5>
-                        <div class="text-md-right">
+                        <h5>co-Founder || Operations Manager</h5>
+                        <!-- <div class="text-md-right">
                             <a href="#" class="read-more-line"><span>Read More</span></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <!-- Team Column One -->
@@ -620,13 +620,13 @@ our-service -->
                                 <!-- <a href="#"><i class="icofont-twitter"></i></a>
                             <a href="#"><i class="icofont-instagram"></i></a> -->
                             </div>
-                            <img src="images/team/Samira.jpeg" alt="Tema Member" class="rounded-circle">
+                            <img src="images/team/tem4.jpeg" alt="Tema Member" class="rounded-circle">
                         </div>
                         <h4>Hillary Owusu</h4>
                         <h5>Brand and Content Strategist</h5>
-                        <div class="text-md-right">
+                        <!-- <div class="text-md-right">
                             <a href="#" class="read-more-line"><span>Read More</span></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <!-- Team Column One -->
