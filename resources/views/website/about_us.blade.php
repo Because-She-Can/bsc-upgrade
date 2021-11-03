@@ -77,6 +77,15 @@
 
 
     }
+
+    .centered {
+        left: 50%;
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        width: auto;
+        transform: translate(-50%, -50%);
+    }
 </style>
 <!-- style for tabs end -->
 <style>
@@ -130,6 +139,17 @@
             display: block;
         }
 
+        .mobile-centered {
+            padding-top: 20px !important;
+
+        }
+
+    }
+
+    .mobile-centered {
+
+        padding-top: 100px;
+
     }
 
     .bg-img-6 {
@@ -141,36 +161,28 @@
 
 
 <body>
-    <!--=================================
-loading -->
 
-    <!-- <div id="loading">
-    <div id="loading-center">
-      <img src="images/loader.gif" alt="" />
-    </div>
-  </div> -->
-
-    <!--=================================
-loading -->
-
-    <!--=================================
-header -->
 
     <!--=================================
 inner-intro -->
 
     <section class="inner-intro  bg-1 bg-overlay-black-70 banner-top">
         <div class="container">
-            <div class="row text-center intro-title">
-                <!-- <div class="col-8  d-inline-block">
-                <h2 style="color: aliceblue;">Hi, We're Stack</h2>
-                <br>
-                <p style="color: aliceblue;">Galley of bled it lorem Ipsum is simply dummy textit lorem Ipsum is simply dummy
-                    textit lorem Ipsum is simply dummy text of the k a to make a type book. but also the leap into electronic
-                    typesetting.
+            <div class="row text-center mobile-centered ">
+                <div class="col-12 d-inline-block">
+                    <h2 style="color: aliceblue;font-size:25px;">WE ARE ON A MISSION TO BRIDGE THE GENDER
+                        DIGITAL DIVIDE</h2>
+                    <br>
+                    <q style="color: aliceblue;">The gender digital divide in connectivity, devices and use, skills and
+                        jobs is real. It is an inequity and an exclusion gap across geographies and generations
+                        that is
+                        our challenge to address if the digital revolution is to be for all,<br> with all and by all.
 
-                </p>
-            </div> -->
+
+
+                    </q> <span style="color:#db2d2e;font-size: 22px; font-weight:bold"> -UN </span>
+
+                </div>
 
             </div>
         </div>

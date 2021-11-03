@@ -55,7 +55,7 @@
     }
 
     .topPad1 {
-        padding-top: 150px;
+        padding-top: 200px;
     }
 
 
@@ -208,9 +208,9 @@
             padding-top: 0px;
         }
 
-        .topPad1 {
+        /*.topPad1 {
             padding-top: 5px;
-        }
+        }*/
 
         .breadcrumbs-page h1 {
             color: #FFF;
@@ -230,6 +230,18 @@
 
     #form-title {
         text-align: center !important;
+    }
+
+
+    .mx-auto2 {
+        margin-right: 0 !important;
+        margin-left: auto !important;
+
+    }
+
+    .mt-2x {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
     }
 </style>
 <!-- Page Breadcrumbs Start -->
@@ -761,20 +773,30 @@
     <div class=" ruu container">
         <div class="row">
             <div class="col-lg-6 col-md-12">
-                <img class="img-fluid" src="images/body-images/ImageGrid.jpeg" alt="about-content-image"
+                <img class="img-fluid" src="images/body-images/image-grid.png" alt="about-content-image"
                     style="border-radius:7px">
             </div>
 
 
             <div class="inner-title col-lg-offset-6 col-lg-6 bg-overlay-black-90 text">
-                <h4 class=""> <strong> We’re changing tech</strong> </h4>
+                <h2 style="color: #D59B2D;">We are bridging the gender digital divide one girl at a time ! </h2>
                 <p>
-                    As a member, you’ll have access to in-person and virtual events and workshops designed to help
-                    you grow professionally and personally. Plus, find a mentor, build meaningful relationships, and
-                    take advantage of our Jobs Board to find a job that’s right for you. Best part? Membership is
-                    free.
+                    Whatever your time commitments, we value you and your time and appreciate your efforts and
+                    contributions when you volunteer with us.
+                    Do you want to join a team of diverse volunteers with different levels of expertise ?
+                    We are an equal opportunity employer and strongly encourage you to apply.
+
                 </p>
-                <div class="icon-label">
+
+                <div class="row">
+                    <div class="col-lg-10 mx-auto2 welcome-home-first">
+
+                        <div class="text-center mt-2x text-md-right">
+                            <a href="about_us" class="btn btn-default">Apply as a volunteer</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="icon-label">
                     <span class="tag">
                         <figure class="icon-fluid">
                             <img class="img-fluid" src="images/body-images/EducationIcon.png" alt="about-content-image">
@@ -783,14 +805,6 @@
 
                     </span>
 
-
-                    <!--   <span class="tag">
-                    <figure class="icon-fluid">
-                        <img class="img-fluid" src="images/body-images/ExperiencesIcon.png" alt="about-content-image" >
-
-                    </figure>
-                     <strong>Experiences</strong>
-                </span> -->
 
                     <span class="tag">
                         <figure class="icon-fluid">
@@ -808,7 +822,7 @@
                         </figure>
                         <strong>Community</strong>
                     </span>
-                </div>
+                </div> -->
             </div>
 
         </div>
@@ -827,11 +841,17 @@
 
     <div class="container">
         <div class="row">
+
             <div class="col-12 text-center">
-                <h2>A membership that gives <br> you what you need</h2>
-                <p>You’re going places. And whether you’re just starting your career or
-                    you’re contemplating a <br> career change, Girls in Tech is here to
-                    help lift you up. </p>
+                <h2>Remember starting out in your tech journey ?
+                    <br>Did you have a mentor?
+                </h2>
+                <p>If yes, you probably have a good idea how important having a mentor to guide you in your field is.
+                    <br>
+                    Volunteer with us as a mentor. Help mentor the next generation of women in tech. <br>
+                    Join our on-demand pool of mentors with diverse skills and levels of expertise.
+
+                </p>
             </div>
         </div>
     </div>
@@ -844,7 +864,7 @@
                     <img width="260" height="260" src="images/team/afi.jpeg" class="" alt="" loading="lazy">
                 </figure>
                 <div class="text">
-                    <h4>Career Development</h4>
+                    <h4>Share knowledge</h4>
                     <p>Add a new skill to your resume, or change career tracks. </p>
                 </div>
             </div>
@@ -854,7 +874,7 @@
                     <img width="260" height="260" src="images/team/otema.jpeg" class="" alt="" loading="lazy">
                 </figure>
                 <div class="text">
-                    <h4>Connections & Guidance</h4>
+                    <h4>Motivate & support</h4>
                     <p>Learn from a mentor, and connect with other professionals.</p>
                 </div>
             </div>
@@ -864,7 +884,7 @@
                     <img width="260" height="260" src="images/team/samira.jpeg" class="" alt="" loading="lazy">
                 </figure>
                 <div class="text">
-                    <h4>The Right Job</h4>
+                    <h4>Develop leadership skills</h4>
                     <p>Make your next move. Our Jobs Board has new listings every week.
                     </p>
                 </div>
@@ -874,9 +894,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <a class="nav-link btn btn-default ml-3 donate-btn" href="#V-form">Join
-                    For Free Today</a>
-                <p>Be a part of something great. Membership is free.</p>
+                <a class="nav-link btn btn-default ml-3 donate-btn" href="#V-form">Apply to be a mentor</a>
+                <!-- <p>Be a part of something great. Membership is free.</p> -->
             </div>
         </div>
     </div>
@@ -885,6 +904,26 @@
 <!--=================================
    our-service -->
 
+
+<!-- Callout to donate Style Start -->
+<section class="  bg-scroll bg-img-1 pos-rel callout-style-1" style="padding-top: 100px;padding-bottom:100px; ">
+    <div class="bg-overlay black opacity-50"></div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-10">
+                <h1 class="heading-main light-mode orange" style="font-size: 1.4rem !important;">
+                    <small style="color:#D59B2D !important; font-size:14px">Your donations go a long way to ensure we
+                        achieve our goal </small>
+                    Proceeds from all donations go directly into supporting women in technology through workshops,
+                    coding bootcamps and mentorship initiatives and procurement of resources like computers and course
+                    vouchers for underprivileged women wanting to make their debut into the tech space.
+                </h1>
+                <a href="donation-page.html" class="btn btn-default">Donate Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Callout  to donate Style End -->
 
 
 <!-- Images Gallery Style Start -->
