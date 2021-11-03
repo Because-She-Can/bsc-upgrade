@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'December For Women Who Code')
+@section('title', 'Donate Now')
 
 @section('content')
 

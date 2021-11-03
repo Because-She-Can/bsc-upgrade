@@ -81,7 +81,7 @@
                                         Every Female Dev Deserves a Working Laptop
                                     </h1>
                                     <div class="owl-slide-animated owl-slide-cta">
-                                        <a class="btn btn-default mr-3" href="dfwwc_program" role="button">Read More</a>
+                                        <a class="btn btn-default mr-3" href="dfwwc_program" role="button">Join Us</a>
                                         <a class="slider-link popup-video" href="http://player.vimeo.com/video">Watch
                                             the video <i class="charity-play_button"></i></a>
                                     </div>
@@ -156,13 +156,13 @@
         <div class="row">
             <div class="col-lg-5 col-md-12">
                 <h1 class="heading-main">
-                    <small>Showing Her That She Can</small>
+                    <small>WELCOME TO BECAUSE SHE CAN</small>
                     <!-- What We Do -->
                 </h1>
 
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy text ever since the 1500s
+                    We are a beautiful community of women who are passionate about creating an enabling and encouraging
+                    environment for all women to thrive in the Technology space.
 
                     <!-- Spacer For Medium -->
                 <div class="w-100 d-none d-sm-block d-lg-none spacer-60"></div>
@@ -354,6 +354,71 @@
 <!-- Main Body Content Start -->
 <main id="body-content" class="body-non-overflow">
 
+
+    <!--=================================
+ Member benefits -->
+
+    <section class="wide-tb-100 our-service bg-white topPad " style=" padding-bottom: 50px ;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>A membership that gives <br> you what you need</h2>
+                    <p>You’re going places. And whether you’re just starting your career or
+                        you’re contemplating a <br> career change, Girls in Tech is here to
+                        help lift you up. </p>
+                </div>
+            </div>
+        </div>
+        <div class="container three-columns columns-wrap">
+            <div class="row" style="text-align: center;">
+                <!-- image 1 -->
+
+                <div class="col-12 col-md-4 text-center">
+                    <figure>
+                        <img width="260" height="260" src="images/body-images/home/Change.jpeg" alt="">
+                    </figure>
+                    <div class="text">
+                        <h4>Career Development</h4>
+                        <p>Add a new skill to your resume, or change career tracks. </p>
+                    </div>
+                </div>
+                <!-- imgae 2 -->
+                <div class="col-12 col-md-4 text-center">
+                    <figure>
+                        <img width="260" height="260" src="images/body-images/home/Change.jpeg" class="" alt="">
+                    </figure>
+                    <div class="text">
+                        <h4>Connections & Guidance</h4>
+                        <p>Learn from a mentor, and connect with other professionals.</p>
+                    </div>
+                </div>
+                <!-- image 3 -->
+                <div class="col-12 col-md-4 text-center">
+                    <figure>
+                        <img width="260" height="260" src="images/body-images/home/Change.jpeg" class="" alt="">
+                    </figure>
+                    <div class="text">
+                        <h4>The Right Job</h4>
+                        <p>Make your next move. Our Jobs Board has new listings every week.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a class="nav-link btn btn-default ml-3 donate-btn" href="get_involved">Join
+                        For Free Today</a>
+                    <p>Be a part of something great. Membership is free.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=================================
+Member Benefits-->
+
     <!-- Event Style Start -->
     <section class="wide-tb-100">
         <div class="container">
@@ -522,70 +587,6 @@
     </section>
 
     <!-- Event Style End -->
-    <!--=================================
- Member benefits -->
-
-    <section class="wide-tb-100 our-service bg-white topPad " style=" padding-bottom: 50px ;">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2>A membership that gives <br> you what you need</h2>
-                    <p>You’re going places. And whether you’re just starting your career or
-                        you’re contemplating a <br> career change, Girls in Tech is here to
-                        help lift you up. </p>
-                </div>
-            </div>
-        </div>
-        <div class="container three-columns columns-wrap">
-            <div class="row" style="text-align: center;">
-                <!-- image 1 -->
-
-                <div class="col-12 col-md-4 text-center">
-                    <figure>
-                        <img width="260" height="260" src="images/body-images/home/Change.jpeg" alt="">
-                    </figure>
-                    <div class="text">
-                        <h4>Career Development</h4>
-                        <p>Add a new skill to your resume, or change career tracks. </p>
-                    </div>
-                </div>
-                <!-- imgae 2 -->
-                <div class="col-12 col-md-4 text-center">
-                    <figure>
-                        <img width="260" height="260" src="images/body-images/home/Change.jpeg" class="" alt="">
-                    </figure>
-                    <div class="text">
-                        <h4>Connections & Guidance</h4>
-                        <p>Learn from a mentor, and connect with other professionals.</p>
-                    </div>
-                </div>
-                <!-- image 3 -->
-                <div class="col-12 col-md-4 text-center">
-                    <figure>
-                        <img width="260" height="260" src="images/body-images/home/Change.jpeg" class="" alt="">
-                    </figure>
-                    <div class="text">
-                        <h4>The Right Job</h4>
-                        <p>Make your next move. Our Jobs Board has new listings every week.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a class="nav-link btn btn-default ml-3 donate-btn" href="get_involved">Join
-                        For Free Today</a>
-                    <p>Be a part of something great. Membership is free.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--=================================
-Member Benefits-->
-
     <!-- Callout Style Start -->
     <section class="wide-tb-100 bg-scroll bg-img-1 pos-rel callout-style-1">
         <div class="bg-overlay black opacity-50"></div>

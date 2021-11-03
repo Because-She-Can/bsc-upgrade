@@ -792,8 +792,10 @@
                     <div class="col-lg-10 mx-auto2 welcome-home-first">
 
                         <div class="text-center mt-2x text-md-right">
-                            <a href="about_us" class="btn btn-default">Apply as a volunteer</a>
+                            <a href="javascript:void" class="btn btn-default" id="myBtn">Apply as a volunteer</a>
                         </div>
+                        @include('website.volunteer_form')
+
                     </div>
                 </div>
                 <!-- <div class="icon-label">
@@ -918,7 +920,7 @@
                     coding bootcamps and mentorship initiatives and procurement of resources like computers and course
                     vouchers for underprivileged women wanting to make their debut into the tech space.
                 </h1>
-                <a href="donation-page.html" class="btn btn-default">Donate Now</a>
+                <a href="donation" class="btn btn-default">Donate Now</a>
             </div>
         </div>
     </div>

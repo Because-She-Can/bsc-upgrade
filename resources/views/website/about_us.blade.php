@@ -328,7 +328,6 @@ our-service -->
                         <div class="row">
                             <div class="col-12 col-lg-6 col-md-12">
                                 <h1 class="heading-main light-mode">
-                                    <small>A Building A Safe Teh Space For All</small>
                                     Our Inclusion Policy
                                 </h1>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -342,6 +341,9 @@ our-service -->
                             <!-- Spacer For Medium -->
 
                             <div class="col-12 col-lg-6 col-md-12">
+                                <h1 class="heading-main light-mode">
+                                    <small>Our Core Values and Commitments</small>
+                                </h1>
                                 <div class="theme-collapse light">
                                     <!-- Toggle Links 1 -->
                                     <div class="toggle arrow-down">
