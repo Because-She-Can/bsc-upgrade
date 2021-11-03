@@ -157,6 +157,23 @@
         background-repeat: no-repeat;
         background-position: center center;
     }
+
+    @media (max-width: 699px) {
+        .faqs-wrap {
+            padding: 1rem;
+        }
+
+        ul.tabs {
+            padding: 0px 0px 0px 0px;
+            font-size: 16px;
+
+        }
+
+        #tabs .tabs li {
+            padding: 5px !important;
+        }
+
+    }
 </style>
 
 
