@@ -55,12 +55,14 @@
 
         }
 
-    @media only screen and (max-width: 760px) {
-        #usefulLinks, #aboutus {
-            display: none;
-        }
+        @media only screen and (max-width: 760px) {
 
-    }
+            #usefulLinks,
+            #aboutus {
+                display: none;
+            }
+
+        }
 
         /*END banner of header style not prt of footer */
         a {
@@ -334,20 +336,22 @@
             }
 
             .w-50 {
-                    width: 100%!important;
-                }
+                width: 100% !important;
+            }
 
         }
 
         @media (max-width: 575px) {
-            .top-bar-right .contact-info div:last-child, .donate-btn {
-             display: block;
-                }
-         
+
+            .top-bar-right .contact-info div:last-child,
+            .donate-btn {
+                display: block;
+            }
+
         }
 
-            
-/* 
+
+        /* 
         .gee {
             background-image: linear-gradient(to left, #51324c, #63425d, #75536f, #876481, #9a7694, #a885a2, #b695b0, #c5a5bf, #d1b6cc, #dec8da, #ead9e7, #f7ebf5);
         } */
@@ -356,18 +360,18 @@
     <!-- footer style end -->
 </head>
 
-    <!-- Page loader Start -->
-    <div id="pageloader">   
-        <div class="loader-item">
-            <div class="loader">
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-              </div>
+<!-- Page loader Start -->
+<div id="pageloader">
+    <div class="loader-item">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
         </div>
     </div>
-    <!-- Page loader End -->
+</div>
+<!-- Page loader End -->
 
 @yield('css')
 
@@ -393,12 +397,17 @@
 
                     <div class="col-md-auto">
                         <div class="social-icons">
-                            <a class="facebook" href="https://www.facebook.com/becauseshecan.africa"><i class="icofont-facebook"></i></a>
+                            <a class="facebook" href="https://www.facebook.com/becauseshecan.africa"><i
+                                    class="icofont-facebook"></i></a>
                             <a class="twitter" href="https://twitter.com/becauseshecan_?lang=en" target="_blank"><i
                                     class="icofont-twitter"></i></a>
-                            <a class="instagram" href="https://www.instagram.com/becauseshecan_/"><i class="icofont-instagram"></i></a>
-                            <a class="linkedin" href="https://www.linkedin.com/company/becauseshecan"><i class="icofont-linkedin"></i></a>
-                            <a class="youtube" href="https://www.youtube.com/channel/UC_fmMEQ4ji0euE7FgQj9RMA/featured"><i class="icofont-youtube-play"></i></a>
+                            <a class="instagram" href="https://www.instagram.com/becauseshecan_/"><i
+                                    class="icofont-instagram"></i></a>
+                            <a class="linkedin" href="https://www.linkedin.com/company/becauseshecan"><i
+                                    class="icofont-linkedin"></i></a>
+                            <a class="youtube"
+                                href="https://www.youtube.com/channel/UC_fmMEQ4ji0euE7FgQj9RMA/featured"><i
+                                    class="icofont-youtube-play"></i></a>
                         </div>
                     </div>
                 </div>
@@ -433,14 +442,14 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse" data-hover="dropdown"
                     data-animations="slideInUp slideInUp slideInUp slideInUp">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item ">
+                        <li class="nav-item {{ request()->is('/') ? 'active' : '' }} ">
                             <a class="nav-link " href="/">Home</a>
 
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item {{ request()->is('about_us') ? 'active' : '' }}">
                             <a class="nav-link" href="about_us">About Us</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown {{ request()->is('dfwwc_program') ? 'active' : '' }}">
                             <a class="nav-link dropdown-toggle-mob" href="#" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">Programs <i class="icofont-rounded-down"></i>
                             </a>
@@ -456,7 +465,7 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item ">
+                        <li class="nav-item  {{ request()->is('get_involved') ? 'active' : '' }}">
                             <a class="nav-link " href="get_involved">Get Involved </a>
 
                         </li>
@@ -507,7 +516,8 @@
                                     class="icofont-facebook"></i></a>
                             <a class="linkedin" href="https://www.linkedin.com/company/becauseshecan" target="_blank"><i
                                     class="icofont-linkedin"></i></a>
-                            <a class="youtube" href="https://www.youtube.com/channel/UC_fmMEQ4ji0euE7FgQj9RMA/featured" target="_blank"><i class="icofont-youtube"></i></a>
+                            <a class="youtube" href="https://www.youtube.com/channel/UC_fmMEQ4ji0euE7FgQj9RMA/featured"
+                                target="_blank"><i class="icofont-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -552,7 +562,7 @@
                 </div>
             </div>
         </div>
-        <div class="container footer-newsletter">
+        <!-- <div class="container footer-newsletter">
             <h5> Subscribe To Our News Letter</h5>
 
             <div class="row form">
@@ -566,7 +576,7 @@
                     <button class="btn">Subscribe</button>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="copyright">
             <div class="container">
                 <div class="row align-items-center">
@@ -712,7 +722,7 @@
             e.preventDefault();
     }
 </script> -->
-<!-- 
+    <!-- 
 <script>
     function inpNum(e) {
         e = e || window.event;
@@ -722,29 +732,29 @@
             e.preventDefault();
     }
 </script> -->
-<script>
-    var inputEl = document.getElementById('tel');
-var goodKey = '0123456789+ ';
+    <script>
+        var inputEl = document.getElementById('tel');
+        var goodKey = '0123456789+ ';
 
-var checkInputTel = function(e) {
-  var key = (typeof e.which == "number") ? e.which : e.keyCode;
-  var start = this.selectionStart,
-    end = this.selectionEnd;
+        var checkInputTel = function (e) {
+            var key = (typeof e.which == "number") ? e.which : e.keyCode;
+            var start = this.selectionStart,
+                end = this.selectionEnd;
 
-  var filtered = this.value.split('').filter(filterInput);
-  this.value = filtered.join("");
+            var filtered = this.value.split('').filter(filterInput);
+            this.value = filtered.join("");
 
-  /* Prevents moving the pointer for a bad character */
-  var move = (filterInput(String.fromCharCode(key)) || (key == 0 || key == 8)) ? 0 : 1;
-  this.setSelectionRange(start - move, end - move);
-}
+            /* Prevents moving the pointer for a bad character */
+            var move = (filterInput(String.fromCharCode(key)) || (key == 0 || key == 8)) ? 0 : 1;
+            this.setSelectionRange(start - move, end - move);
+        }
 
-var filterInput = function(val) {
-  return (goodKey.indexOf(val) > -1);
-}
+        var filterInput = function (val) {
+            return (goodKey.indexOf(val) > -1);
+        }
 
-inputEl.addEventListener('input', checkInputTel);
-</script>
+        inputEl.addEventListener('input', checkInputTel);
+    </script>
 </body>
 @yield('scripts')
 

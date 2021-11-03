@@ -24,36 +24,11 @@
         margin-top: 10px;
     }
 
-    @media (min-width: 1020px) {
-        #show-on-mobile {
-            display: none !important;
-        }
-    }
 
-    @media (max-width: 600px) {
 
-        #wipe-on-mobile {
-            display: none !important;
-        }
 
-        #show-on-mobile {
-            display: block !important;
-        }
-
-    }
-
-    @media screen (min-width:768) {
-        #show-on-mobile {
-            display: none !important;
-        }
-        
-    }
 
     @media (max-width: 990px) {
-
-        #show-on-mobile {
-            display: none !important;
-        }
 
         .spacer-60 {
             min-height: 10px;
@@ -92,7 +67,8 @@
                                     </h1>
                                     <div class="owl-slide-animated owl-slide-cta">
                                         <a class="btn btn-default mr-3" href="dfwwc_program" role="button">Join Us</a>
-                                        <a class="slider-link popup-video" href="https://www.youtube.com/watch?v=tQ0Ff7zv_JQ">Watch
+                                        <a class="slider-link popup-video"
+                                            href="https://www.youtube.com/watch?v=tQ0Ff7zv_JQ">Watch
                                             the video <i class="icofont-play"></i></a>
                                     </div>
                                 </div>
@@ -177,8 +153,8 @@
                     <!-- Spacer For Medium -->
                 <div class="w-100 d-none d-sm-block d-lg-none spacer-60"></div>
                 <!-- Spacer For Medium -->
-                We're reaching girls around the world and are on track to close the gender gap in new entry-level
-                tech jobs by 2030.
+                Because She Can is on a mission to encourage and empower women and girls to excel in technology
+                disciplines and roles.
 
                 </p>
             </div>
@@ -193,31 +169,32 @@
     <div class="container" id="wipe-on-mobile">
         <!-- <div class="welcome-icon"><i class="charity-love_hearts"></i></div> -->
         <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-sm-6 col-md-6 col-lg-4">
 
                 <div class="team-section-wrap mb-0">
                     <div class="img green">
 
                         <img src="images/body-images/home/sisterhood.jpeg" alt="" class="rounded-circle">
                     </div>
-                    <h4>SisterHood</h4>
-                    <h5>A wonderful serenity has taken possession of my entire soul A wonderful serenity has
-                        taken possession of my entire soul</h5>
+                    <h4>Community</h4>
+                    <h5>We are introducing you to a family of women who are concerned about your holistic development
+                        from career to professional growth. We have your best interests at heart.</h5>
 
                 </div>
                 <!-- Icon Boxes Image Style -->
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-sm-6 col-md-6 col-lg-4">
                 <!-- Icon Boxes Image Style -->
                 <div class="team-section-wrap mb-0">
                     <div class="img green">
 
                         <img src="images/body-images/home/collaborate.jpeg" alt="" class="rounded-circle">
                     </div>
-                    <h4>Collaborate</h4>
-                    <h5> A wonderful serenity has taken possession of my entire soul A wonderful serenity
-                        has taken possession of my entire soul </h5>
+                    <h4>Mentorship</h4>
+                    <h5>We present to you all-year round mentorship where you get to interact with women in the
+                        Technology field. Regardless at whatever stage you find yourself, you have access to all levels
+                        of mentorships, whether one-on-one, peer etc.</h5>
 
                 </div>
                 <!-- Icon Boxes Image Style -->
@@ -227,36 +204,23 @@
             <div class="w-100 d-none d-sm-none d-md-block d-lg-none spacer-60"></div>
             <!-- Spacer For Medium -->
 
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-sm-6 col-md-6 col-lg-4">
                 <!-- Icon Boxes Image Style -->
                 <div class="team-section-wrap mb-0">
                     <div class="img green">
 
                         <img src="images/body-images/home/Community.jpeg" alt="" class="rounded-circle">
                     </div>
-                    <h4>Get Involved</h4>
-                    <h5>A wonderful serenity has taken possession of my entire soul A wonderful serenity has
-                        taken possession of my entire soul</h5>
+                    <h4>Training Opportunities</h4>
+                    <h5>You are exposed to training opportunities available to you in the industry of Technology. We
+                        help you identify your right fit in the world of Tech and give you the platform to learn as much
+                        as you can.</h5>
 
                 </div>
                 <!-- Icon Boxes Image Style -->
             </div>
 
 
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <!-- Icon Boxes Image Style -->
-                <div class="team-section-wrap mb-0">
-                    <div class="img green">
-
-                        <img src="images/body-images/home/Change.jpeg" alt="" class="rounded-circle">
-                    </div>
-                    <h4> Change</h4>
-                    <h5>A wonderful serenity has taken possession of my entire soul A wonderful serenity has
-                        taken possession of my </h5>
-
-                </div>
-                <!-- Icon Boxes Image Style -->
-            </div>
 
         </div>
 
@@ -271,93 +235,6 @@
     </div>
 </section>
 
-<!-- Vissible only on mobile -->
-<section id="show-on-mobile" class="pt-0">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="owl-carousel owl-theme" id="home-client-testimonials">
-
-                    <!-- Client Testimonials Slider Item -->
-                    <div class="item">
-                        <div class="client-testimonial dark">
-                            <!-- Team Column One -->
-                            <div class="team-section-wrap mb-0">
-                                <div class="img green">
-
-                                    <img src="images/body-images/home/sisterhood.jpeg" alt="" class="rounded-circle">
-                                </div>
-                                <h4>SisterHood</h4>
-                                <h5>A wonderful serenity has taken possession of my entire soul A wonderful serenity has
-                                    taken possession of my entire soul</h5>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- Client Testimonials Slider Item -->
-
-                    <!-- Client Testimonials Slider Item -->
-                    <div class="item">
-                        <div class="client-testimonial dark">
-                            <!-- Team Column One -->
-                            <div class="team-section-wrap mb-0">
-                                <div class="img green">
-
-                                    <img src="images/body-images/home/collaborate.jpeg" alt="" class="rounded-circle">
-                                </div>
-                                <h4>Collaborate</h4>
-                                <h5> A wonderful serenity has taken possession of my entire soul A wonderful serenity
-                                    has taken possession of my entire soul </h5>
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Client Testimonials Slider Item -->
-
-                    <!-- Client Testimonials Slider Item -->
-                    <div class="item">
-                        <div class="client-testimonial dark">
-                            <!-- Team Column One -->
-                            <div class="team-section-wrap mb-0">
-                                <div class="img green">
-
-                                    <img src="images/body-images/home/Community.jpeg" alt="" class="rounded-circle">
-                                </div>
-                                <h4>Get Involved</h4>
-                                <h5>A wonderful serenity has taken possession of my entire soul A wonderful serenity has
-                                    taken possession of my entire soul</h5>
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Client Testimonials Slider Item -->
-
-                    <!-- Client Testimonials Slider Item -->
-                    <div class="item">
-                        <div class="client-testimonial dark">
-                            <!-- Team Column One -->
-                            <div class="team-section-wrap mb-0">
-                                <div class="img green">
-
-                                    <img src="images/body-images/home/Change.jpeg" alt="" class="rounded-circle">
-                                </div>
-                                <h4> Change</h4>
-                                <h5>A wonderful serenity has taken possession of my entire soul A wonderful serenity has
-                                    taken possession of my entire soul Change possession f my entire soul Change
-                                    possession </h5>
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Client Testimonials Slider Item -->
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Visible only on mobile  -->
 
 
 
@@ -372,10 +249,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h2>A membership that gives <br> you what you need</h2>
-                    <p>You’re going places. And whether you’re just starting your career or
-                        you’re contemplating a <br> career change, Girls in Tech is here to
-                        help lift you up. </p>
+                    <h2>A membership that takes you from one phase of <br> your career in Tech to a better one</h2>
+                    <p>There is a place for everyone in this community. We appreciate diversity and <br> inclusion and
+                        whether you are starting your career in tech, transitioning <br> or an established woman, we
+                        have
+                        benefits curated just for you.</p>
                 </div>
             </div>
         </div>
@@ -388,8 +266,9 @@
                         <img width="260" height="260" src="images/body-images/home/Change.jpeg" alt="">
                     </figure>
                     <div class="text">
-                        <h4>Career Development</h4>
-                        <p>Add a new skill to your resume, or change career tracks. </p>
+                        <h4>Development focused</h4>
+                        <p>We ensure that your tech career and personal development is moving from one phase to a better
+                            one.</p>
                     </div>
                 </div>
                 <!-- imgae 2 -->
@@ -398,8 +277,8 @@
                         <img width="260" height="260" src="images/body-images/home/Change.jpeg" class="" alt="">
                     </figure>
                     <div class="text">
-                        <h4>Connections & Guidance</h4>
-                        <p>Learn from a mentor, and connect with other professionals.</p>
+                        <h4>Accessible</h4>
+                        <p>We are a community of women, you can easily reach out to with no protocols involved.</p>
                     </div>
                 </div>
                 <!-- image 3 -->
@@ -408,8 +287,9 @@
                         <img width="260" height="260" src="images/body-images/home/Change.jpeg" class="" alt="">
                     </figure>
                     <div class="text">
-                        <h4>The Right Job</h4>
-                        <p>Make your next move. Our Jobs Board has new listings every week.
+                        <h4>Openness</h4>
+                        <p>We are a community that is willing to expose the struggles women face in the tech industry
+                            and guide them to tackle one problem at a time.
                         </p>
                     </div>
                 </div>
@@ -420,7 +300,8 @@
                 <div class="col-12 text-center">
                     <a class="nav-link btn btn-default ml-3 donate-btn" href="get_involved">Join
                         For Free Today</a>
-                    <p>Be a part of something great. Membership is free.</p>
+                    <p>You are welcome. Membership is free.
+                    </p>
                 </div>
             </div>
         </div>
@@ -429,176 +310,9 @@
     <!--=================================
 Member Benefits-->
 
-    <!-- Event Style Start -->
-    <section class="wide-tb-100">
-        <div class="container">
-            <div class="row justify-content-between align-items-end">
-                <div class="col-lg-6 col-md-8">
-                    <h1 class="heading-main">
-                        <small>We Just Love What We Do</small>
-                        Some OF Our Most Recent Projects
-                    </h1>
-                </div>
 
-            </div>
-
-            <div class="owl-carousel owl-theme" id="home-second-causes">
-
-                <!-- Events Alternate Wrap -->
-                <div class="item">
-                    <div class="event-wrap-alternate">
-                        <!-- Event Wrap -->
-                        <div class="img-wrap">
-                            <div class="date-box">
-                                05 <span>Aug</span>
-                            </div>
-                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_1.jpg"
-                                    alt=""></a>
-                            <div class="content-wrap">
-                                <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
-                                </h3>
-                                <div class="event-details">
-                                    <div><i data-feather="clock"></i> 09:00 Am</div>
-                                    <div><i data-feather="map-pin"></i> Midpoint Center</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Event Wrap -->
-                    </div>
-                </div>
-                <!-- Events Alternate Wrap -->
-
-                <!-- Events Alternate Wrap -->
-                <div class="item">
-                    <div class="event-wrap-alternate">
-                        <!-- Event Wrap -->
-                        <div class="img-wrap">
-                            <div class="date-box">
-                                05 <span>Aug</span>
-                            </div>
-                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_2.jpg"
-                                    alt=""></a>
-                            <div class="content-wrap">
-                                <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
-                                </h3>
-                                <div class="event-details">
-                                    <div><i data-feather="clock"></i> 09:00 Am</div>
-                                    <div><i data-feather="map-pin"></i> Midpoint Center</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Event Wrap -->
-                    </div>
-                </div>
-                <!-- Events Alternate Wrap -->
-
-                <!-- Events Alternate Wrap -->
-                <div class="item">
-                    <div class="event-wrap-alternate">
-                        <!-- Event Wrap -->
-                        <div class="img-wrap">
-                            <div class="date-box">
-                                05 <span>Aug</span>
-                            </div>
-                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_3.jpg"
-                                    alt=""></a>
-                            <div class="content-wrap">
-                                <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
-                                </h3>
-                                <div class="event-details">
-                                    <div><i data-feather="clock"></i> 09:00 Am</div>
-                                    <div><i data-feather="map-pin"></i> Midpoint Center</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Event Wrap -->
-                    </div>
-                </div>
-                <!-- Events Alternate Wrap -->
-
-                <!-- Events Alternate Wrap -->
-                <div class="item">
-                    <div class="event-wrap-alternate">
-                        <!-- Event Wrap -->
-                        <div class="img-wrap">
-                            <div class="date-box">
-                                05 <span>Aug</span>
-                            </div>
-                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_4.jpg"
-                                    alt=""></a>
-                            <div class="content-wrap">
-                                <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
-                                </h3>
-                                <div class="event-details">
-                                    <div><i data-feather="clock"></i> 09:00 Am</div>
-                                    <div><i data-feather="map-pin"></i> Midpoint Center</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Event Wrap -->
-                    </div>
-                </div>
-                <!-- Events Alternate Wrap -->
-
-                <!-- Events Alternate Wrap -->
-                <div class="item">
-                    <div class="event-wrap-alternate">
-                        <!-- Event Wrap -->
-                        <div class="img-wrap">
-                            <div class="date-box">
-                                05 <span>Aug</span>
-                            </div>
-                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_5.jpg"
-                                    alt=""></a>
-                            <div class="content-wrap">
-                                <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
-                                </h3>
-                                <div class="event-details">
-                                    <div><i data-feather="clock"></i> 09:00 Am</div>
-                                    <div><i data-feather="map-pin"></i> Midpoint Center</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Event Wrap -->
-                    </div>
-                </div>
-                <!-- Events Alternate Wrap -->
-
-                <!-- Events Alternate Wrap -->
-                <div class="item">
-                    <div class="event-wrap-alternate">
-                        <!-- Event Wrap -->
-                        <div class="img-wrap">
-                            <div class="date-box">
-                                05 <span>Aug</span>
-                            </div>
-                            <a href="events-single.html"><img src="assets/images/events/event_alternate_img_6.jpg"
-                                    alt=""></a>
-                            <div class="content-wrap">
-                                <h3><a href="events-single.html">Everyone Let’s Run For The Humanity This Time</a>
-                                </h3>
-                                <div class="event-details">
-                                    <div><i data-feather="clock"></i> 09:00 Am</div>
-                                    <div><i data-feather="map-pin"></i> Midpoint Center</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Event Wrap -->
-                    </div>
-                </div>
-                <!-- Events Alternate Wrap -->
-
-            </div>
-
-            <!-- <div class="text-center mt-5">
-                <a href="events-alternate.html" class="btn btn-outline-dark">View All Events</a>
-            </div> -->
-        </div>
-    </section>
-
-    <!-- Event Style End -->
     <!-- Callout Style Start -->
-    <section class="wide-tb-100 bg-scroll bg-img-1 pos-rel callout-style-1">
+    <!-- <section class="wide-tb-100 bg-scroll bg-img-1 pos-rel callout-style-1">
         <div class="bg-overlay black opacity-50"></div>
         <div class="container">
             <div class="row align-items-center">
@@ -610,40 +324,40 @@ Member Benefits-->
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                         been the industry's standard dummy text ever since the 1500s </p>
 
-                    <div class="row mt-5">
-                        <!-- Counter Col Start -->
-                        <div class="col col-12 col-lg-6 col-sm-6 mb-sm-0">
+                    <div class="row mt-5"> -->
+    <!-- Counter Col Start -->
+    <!-- <div class="col col-12 col-lg-6 col-sm-6 mb-sm-0">
                             <div class="counter-style-box bg-dark-shade bg-green">
                                 <div class="counter-txt"><span class="counter">180</span>+</div>
                                 <h4 class="make-white ">Fundraising & Donation Campaign </h4>
                             </div>
-                        </div>
-                        <!-- Counter Col End -->
+                        </div> -->
+    <!-- Counter Col End -->
 
-                        <!-- Counter Col Start -->
-                        <div class="col col-12 col-lg-6 col-sm-6">
+    <!-- Counter Col Start -->
+    <!-- <div class="col col-12 col-lg-6 col-sm-6">
                             <div class="counter-style-box bg-dark-shade bg-orange">
                                 <div class="counter-txt"><span class="counter">7120</span>+</div>
                                 <h4 style="color:#fff !important;">Success Full Project Complate</h4>
                             </div>
-                        </div>
-                        <!-- Counter Col End -->
-                    </div>
+                        </div> -->
+    <!-- Counter Col End -->
+    <!-- </div>
 
                     <div class="spacer-40"></div>
 
-                    <div class="row">
-                        <!-- Counter Col Start -->
-                        <div class="col col-12 col-lg-6 col-sm-6 offset-lg-2  mb-sm-0">
+                    <div class="row"> -->
+    <!-- Counter Col Start -->
+    <!-- <div class="col col-12 col-lg-6 col-sm-6 offset-lg-2  mb-sm-0">
                             <div class="counter-style-box">
                                 <div class="counter-txt"><span class="counter">250</span>+</div>
                                 <h4>Award Winning Campaign</h4>
                             </div>
 
-                        </div>
-                        <!-- Counter Col End -->
+                        </div> -->
+    <!-- Counter Col End -->
 
-                        <div class="col-lg-4 col-sm-6">
+    <!-- <div class="col-lg-4 col-sm-6">
                             <div class="become-volunteers-links">
                                 <a class="" id="myBtn">
                                     <i class="icofont-plus"></i>
@@ -657,13 +371,13 @@ Member Benefits-->
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Callout Style End -->
 
 
 
     <!-- Our Partners Start -->
-    <section class="wide-tb-100">
+    <!-- <section class="wide-tb-100">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -673,53 +387,53 @@ Member Benefits-->
                     </h1>
                 </div>
                 <div class="col-sm-12">
-                    <div class="owl-carousel owl-theme" id="home-clients">
+                    <div class="owl-carousel owl-theme" id="home-clients"> -->
 
-                        <!-- Client Logo -->
-                        <div class="item">
+    <!-- Client Logo -->
+    <!-- <div class="item">
                             <div class="clients-logo">
                                 <img src="assets/images/clients/client1.png" alt="">
                             </div>
-                        </div>
-                        <!-- Client Logo -->
+                        </div> -->
+    <!-- Client Logo -->
 
-                        <!-- Client Logo -->
-                        <div class="item">
+    <!-- Client Logo -->
+    <!-- <div class="item">
                             <div class="clients-logo">
                                 <img src="assets/images/clients/client2.png" alt="">
                             </div>
-                        </div>
-                        <!-- Client Logo -->
+                        </div> -->
+    <!-- Client Logo -->
 
-                        <!-- Client Logo -->
-                        <div class="item">
+    <!-- Client Logo -->
+    <!-- <div class="item">
                             <div class="clients-logo">
                                 <img src="assets/images/clients/client3.png" alt="">
                             </div>
-                        </div>
-                        <!-- Client Logo -->
+                        </div> -->
+    <!-- Client Logo -->
 
-                        <!-- Client Logo -->
-                        <div class="item">
+    <!-- Client Logo -->
+    <!-- <div class="item">
                             <div class="clients-logo">
                                 <img src="assets/images/clients/client4.png" alt="">
                             </div>
-                        </div>
-                        <!-- Client Logo -->
+                        </div> -->
+    <!-- Client Logo -->
 
-                        <!-- Client Logo -->
-                        <div class="item">
+    <!-- Client Logo -->
+    <!-- <div class="item">
                             <div class="clients-logo">
                                 <img src="assets/images/clients/client5.png" alt="">
                             </div>
-                        </div>
-                        <!-- Client Logo -->
+                        </div> -->
+    <!-- Client Logo -->
 
-                    </div>
+    <!-- </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Our Partners End -->
 
 
