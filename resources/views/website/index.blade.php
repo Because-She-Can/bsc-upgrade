@@ -42,10 +42,17 @@
 
     }
 
+    @media screen (min-width:768) {
+        #show-on-mobile {
+            display: none !important;
+        }
+        
+    }
+
     @media (max-width: 990px) {
 
         #show-on-mobile {
-            display: none;
+            display: none !important;
         }
 
         .spacer-60 {
@@ -79,14 +86,14 @@
                         <div class="row justify-content-center justify-content-md-start no-gutters">
                             <div class="col-10 col-md-6 static">
                                 <div class="owl-slide-text">
-                                    <h3 class="owl-slide-animated owl-slide-title">Raising Hope</h3>
+                                    <h3 class="owl-slide-animated owl-slide-title">December For Women Who Code</h3>
                                     <h1 class="owl-slide-animated owl-slide-subtitle">
                                         Every Female Dev Deserves a Working Laptop
                                     </h1>
                                     <div class="owl-slide-animated owl-slide-cta">
                                         <a class="btn btn-default mr-3" href="dfwwc_program" role="button">Join Us</a>
-                                        <a class="slider-link popup-video" href="http://player.vimeo.com/video">Watch
-                                            the video <i class="charity-play_button"></i></a>
+                                        <a class="slider-link popup-video" href="https://www.youtube.com/watch?v=tQ0Ff7zv_JQ">Watch
+                                            the video <i class="icofont-play"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -97,7 +104,7 @@
 
 
                 <!--/owl-slide-->
-                <div class="owl-slide d-flex align-items-center cover"
+                <!-- <div class="owl-slide d-flex align-items-center cover"
                     style="background-image: url(assets/images/slider/slider_home_first_2.jpg);">
                     <div class="container">
                         <div class="row justify-content-center justify-content-md-start no-gutters">
@@ -116,10 +123,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!--/owl-slide-->
-                <div class="owl-slide d-flex align-items-center cover"
+                <!-- <div class="owl-slide d-flex align-items-center cover"
                     style="background-image: url(assets/images/slider/slider_home_first_3.jpg);">
                     <div class="container">
                         <div class="row justify-content-center justify-content-md-start no-gutters">
@@ -138,7 +145,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!--/owl-slide-->
             </div>
 

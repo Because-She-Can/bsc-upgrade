@@ -393,12 +393,12 @@
 
                     <div class="col-md-auto">
                         <div class="social-icons">
-                            <a class="facebook" href="#"><i class="icofont-facebook"></i></a>
+                            <a class="facebook" href="https://www.facebook.com/becauseshecan.africa"><i class="icofont-facebook"></i></a>
                             <a class="twitter" href="https://twitter.com/becauseshecan_?lang=en" target="_blank"><i
                                     class="icofont-twitter"></i></a>
-                            <a class="instagram" href="#"><i class="icofont-instagram"></i></a>
-                            <a class="linkedin" href="#"><i class="icofont-linkedin"></i></a>
-                            <a class="youtube" href="#"><i class="icofont-youtube-play"></i></a>
+                            <a class="instagram" href="https://www.instagram.com/becauseshecan_/"><i class="icofont-instagram"></i></a>
+                            <a class="linkedin" href="https://www.linkedin.com/company/becauseshecan"><i class="icofont-linkedin"></i></a>
+                            <a class="youtube" href="https://www.youtube.com/channel/UC_fmMEQ4ji0euE7FgQj9RMA/featured"><i class="icofont-youtube-play"></i></a>
                         </div>
                     </div>
                 </div>
@@ -507,7 +507,7 @@
                                     class="icofont-facebook"></i></a>
                             <a class="linkedin" href="https://www.linkedin.com/company/becauseshecan" target="_blank"><i
                                     class="icofont-linkedin"></i></a>
-                            <a class="youtube" href="" target="_blank"><i class="icofont-youtube"></i></a>
+                            <a class="youtube" href="https://www.youtube.com/channel/UC_fmMEQ4ji0euE7FgQj9RMA/featured" target="_blank"><i class="icofont-youtube"></i></a>
                         </div>
                     </div>
                 </div>
