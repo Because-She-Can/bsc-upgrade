@@ -237,11 +237,11 @@ inner-intro -->
                 </div>
 
                 <!-- Spacer For Medium -->
-                <div class="w-100 d-none d-sm-block d-lg-none spacer-60"></div>
+                <div class="w-100 d-none d-sm-block d-lg-none spacer-60"></div> 
                 <!-- Spacer For Medium -->
 
                 <div class="col-lg-6 col-md-12">
-                    <img class="img-fluid" src="images/body-images/aboutside.JPEG" alt="about-content-image"
+                    <img class="img-fluid" src="images/team/aboutside.png"  alt="about-content-image"
                         style="border-radius:7px">
 
 
