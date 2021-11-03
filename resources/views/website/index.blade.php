@@ -50,6 +50,17 @@
         }
 
     }
+
+    .mx-auto2 {
+        margin-right: 0 !important;
+        margin-left: auto !important;
+
+    }
+
+    .mt-2x {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
 </style>
 
 
@@ -240,9 +251,9 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-10 mx-auto welcome-home-first">
+            <div class="col-lg-10 mx-auto2 welcome-home-first">
 
-                <div class="text-center mt-2 text-md-right">
+                <div class="text-center mt-2x text-md-right">
                     <a href="about_us" class="btn btn-default">Read About Us</a>
                 </div>
             </div>
