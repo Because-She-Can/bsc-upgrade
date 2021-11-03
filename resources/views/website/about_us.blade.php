@@ -220,12 +220,14 @@ inner-intro -->
                     </h1>
 
                     <p>
-                        We aim to educate, assist and mentor young women looking to pursue careers in Technology related
-                        fields.
+                        Because She Can LBG is a non-profit that is actively interested and involved in assisting women
+                        looking to pursue careers in Technology mainly through mentorship and training opportunities..
+
 
                         <!-- Spacer For Medium -->
                     <div class="w-100 d-none d-sm-block d-lg-none spacer-60"></div>
                     <!-- Spacer For Medium -->
+                    We are building Africa's biggest pipeline of women in technology at all levels.
                     We are open to collaborate with like minded organisations, interested individuals and industry women
                     and men in bridging the gender digital divide.
 
@@ -347,9 +349,14 @@ our-service -->
                                 <h1 class="heading-main light-mode">
                                     Our Inclusion Policy
                                 </h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the
-                                    industry's standard dummy text ever since the 1500s</p>
+                                <p>At Because She Can, we appreciate diversity — we celebrate it, we support it, and we
+                                    thrive on it for the benefit of our employees and our community. We are an equal
+                                    opportunity organisations and do not condone harassment or discrimination of any
+                                    kind.
+                                    You are welcome to join us as a member, to volunteer with us, and to mentor our
+                                    girls irrespective of your race, ethnicity, gender, social status, religion,
+                                    disability and age.
+                                </p>
                                 <a class="btn btn-default" href="get_involved">Join Us Now</a>
                             </div>
 
@@ -366,16 +373,16 @@ our-service -->
                                     <div class="toggle arrow-down">
                                         <span class="icon">
                                             <i class="icofont-plus"></i>
-                                        </span> Our Philosophy
+                                        </span> Development focused
                                     </div>
                                     <!-- Toggle Links 1 -->
 
                                     <!-- Toggle Content 1 -->
                                     <div class="collapse show">
                                         <div class="content">
-                                            Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet
-                                            magna nec lobortis
-                                            maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.
+                                            We ensure that your tech career and personal development is moving from one
+                                            phase to a better one.
+
                                         </div>
                                     </div>
                                     <!-- Toggle Content 1 -->
@@ -384,16 +391,16 @@ our-service -->
                                     <div class="toggle">
                                         <span class="icon">
                                             <i class="icofont-plus"></i>
-                                        </span> Our Organization
+                                        </span>Accessible
                                     </div>
                                     <!-- Toggle Links 2 -->
 
                                     <!-- Toggle Content 2 -->
                                     <div class="collapse">
                                         <div class="content">
-                                            Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet
-                                            magna nec lobortis
-                                            maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.
+                                            We are a community of women, you can easily reach out to with no protocols
+                                            involved.
+
                                         </div>
                                     </div>
                                     <!-- Toggle Content 2 -->
@@ -402,16 +409,16 @@ our-service -->
                                     <div class="toggle">
                                         <span class="icon">
                                             <i class="icofont-plus"></i>
-                                        </span> Know More About Adoption
+                                        </span> Openness
                                     </div>
                                     <!-- Toggle Links 3 -->
 
                                     <!-- Toggle Content 3 -->
                                     <div class="collapse">
                                         <div class="content">
-                                            Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet
-                                            magna nec lobortis
-                                            maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.
+                                            We are a community that is willing to expose the struggles women face in the
+                                            tech industry and guide them to tackle one problem at a time.
+
                                         </div>
                                     </div>
                                     <!-- Toggle Content 3 -->
