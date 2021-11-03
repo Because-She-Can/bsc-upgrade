@@ -241,7 +241,7 @@ inner-intro -->
                 <!-- Spacer For Medium -->
 
                 <div class="col-lg-6 col-md-12">
-                    <img class="img-fluid" src="images/body-images/aboutSide.jpeg" alt="about-content-image"
+                    <img class="img-fluid" src="images/body-images/aboutside.JPEG" alt="about-content-image"
                         style="border-radius:7px">
 
 
@@ -596,7 +596,7 @@ our-service -->
                                 <!-- <a href="#"><i class="icofont-twitter"></i></a>
                             <a href="#"><i class="icofont-instagram"></i></a> -->
                             </div>
-                            <img src="images/team/Otema.png" alt="otema image" class="rounded-circle">
+                            <img src="images/team/otema.png" alt="otema image" class="rounded-circle">
                         </div>
                         <h4>Otema Yirenkyi</h4>
                         <h5>co-Founder || Operations Manager</h5>
