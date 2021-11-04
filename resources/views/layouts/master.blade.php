@@ -458,10 +458,10 @@
                                 </li> -->
                                 <li><a class="dropdown-item" href="dfwwc_program">December For Women Who Code</a>
                                 </li>
-                                <li><a class="dropdown-item" href="#">Bootcamps</a></li>
+                                <!-- <li><a class="dropdown-item" href="#">Bootcamps</a></li>
                                 <li><a class="dropdown-item" href="#">Celebrating women in tech</a>
                                 </li>
-                                <li><a class="dropdown-item" href="#">Webinars</a></li>
+                                <li><a class="dropdown-item" href="#">Webinars</a></li> -->
                             </ul>
                         </li>
 

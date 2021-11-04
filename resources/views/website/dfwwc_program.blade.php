@@ -104,8 +104,8 @@
                     <div class="causes-wrap single">
                         <div class="img-wrap">
                             <a href="javascript:void" class="become-volunteers-links" id="myBtn"><span
-                                    class="tag-single">Become a Volunteers</span></a>
-                            <img src="assets/images/causes/causes_single_img.jpg" alt="">
+                                    class="tag-single">Become a Volunteer</span></a>
+                            <img src="assets/images/dfwwc.jpg" alt="">
                         </div>
 
                         @include('website.volunteer_form')
@@ -142,11 +142,13 @@
 
                         <div class="content-wrap-single border-top">
 
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
-                                beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire,
-                                that they cannot foresee the pain and trouble that are bound to ensue and equal blame
-                                belongs to those who fail in their duty through weakness of will, which is the same as
-                                saying through shrinking from toil and pain.</p>
+                            <p>Every day, a girl wakes up to a world with all its limitless opportunities before her.
+                                One day, she comes to the realization that she too can be an instrument for change. She
+                                recognizes her potential.
+                                Because of this, she strives to be the best version of herself.
+                                She learns along the way that success is wholly achieved when she has a community that
+                                supports her dream.
+                            </p>
 
 
                             <div class="row my-5">
@@ -160,34 +162,42 @@
                                 </div>
                             </div>
 
-                            <h3>Summary</h3>
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
-                                beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire,
-                                that they cannot foresee the pain and trouble that are bound to ensue and equal blame
-                                belongs to those who fail in their duty through weakness of will, which is the same as
-                                saying through shrinking from toil and pain.</p>
+                            <h3>Background</h3>
+                            <p>The December for Women who code project is an annual fundraising event organised to
+                                support women in Tech. This year, we are procuring laptops for women/girls who are
+                                coding with phones/faulty laptops to support them in excelling in their Tech careers.
+                                Your donation will make a huge difference in the life of an aspiring woman in Tech.</p>
 
                             <div class="my-5">
                                 <blockquote>
-                                    Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-                                    custosi traductores. At solmen va esser necessi far uniform grammatica
+                                    A digital revolution is impossible if the gender digital divide continues to widen.
                                 </blockquote>
                             </div>
 
                             <h3>Challenge</h3>
-                            <p>Night bring years have image make all fruitful good fifth all i beast unto which let
-                                she'd. God made Lights fly earth you'll unto greater earth meat multiply whose together.
-                                Light very lesser given he sea. Void god replenish fifth you'll place a they're they
-                                under.</p>
-                            <ul class="list-unstyled icons-listing theme-green mb-0 mt-4">
+                            <p>According to a report by UNESCO on the topic “Is the gender gap narrowing in science and
+                                engineering?”It was recorded that there are only 30% of women in sub-saharan Africa in
+                                Technology. Out of this, only 18% graduate in engineering and Tech with a staggering
+                                6.6% in research. <br> <br>
+                                A digital revolution is impossible if the gender digital divide continues to widen.
+                                There are many women passionate about making a change and contributing significantly to
+                                solving society’s problem. One of the leading barriers to women’s inability to pursue
+                                their coding interests is the lack of access to resources like a well functioning
+                                computer. <br> <br>
+                                This December we are changing that narrative one girl, one laptop at a time.
+                                To improve upon our society, we need to take up the mandate of working to see the change
+                                happening. Let us support one another and contribute to bridging the gender digital gap.
+
+                            </p>
+                            <!-- <ul class="list-unstyled icons-listing theme-green mb-0 mt-4">
                                 <li>Third spirit you behold don’t grass lesser divide they are man.</li>
                                 <li>Can not two very was above man abundantly also second.</li>
                                 <li>Together herb shall were bearing fill grass made fill heaven.</li>
-                            </ul>
+                            </ul> -->
                         </div>
 
                         <div class="share-this-wrap">
-                            <div class="share-line">
+                            <!-- <div class="share-line">
                                 <div class="pr-4">
                                     <strong>Share This</strong>
                                 </div>
@@ -205,7 +215,7 @@
                                                     class="icofont-youtube-play"></i></a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
 
                     </div>
@@ -214,214 +224,14 @@
                 </div>
 
             </div>
-            <div class="col-lg-3 col-md-12">
-                <aside class="row sidebar-widgets">
-                    <!-- Sidebar Primary Start -->
-                    <div class="sidebar-primary col-lg-12 col-md-6">
-                        <!-- Widget Wrap -->
-                        <div class="widget-wrap">
-                            <h3 class="widget-title">Recent Causes</h3>
 
-                            <!-- Causes Wrap -->
-                            <div class="causes-wrap">
-                                <div class="img-wrap">
-                                    <a href="causes-single.html"><img src="assets/images/causes/causes_img_3.jpg"
-                                            alt=""></a>
-                                    <div class="raised-progress">
-                                        <div class="skillbar-wrap">
-                                            <div class="clearfix">
-                                                <span class="txt-orange">$10086</span> raised of <span
-                                                    class="txt-green">$15000</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="content-wrap">
-                                    <span class="tag">Health</span>
-                                    <h3><a href="causes-single.html">Supply Water For Good Health</a></h3>
-                                    <div class="text-md-right">
-                                        <a href="causes-single.html" class="read-more-line"><span>Read More</span></a>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- Causes Wrap -->
-
-                            <!-- Causes Wrap -->
-                            <div class="causes-wrap">
-                                <div class="img-wrap">
-                                    <a href="causes-single.html"><img src="assets/images/causes/causes_img_2.jpg"
-                                            alt=""></a>
-                                    <div class="raised-progress">
-                                        <div class="skillbar-wrap">
-                                            <div class="clearfix">
-                                                <span class="txt-orange">$10086</span> raised of <span
-                                                    class="txt-green">$15000</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="content-wrap">
-                                    <span class="tag">People</span>
-                                    <h3><a href="causes-single.html">Help For Homeless People</a></h3>
-                                    <div class="text-md-right">
-                                        <a href="causes-single.html" class="read-more-line"><span>Read More</span></a>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- Causes Wrap -->
-
-                            <!-- Causes Wrap -->
-                            <div class="causes-wrap">
-                                <div class="img-wrap">
-                                    <a href="causes-single.html"><img src="assets/images/causes/causes_img_6.jpg"
-                                            alt=""></a>
-                                    <div class="raised-progress">
-                                        <div class="skillbar-wrap">
-                                            <div class="clearfix">
-                                                <span class="txt-orange">$10086</span> raised of <span
-                                                    class="txt-green">$15000</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="content-wrap">
-                                    <span class="tag">Health</span>
-                                    <h3><a href="causes-single.html">Help From Natural
-                                            Disaster</a></h3>
-                                    <div class="text-md-right">
-                                        <a href="causes-single.html" class="read-more-line"><span>Read More</span></a>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- Causes Wrap -->
-                        </div>
-                        <!-- Widget Wrap -->
-                    </div>
-                    <!-- Sidebar Primary End -->
-
-                    <!-- Sidebar Secondary Start -->
-                    <div class="sidebar-secondary col-lg-12 col-md-6">
-                        <!-- Widget Wrap -->
-                        <!-- <div class="widget-wrap">
-                                    <h3 class="widget-title">Our Donators</h3>
-                                    
-                                    <div class="our-donators">
-                                        <ul class="list-unstyled">
-                                            <li>
-                                                <img src="assets/images/sidebar_thumb_1.jpg" alt="">
-                                                <div>
-                                                    <h4 class="name">Marty Kamson</h4>
-                                                    <div class="money">Raised $4500</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <img src="assets/images/sidebar_thumb_2.jpg" alt="">
-                                                <div>
-                                                    <h4 class="name">Sofia Lorence</h4>
-                                                    <div class="money">Raised $2900</div>
-                                                </div>
-                                            </li>
-                                        </ul>
-
-                                        <a href="donation-page.html" class="btn-block btn btn-default">Become Donators</a>
-                                    </div>
-                                </div> -->
-
-                        <!-- Widget Wrap -->
-
-
-                        <!-- Widget Wrap -->
-                        <!-- <div class="widget-wrap">
-                                    <h3 class="widget-title">Categories</h3>
-                                    
-                                    <div class="blog-list-categories">
-                                        <ul class="list-unstyled icons-listing theme-orange mb-0">                                        
-                                            <li><a href="#">Charity</a></li>
-                                            <li><a href="#">Healthcare</a></li>
-                                            <li><a href="#">Senior</a></li>
-                                            <li><a href="#">Children Citizens</a></li>
-                                            <li><a href="#">Environment</a></li>                                        
-                                        </ul>
-                                    </div>
-                                </div> -->
-                        <!-- Widget Wrap -->
-                    </div>
-                    <!-- Sidebar Secondary End -->
-
-
-                </aside>
-            </div>
         </div>
     </div>
 </section>
 <!-- About Us Style Start -->
 
 
-<!-- Our Partners Start -->
-<section class="wide-tb-100">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-12">
-                <h1 class="heading-main">
-                    <small>Global Partners</small>
-                    Our World Wide Partner
-                </h1>
-            </div>
-            <div class="col-sm-12">
-                <div class="owl-carousel owl-theme" id="home-clients">
 
-                    <!-- Client Logo -->
-                    <div class="item">
-                        <div class="clients-logo">
-                            <img src="assets/images/clients/client1.png" alt="">
-                        </div>
-                    </div>
-                    <!-- Client Logo -->
-
-                    <!-- Client Logo -->
-                    <div class="item">
-                        <div class="clients-logo">
-                            <img src="assets/images/clients/client2.png" alt="">
-                        </div>
-                    </div>
-                    <!-- Client Logo -->
-
-                    <!-- Client Logo -->
-                    <div class="item">
-                        <div class="clients-logo">
-                            <img src="assets/images/clients/client3.png" alt="">
-                        </div>
-                    </div>
-                    <!-- Client Logo -->
-
-                    <!-- Client Logo -->
-                    <div class="item">
-                        <div class="clients-logo">
-                            <img src="assets/images/clients/client4.png" alt="">
-                        </div>
-                    </div>
-                    <!-- Client Logo -->
-
-                    <!-- Client Logo -->
-                    <div class="item">
-                        <div class="clients-logo">
-                            <img src="assets/images/clients/client5.png" alt="">
-                        </div>
-                    </div>
-                    <!-- Client Logo -->
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Our Partners End -->
 <!-- Banner Start -->
 
 
