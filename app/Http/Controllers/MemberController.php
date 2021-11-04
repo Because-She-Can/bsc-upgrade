@@ -10,11 +10,13 @@ class MemberController extends Controller
     //
     public function store(Request $request){
         $member= new Member();
-        $member->full_name=$request->input('name');
-        $member->email_address=$request->input('email');
-        $member->phone_number=$request->input('phone');
-        $member->reference_contact=$request->input('reference');
-        $member->comment=$request->input('msg');
+        $member->first_name=$request->input('first_name');
+        $member->last_name=$request->input('last_name');
+        $member->member_email=$request->input('member_email');
+        $member->member_phone=$request->input('member_phone');
+        $member->country=$request->input('country');
+        $member->it_stage=$request->input('it_stage');
+        $member->msg=$request->input('msg');
         $member->save();
 
         return redirect()->back()->with(['status'=>'Your details have successfully been sent. We will contact you via email. Thank you']);
