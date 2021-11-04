@@ -15,7 +15,7 @@
     <!-- Links from Gracious -->
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/faviconbsc.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 
     <!-- Animate CSSS -->
     <link href="assets/library/animate/animate.min.css" rel="stylesheet" />
