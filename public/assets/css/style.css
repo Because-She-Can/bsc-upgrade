@@ -1622,7 +1622,7 @@ i[class*="charity-"] {
     font-weight: 400;
     text-align: center;
     top: 0;
-    background: linear-gradient(
+    background: radial-gradient(
         to left,
         #51324c,
         #63425d,
