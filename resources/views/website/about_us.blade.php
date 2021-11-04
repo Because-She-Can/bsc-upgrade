@@ -5,6 +5,14 @@
 @section('content')
 
 <style>
+    q {
+            color: aliceblue; 
+            font-size:20px;
+        }
+        h2.h2x{
+            color: aliceblue;
+            font-size:20px;
+        }
     #tabs {
         margin: 0;
         padding: 0;
@@ -173,7 +181,17 @@
             padding: 5px !important;
         }
 
+        q {
+            color: aliceblue; 
+            font-size:14px;
+        }
+        h2.h2x{
+            color: aliceblue;
+            font-size:20px;
+        }
     }
+
+
 </style>
 
 
@@ -187,10 +205,10 @@ inner-intro -->
         <div class="container">
             <div class="row text-center mobile-centered ">
                 <div class="col-12 d-inline-block">
-                    <h2 style="color: aliceblue;font-size:25px;">WE ARE ON A MISSION TO BRIDGE THE GENDER
+                    <h2 class="h2x" style="">WE ARE ON A MISSION TO BRIDGE THE GENDER
                         DIGITAL DIVIDE</h2>
                     <br>
-                    <q style="color: aliceblue; font-size:20px">The gender digital divide in connectivity, devices and use, skills and
+                    <q style="">The gender digital divide in connectivity, devices and use, skills and
                         jobs is real. It is an inequity and an exclusion gap across geographies and generations
                         that is
                         our challenge to address if the digital revolution is to be for all,<br> with all and by all. -UN 
