@@ -290,9 +290,9 @@
                             </div>
                             <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
-                                    <label for="last_name"><strong>Middle and Last Name</strong></label>
+                                    <label for="last_name"><strong> Last Name</strong></label>
                                     <input type="text" class="form-control form-light" name="last_name"
-                                        placeholder="Enter Your Middle and Last Name">
+                                        placeholder="Enter Your Last Name">
                                 </div>
 
                             </div>
@@ -303,7 +303,7 @@
                                 <div class="form-group">
                                     <label for="number"><strong>Phone Number </strong></label>
                                     <input type="tel" class="form-control form-light" name="phone"
-                                        placeholder="(ps. add country code)" id="tel" maxlength="14" />
+                                        placeholder="eg. +233 12 345 6789" id="tel" maxlength="14" />
                                 </div>
 
                             </div>
@@ -727,8 +727,7 @@
                         knowledge available to you in the world of Technology. Its free to join.
 
                     </p>
-                    <div class="row my-5 home-second-welcome">
-                        <!-- Map Icons Start -->
+                    <!-- <div class="row my-5 home-second-welcome">
                         <div class="col-sm-6 mb-md-0">
                             <div class="icon-box-1">
                                 <i class="charity-volunteer_people"></i>
@@ -737,9 +736,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Map Icons Start -->
 
-                        <!-- Map Icons Start -->
                         <div class="col-sm-6">
                             <div class="icon-box-1">
                                 <i class="charity-donate_money"></i>
@@ -748,8 +745,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Map Icons Start -->
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
@@ -861,7 +857,7 @@
         <div class="row" style="text-align: center;">
             <!-- image 1 -->
 
-            <div class="col-12 col-md-4 text-center">
+            <!-- <div class="col-12 col-md-4 text-center">
                 <figure>
                     <img width="260" height="260" src="images/team/afi.jpeg" class="" alt="" loading="lazy">
                 </figure>
@@ -869,9 +865,9 @@
                     <h4>Share knowledge</h4>
                     <p>Add a new skill to your resume, or change career tracks. </p>
                 </div>
-            </div>
+            </div> -->
             <!-- imgae 2 -->
-            <div class="col-12 col-md-4 text-center">
+            <!-- <div class="col-12 col-md-4 text-center">
                 <figure>
                     <img width="260" height="260" src="images/team/otema.jpeg" class="" alt="" loading="lazy">
                 </figure>
@@ -879,9 +875,9 @@
                     <h4>Motivate & support</h4>
                     <p>Learn from a mentor, and connect with other professionals.</p>
                 </div>
-            </div>
+            </div> -->
             <!-- image 3 -->
-            <div class="col-12 col-md-4 text-center">
+            <!-- <div class="col-12 col-md-4 text-center">
                 <figure>
                     <img width="260" height="260" src="images/team/samira.jpeg" class="" alt="" loading="lazy">
                 </figure>
@@ -890,7 +886,7 @@
                     <p>Make your next move. Our Jobs Board has new listings every week.
                     </p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="container">
@@ -914,7 +910,7 @@
         <div class="row align-items-center">
             <div class="col-lg-10">
                 <h1 class="heading-main light-mode orange" style="font-size: 1.4rem !important;">
-                    <small style="color:#D59B2D !important; font-size:14px">Your donations go a long way to ensure we
+                    <small style="color:#D59B2D !important; font-size:14px; font-family:sora;">Your donations go a long way to ensure we
                         achieve our goal </small>
                     Proceeds from all donations go directly into supporting women in technology through workshops,
                     coding bootcamps and mentorship initiatives and procurement of resources like computers and course
@@ -928,158 +924,6 @@
 <!-- Callout  to donate Style End -->
 
 
-<!-- Images Gallery Style Start -->
-<section class="wide-tb-100 bg-white">
-    <div class="container">
-        <div class="row img-gallery slider-link popup-video">
-            <div class="col-lg-4">
-                <h1 class="heading-main mb-lg-0">
-                    <small>Images Gallery</small>
-                    Project We Have Done
-                </h1>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Gallery Item -->
-                <div class="img-gallery-item">
-                    <a href="images/body-images/members/BCG.jpeg" title="School Development">
-                        <div class="gallery-content">
-                            <div class="tag"><span>Jobs Board</span></div>
-                            <h3>Discover the job that’s right for you.</h3>
-                            <div class="img-open">
-                                <i data-feather="plus-circle"></i>
-                            </div>
-                        </div>
-                        <img src="images/body-images/members/BCG.jpeg" alt="">
-                    </a>
-                </div>
-                <!-- Gallery Item -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Gallery Item -->
-                <div class="img-gallery-item">
-                    <a href="images/body-images/members/BCG.jpeg" title="Child Welfare">
-                        <div class="gallery-content">
-                            <div class="tag"><span>Workshops</span></div>
-                            <h3>Expand your skillset.</h3>
-                            <div class="img-open">
-                                <i data-feather="plus-circle"></i>
-                            </div>
-                        </div>
-                        <img src="images/body-images/members/BCG.jpeg" alt="">
-                    </a>
-                </div>
-                <!-- Gallery Item -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Gallery Item -->
-                <div class="img-gallery-item">
-                    <a href="images/body-images/members/BCG.jpeg" title="Child Welfare">
-                        <div class="gallery-content">
-                            <div class="tag"><span>Personal Development</span></div>
-                            <h3>Develop your soft skills.</h3>
-                            <div class="img-open">
-                                <i data-feather="plus-circle"></i>
-                            </div>
-                        </div>
-                        <img src="images/body-images/members/BCG.jpeg" alt="">
-                    </a>
-                </div>
-                <!-- Gallery Item -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Gallery Item -->
-                <div class="img-gallery-item">
-                    <a href="images/body-images/members/BCG.jpeg" title="Child Welfare">
-                        <div class="gallery-content">
-                            <div class="tag"><span>Digital Events</span></div>
-                            <h3>Webinars, virtual hackathons and more.</h3>
-                            <div class="img-open">
-                                <i data-feather="plus-circle"></i>
-                            </div>
-                        </div>
-                        <img src="images/body-images/members/BCG.jpeg" alt="">
-                    </a>
-                </div>
-                <!-- Gallery Item -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Gallery Item -->
-                <div class="img-gallery-item">
-                    <a href="images/body-images/members/BCG.jpeg" title="Child Welfare">
-                        <div class="gallery-content">
-                            <div class="tag"><span>Local Events</span></div>
-                            <h3>Find your next hire — or new friend</h3>
-                            <div class="img-open">
-                                <i data-feather="plus-circle"></i>
-                            </div>
-                        </div>
-                        <img src="images/body-images/members/BCG.jpeg" alt="">
-                    </a>
-                </div>
-                <!-- Gallery Item -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Gallery Item -->
-                <div class="img-gallery-item">
-                    <a href="images/body-images/members/BCG.jpeg" title="Child Welfare">
-                        <div class="gallery-content">
-                            <div class="tag"><span>Workshops</span></div>
-                            <h3>Expand your skillset</h3>
-                            <div class="img-open">
-                                <i data-feather="plus-circle"></i>
-                            </div>
-                        </div>
-                        <img src="images/body-images/members/BCG.jpeg" alt="">
-                    </a>
-                </div>
-                <!-- Gallery Item -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Gallery Item -->
-                <div class="img-gallery-item">
-                    <a href="images/body-images/members/BCG.jpeg" title="Child Welfare">
-                        <div class="gallery-content">
-                            <div class="tag"><span>Mentorship</span></div>
-                            <h3>Lean on an experienced member.</h3>
-                            <div class="img-open">
-                                <i data-feather="plus-circle"></i>
-                            </div>
-                        </div>
-                        <img src="images/body-images/members/BCG.jpeg" alt="">
-                    </a>
-                </div>
-                <!-- Gallery Item -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Gallery Item -->
-                <div class="img-gallery-item">
-                    <a href="images/body-images/members/BCG.jpeg" title="Child Welfare">
-                        <div class="gallery-content">
-                            <div class="tag"><span>Conferences</span></div>
-                            <h3>Build your skills — and your community</h3>
-                            <div class="img-open">
-                                <i data-feather="plus-circle"></i>
-                            </div>
-                        </div>
-                        <img src="images/body-images/members/BCG.jpeg" alt="">
-                    </a>
-                </div>
-                <!-- Gallery Item -->
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- 
 <script>
     function inpNum(e) {
         e = e || window.event;
@@ -1088,7 +932,7 @@
         if (!charStr.match(/^[0-9]+$/))
             e.preventDefault();
     }
-</script> -->
+</script>
 <!-- Images Gallery Style End -->
 
 @endsection
