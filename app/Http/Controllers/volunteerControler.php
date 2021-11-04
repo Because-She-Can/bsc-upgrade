@@ -15,7 +15,7 @@ class volunteerControler extends Controller
         $volunteer->volunteer_email=$request->input('email');
         $volunteer->phone_number=$request->input('phone');
         $volunteer->volunteer_country=$request->input('country');
-        $volunteer->experience_msg=$request->input('msg')->nullable();;
+        $volunteer->experience_msg=$request->input('msg');
         $volunteer->zip=$request->input('zip');
         $volunteer->volunteer_role=$request->input('role');
         $volunteer->availability=$request->input('availability');
