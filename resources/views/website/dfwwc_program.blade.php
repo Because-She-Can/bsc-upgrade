@@ -153,12 +153,10 @@
 
                             <div class="row my-5">
                                 <div class="col-md-6">
-                                    <img src="assets/images/causes/causes_single_small_img_2.jpg" class="rounded"
-                                        alt="">
+                                    <img src="assets/images/dfwwcmd1.JPEG" class="rounded" alt="">
                                 </div>
                                 <div class="col-md-6">
-                                    <img src="assets/images/causes/causes_single_small_img_1.jpg" class="rounded"
-                                        alt="">
+                                    <img src="assets/images/dfwwcmd2.JPEG" class="rounded" alt="">
                                 </div>
                             </div>
 
