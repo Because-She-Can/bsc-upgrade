@@ -263,7 +263,7 @@
 
                 <div class="col-12 col-md-4 text-center">
                     <figure>
-                        <img width="260" height="260" src="images/body-images/home/Change.jpeg" alt="">
+                        <img width="260" height="260" src="images/body-images/home/devt_focused.jpg" alt="">
                     </figure>
                     <div class="text">
                         <h4>Development focused</h4>
@@ -274,7 +274,7 @@
                 <!-- imgae 2 -->
                 <div class="col-12 col-md-4 text-center">
                     <figure>
-                        <img width="260" height="260" src="images/body-images/home/Change.jpeg" class="" alt="">
+                        <img width="260" height="260" src="images/body-images/home/accessible.jpg" class="" alt="">
                     </figure>
                     <div class="text">
                         <h4>Accessible</h4>
@@ -284,7 +284,7 @@
                 <!-- image 3 -->
                 <div class="col-12 col-md-4 text-center">
                     <figure>
-                        <img width="260" height="260" src="images/body-images/home/Change.jpeg" class="" alt="">
+                        <img width="260" height="260" src="images/body-images/home/openness.jpg" class="" alt="">
                     </figure>
                     <div class="text">
                         <h4>Openness</h4>
