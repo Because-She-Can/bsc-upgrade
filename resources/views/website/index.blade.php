@@ -249,8 +249,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h2>A membership that takes you from one phase of <br> your career in Tech to a better one</h2>
-                    <p>There is a place for everyone in this community. We appreciate diversity and <br> inclusion and
+                    <h2 style="font-size: 2rem !important;">A membership that takes you from one phase of <br> your
+                        career in Tech to a better one</h2>
+                    <p>There is a place for everyone in this community. We appreciate diversity and inclusion and
                         whether you are starting your career in tech, transitioning <br> or an established woman, we
                         have
                         benefits curated just for you.</p>

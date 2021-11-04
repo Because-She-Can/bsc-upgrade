@@ -3586,8 +3586,8 @@ footerr .social-icons a:hover {
     position: absolute;
     top: 50%;
     z-index: 1;
-    background: #d9e7db url(../images/topography-background.png) repeat center
-        center;
+    /* background: #d9e7db url(../images/topography-background.jpg) repeat repeat; */
+    background: #d9e7db;
     height: 85%;
     content: "";
     width: 100%;
