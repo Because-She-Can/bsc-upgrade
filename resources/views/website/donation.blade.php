@@ -51,7 +51,7 @@
                     customizations: {
                         title: "Because She Can",
                         description: "Please make your donations",
-                        logo: "{{asset('assets/images/logo-dark.png')}}",
+                        logo: "{{asset('assets/images/flutterlogo.jpeg')}}",
                     },
                 });
             }
