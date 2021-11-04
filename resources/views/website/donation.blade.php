@@ -22,9 +22,43 @@
         overflow: hidden;
     }
 </style>
+
+<script src="https://checkout.flutterwave.com/v3.js"></script>
+    <script>
+        function makePayment() {
+            var x = $("form").serializeArray();
+            var vals=[];
+
+            $.each(x, function(i, field) {
+                vals[field.name]=field.value;
+            });
+
+            if(vals['email']!==''){
+                FlutterwaveCheckout({
+                    public_key: "FLWPUBK-7c1d70351f180c452e677da44cdc13de-X",
+                    tx_ref: vals['email'],
+                    amount: vals['amount'],
+                    currency: "GHs",
+                    country: "GH",
+                    payment_options: "card, mobilemoneyghana, ussd",
+                    customer: vals,
+                    callback: function (data) {
+                        console.log(data);      
+                    },
+                    onclose: function() {
+                        // close modal
+                    },
+                    customizations: {
+                        title: "Because She Can",
+                        description: "Please make your donations",
+                        logo: "{{asset('assets/images/logo-dark.png')}}",
+                    },
+                });
+            }
+        }
+    </script>
 </head>
 
-<body>
     <main id="body-content">
         <!-- About Us Style Start -->
         <section class="wide-tb-100 banner-top">
@@ -51,41 +85,47 @@
                             </h3>
                             <form action="" method="POST">
                                 <div class="row">
-
-
                                     <div class="col-md-6">
+                                        <label>First name</label>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="donate_name"
-                                                placeholder="First Name" />
+                                            <input type="text" class="form-control" name="donate_name"
+                                                required="" />
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="donate_last_name"
-                                                placeholder="Last Name" />
-                                        </div>
-                                    </div>
 
-                                    <div class="col-md-6">
+                                        <label>Last name</label>
                                         <div class="form-group">
-                                            <input type="email" class="form-control" id="donate_email"
-                                                placeholder="Your Email" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="donate_zip"
-                                                placeholder="Zip Code" />
+                                            <input type="text" class="form-control" name="donate_last_name"
+                                                required=""/>
                                         </div>
                                     </div>
 
                                     <div class="col-md-6">
+                                        <label>Email Address</label>
+
+                                        <div class="form-group">
+                                            <input type="email" name="email" class="form-control" id="donate_email"  required=""/>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Zip Code</label>
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="donate_zip" />
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                                                                <label>Country</label>
+
                                         <div class="form-group">
 
                                             <select
+                                                required=""
                                                 class=" theme-combo donation-select js-example-basic-single form-control"
                                                 name="state" style="height: 400px">
-                                                <option>Select Country</option>
+                                                <option value="">Select Country</option>
                                                 <option value="Afganistan">Afghanistan</option>
                                                 <option value="Albania">Albania</option>
                                                 <option value="Algeria">Algeria</option>
@@ -390,16 +430,17 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6">
+                                        <label>Amount</label>
+
                                         <div class="form-group">
-                                            <input type="tel" class="form-control" id="amount"
-                                                placeholder="Enter Amount" />
+                                            <input type="tel" class="form-control" name="amount" required="" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-12 mt-3">
                                     <script src="https://checkout.flutterwave.com/v3.js"></script>
 
-                                    <button class="btn btn-default" onclick="makePayment()">
+                                    <button class="btn btn-default" type="button" onclick="makePayment()">
                                         <i data-feather="heart"></i> Donate Now
                                     </button>
                                 </div>
@@ -416,43 +457,6 @@
         </section>
         <!-- About Us Style Start -->
     </main>
-
-
-    <script>
-        function makePayment() {
-            FlutterwaveCheckout({
-                public_key: "FLWPUBK-7c1d70351f180c452e677da44cdc13de-X",
-                tx_ref: "RX1",
-                amount: 10,
-                currency: "USD",
-                country: "US",
-                payment_options: " ",
-                redirect_url: // specified redirect URL
-                    "https://callbacks.piedpiper.com/flutterwave.aspx?ismobile=34",
-                meta: {
-                    consumer_id: 23,
-                    consumer_mac: "92a3-912ba-1192a",
-                },
-                customer: {
-                    email: "cornelius@gmail.com",
-                    phone_number: "08102909304",
-                    name: "Flutterwave Developers",
-                },
-                callback: function (data) {
-                    console.log(data);
-                },
-                onclose: function () {
-                    // close modal
-                },
-                customizations: {
-                    title: "My store",
-                    description: "Payment for items in cart",
-                    logo: "https://assets.piedpiper.com/logo.png",
-                },
-            });
-        }
-    </script>
-
 
 
     @endsection
