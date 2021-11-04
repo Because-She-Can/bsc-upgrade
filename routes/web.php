@@ -52,7 +52,10 @@ Route::get('/newHome', function () {
     return view('website.newHome');
 });
 
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::post('/save_member', [App\Http\Controllers\MemberController::class, 'store'])->name('save_member');
+
+Route::post('/save_volunteer', [App\Http\Controllers\volunteerControler::class, 'storevolunteer'])->name('save_volunteer');

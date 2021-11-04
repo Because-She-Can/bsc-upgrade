@@ -107,7 +107,9 @@
                         </p>
 
                         <div class="donation-wrap">
-                            <form action="POST">
+                            <form action="/save_volunteer" method="POST">
+                            {{csrf_field()}}
+
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="form-group">
@@ -125,14 +127,14 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <input type="email" class="form-control" id="email"
-                                                placeholder="Your Email" />
+                                                placeholder="Your Email" name="email" />
                                         </div>
                                     </div>
 
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <input type="tel" id="tel" class="form-control"
-                                                placeholder="Phone number ( Include country code)" maxlength="14" />
+                                                placeholder="Phone number ( Include country code)" maxlength="14" name="phone" />
                                         </div>
                                     </div>
 
@@ -141,7 +143,7 @@
 
                                             <select
                                                 class=" theme-combo donation-select js-example-basic-single form-control"
-                                                name="state" style="height: 400pxx; width: 100% !important;">
+                                                name="country" style="height: 400pxx; width: 100% !important;">
                                                 <option>Select Country</option>
                                                 <option value="Afganistan">Afghanistan</option>
                                                 <option value="Albania">Albania</option>
@@ -476,7 +478,7 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="zip" placeholder="Zip Code" />
+                                            <input type="text" class="form-control" id="zip" placeholder="Zip Code" name="zip" />
                                         </div>
                                     </div>
 
@@ -491,7 +493,7 @@
 
                                             <select
                                                 class=" theme-combo donation-select js-example-basic-single form-control"
-                                                id="how-you-know-us" name="Causes" style=" width: 100% !important;"
+                                                id="how-you-know-us" name="role" style=" width: 100% !important;"
                                                 multiple>
                                                 <option value="Fundraising">Fundraising</option>
                                                 <option value="Digital_marketing_and_promotion">Digital marketing and
@@ -525,7 +527,7 @@
 
                                             <select
                                                 class=" theme-combo donation-select js-example-basic-single form-control"
-                                                id="availability" name="Causes" style=" width: 100% !important;"
+                                                id="availability" name="availability" style=" width: 100% !important;"
                                                 multiple>
                                                 <option value="January">January</option>
                                                 <option value="February">February</option>
@@ -554,7 +556,7 @@
 
                                             <select
                                                 class=" theme-combo donation-select js-example-basic-single form-control"
-                                                id="Number_of_hours" name="Causes" style=" width: 100% !important;">
+                                                id="Number_of_hours" name="hours" style=" width: 100% !important;">
                                                 <option value="3_hours_a_week">3 hours a week</option>
                                                 <option value="4_hours_a_week">4 hours a week</option>
                                                 <option value="5_hours_a_week">5 hours a week</option>
@@ -583,3 +585,37 @@
 
 </div>
 <!-- End Volunteer Modal Form  -->
+
+
+
+
+
+
+ <!-- Volunteer Modal Javascript  -->
+ <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>

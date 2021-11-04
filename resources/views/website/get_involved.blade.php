@@ -280,14 +280,14 @@
                     </div>
 
 
-                    <form method="post" action="save_member" class="form-style">
+                    <form method="post" action="/save_member" class="form-style">
                         {{csrf_field()}}
 
                         <div class="input-group">
                             <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
                                     <label for="firstName"><strong>First Name</strong></label>
-                                    <input type="text" class="form-control form-light" name="name"
+                                    <input type="text" class="form-control form-light" name="first_name"
                                         placeholder="Enter Your First Name">
                                 </div>
 
@@ -306,7 +306,7 @@
                             <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
                                     <label for="number"><strong>Phone Number </strong></label>
-                                    <input type="tel" class="form-control form-light" name="phone"
+                                    <input type="tel" class="form-control form-light" name="member_phone"
                                         placeholder="eg. +233 12 345 6789" id="tel" maxlength="14" />
                                 </div>
 
@@ -315,7 +315,7 @@
                                 <div class="form-group">
                                     <label for="Residence"><strong>Country Of Residence </strong></label>
                                     <select class=" theme-combo donation-select js-example-basic-single form-control"
-                                        name="state" style=" width: 100% !important;">
+                                        name="country" style=" width: 100% !important;">
                                         <option>Select Country</option>
                                         <option value="Afganistan">Afghanistan</option>
                                         <option value="Albania">Albania</option>
@@ -656,18 +656,17 @@
                             <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
                                     <label for="email"><strong>Email Address</strong></label>
-                                    <input type="email" class="form-control form-light" name="email"
+                                    <input type="email" class="form-control form-light" name="member_email"
                                         placeholder="e.g example@sitename.com">
                                 </div>
                             </div>
-
 
                             <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
                                     <label for="Residence"><strong>What stage would you put yourself
                                             in*</strong></label>
                                     <select class=" theme-combo donation-select js-example-basic-single form-control"
-                                        name="state" style=" width: 100% !important;">
+                                        name="it_stage" style=" width: 100% !important;">
                                         <option>Select Your Stage</option>
                                         <option value="1">I have established myself in a Tech field (3 + years of
                                             experience)</option>
