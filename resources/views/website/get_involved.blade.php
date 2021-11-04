@@ -75,6 +75,10 @@
         h1.heading-main {
             margin-bottom: 45px;
         }
+
+    .topPad1 {
+        padding-top: 10px;
+    }
     }
 
     .breadcrumbs-page {
@@ -120,7 +124,7 @@
         color: #D59B2D;
         font-size: 1.80rem;
         position: relative;
-        font-weight: 600;
+        font-weight: 50;
         z-index: 1;
         margin-bottom: 1rem;
     }
@@ -909,8 +913,8 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-10">
-                <h1 class="heading-main light-mode orange" style="font-size: 1.4rem !important;">
-                    <small style="color:#D59B2D !important; font-size:14px; font-family:sora;">Your donations go a long way to ensure we
+                <h1 class="heading-main light-mode orange" style="font-size: 1.4rem !important;font-family:sora !important;">
+                    <small style="color:#D59B2D !important; font-size:14px; ">Your donations go a long way to ensure we
                         achieve our goal </small>
                     Proceeds from all donations go directly into supporting women in technology through workshops,
                     coding bootcamps and mentorship initiatives and procurement of resources like computers and course
