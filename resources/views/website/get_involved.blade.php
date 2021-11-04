@@ -290,9 +290,9 @@
                             </div>
                             <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
-                                    <label for="last_name"><strong>Middle and Last Name</strong></label>
+                                    <label for="last_name"><strong> Last Name</strong></label>
                                     <input type="text" class="form-control form-light" name="last_name"
-                                        placeholder="Enter Your Middle and Last Name">
+                                        placeholder="Enter Your Last Name">
                                 </div>
 
                             </div>
@@ -303,7 +303,7 @@
                                 <div class="form-group">
                                     <label for="number"><strong>Phone Number </strong></label>
                                     <input type="tel" class="form-control form-light" name="phone"
-                                        placeholder="(ps. add country code)" id="tel" maxlength="14" />
+                                        placeholder="eg. +233 12 345 6789" id="tel" maxlength="14" />
                                 </div>
 
                             </div>
@@ -727,8 +727,7 @@
                         knowledge available to you in the world of Technology. Its free to join.
 
                     </p>
-                    <div class="row my-5 home-second-welcome">
-                        <!-- Map Icons Start -->
+                    <!-- <div class="row my-5 home-second-welcome">
                         <div class="col-sm-6 mb-md-0">
                             <div class="icon-box-1">
                                 <i class="charity-volunteer_people"></i>
@@ -737,9 +736,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Map Icons Start -->
 
-                        <!-- Map Icons Start -->
                         <div class="col-sm-6">
                             <div class="icon-box-1">
                                 <i class="charity-donate_money"></i>
@@ -748,8 +745,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Map Icons Start -->
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
