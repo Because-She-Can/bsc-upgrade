@@ -17,8 +17,8 @@ class volunteerControler extends Controller
         $volunteer->volunteer_country=$request->input('country');
         $volunteer->experience_msg=$request->input('msg');
         $volunteer->zip=$request->input('zip');
-        $volunteer->volunteer_role=$request->input('role');
-        $volunteer->availability=$request->input('availability');
+        $volunteer->volunteer_role=json_encode($request->input('role'));
+        $volunteer->availability=json_encode($request->input('availability'));
         $volunteer->volunteer_hours=$request->input('hours');
         $volunteer->save();
 

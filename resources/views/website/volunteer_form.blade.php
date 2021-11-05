@@ -493,7 +493,7 @@
 
                                             <select
                                                 class=" theme-combo donation-select js-example-basic-single form-control"
-                                                id="how-you-know-us" name="role" style=" width: 100% !important;"
+                                                id="how-you-know-us" name="role[]" style=" width: 100% !important;"
                                                 multiple>
                                                 <option value="Fundraising">Fundraising</option>
                                                 <option value="Digital_marketing_and_promotion">Digital marketing and
@@ -527,7 +527,7 @@
 
                                             <select
                                                 class=" theme-combo donation-select js-example-basic-single form-control"
-                                                id="availability" name="availability" style=" width: 100% !important;"
+                                                id="availability" name="availability[]" style=" width: 100% !important;"
                                                 multiple>
                                                 <option value="January">January</option>
                                                 <option value="February">February</option>
