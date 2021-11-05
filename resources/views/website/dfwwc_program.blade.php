@@ -135,7 +135,7 @@
                                             <div class="seconds_text">Seconds</div>
                                         </li>
                                     </ul>
-                                    <a class="btn-outline-default btn" href="donation">Donate Now</a>
+                                    <a class="btn-outline-default btn" href="donate">Donate Now</a>
                                 </div>
                             </div>
                         </div>
