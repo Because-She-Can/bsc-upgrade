@@ -286,17 +286,17 @@
                         <div class="input-group">
                             <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
-                                    <label for="firstName"><strong>First Name</strong></label>
+                                    <label for="firstName"><strong>First Name</strong><sup class="sup">*</sup></label>
                                     <input type="text" class="form-control form-light" name="first_name"
-                                        placeholder="Enter Your First Name">
+                                        placeholder="Enter Your First Name" required=""/>
                                 </div>
 
                             </div>
                             <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
-                                    <label for="last_name"><strong> Last Name</strong></label>
+                                    <label for="last_name"><strong> Last Name</strong><sup class="sup">*</sup></label>
                                     <input type="text" class="form-control form-light" name="last_name"
-                                        placeholder="Enter Your Last Name">
+                                        placeholder="Enter Your Last Name" required=""/>
                                 </div>
 
                             </div>
@@ -305,15 +305,15 @@
                         <div class="input-group">
                             <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
-                                    <label for="number"><strong>Phone Number </strong></label>
+                                    <label for="number"><strong>Phone Number  </strong> <sup class="sup">*</sup></label>
                                     <input type="tel" class="form-control form-light" name="member_phone"
-                                        placeholder="eg. +233 12 345 6789" id="tel" maxlength="14" />
+                                        placeholder="eg. +000 12 345 6789" id="tel" maxlength="14" required="" />
                                 </div>
 
                             </div>
                             <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
-                                    <label for="Residence"><strong>Country Of Residence </strong></label>
+                                    <label for="Residence"><strong>Country Of Residence </strong><sup class="sup">*</sup></label>
                                     <select class=" theme-combo donation-select js-example-basic-single form-control"
                                         name="country" style=" width: 100% !important;">
                                         <option>Select Country</option>
@@ -655,18 +655,18 @@
                         <div class="input-group">
                             <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
-                                    <label for="email"><strong>Email Address</strong></label>
+                                    <label for="email"><strong>Email Address</strong><sup class="sup">*</sup></label>
                                     <input type="email" class="form-control form-light" name="member_email"
-                                        placeholder="e.g example@sitename.com">
+                                        placeholder="e.g example@sitename.com" required=""/>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-md-12">
                                 <div class="form-group">
                                     <label for="Residence"><strong>What stage would you put yourself
-                                            in*</strong></label>
+                                            in*</strong><sup class="sup">*</sup></label>
                                     <select class=" theme-combo donation-select js-example-basic-single form-control"
-                                        name="it_stage" style=" width: 100% !important;">
+                                        name="it_stage" style=" width: 100% !important;" required="">
                                         <option>Select Your Stage</option>
                                         <option value="1">I have established myself in a Tech field (3 + years of
                                             experience)</option>

@@ -21,6 +21,10 @@
         border-radius: 10px;
         overflow: hidden;
     }
+    .wide-tb-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 </style>
 
 <script src="https://checkout.flutterwave.com/v3.js"></script>
@@ -79,9 +83,18 @@
     </script>
 </head>
 
-    <main id="body-content">
+    <main id="body-content" class="banner-top">
+    <div class="container">
+	<div class="row">
+	<div class="alert  alert-dismissible" role="alert">
+  <!-- <button type="button" onclick="this.parentNode.parentNode.removeChild(this.parentNode);" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button> -->
+  <!-- <strong><i class="fa fa-warning"></i> Danger!</strong>  -->
+  <marquee><p style="font-family: Impact; font-size: 18pt">Donating Via Mobile Money (MOMO) is NOT working currently. Please use the other modes of payment. We Apologise for the inconvenience</p></marquee>
+</div>
+	</div>
+</div>
         <!-- About Us Style Start -->
-        <section class="wide-tb-100 banner-top">
+        <section class="wide-tb-20">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-md-12">
@@ -106,7 +119,7 @@
                             <form action="" method="POST">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label>First name</label>
+                                        <label>First name <sup class="sup">*</sup></label>
                                         <div class="form-group">
                                             <input type="text" class="form-control" name="donate_name"
                                                 required="" />
@@ -114,7 +127,7 @@
                                     </div>
                                     <div class="col-md-6">
 
-                                        <label>Last name</label>
+                                        <label>Last name <sup class="sup">*</sup></label>
                                         <div class="form-group">
                                             <input type="text" class="form-control" name="donate_last_name"
                                                 required=""/>
@@ -122,23 +135,23 @@
                                     </div>
 
                                     <div class="col-md-6">
-                                        <label>Email Address</label>
+                                        <label>Email Address <sup class="sup">*</sup></label>
 
                                         <div class="form-group">
                                             <input type="email" name="email" class="form-control" id="donate_email"  required=""/>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <label>Zip Code</label>
+                                        <label>Phone Number <sup class="sup">*</sup></label>
 
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="donate_zip" />
+                                            <input id="tel" type="tel" class="form-control" name="donate_zip" required
+                                            placeholder="eg +000 123 456 789" maxlength="14" name="phone" />
                                         </div>
                                     </div>
 
                                     <div class="col-md-6">
-                                                                                <label>Country</label>
-
+                                        <label>Country <sup class="sup">*</sup></label>
                                         <div class="form-group">
 
                                             <select
@@ -450,7 +463,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <label>Amount</label>
+                                        <label>Amount <sup class="sup">*</sup></label>
 
                                         <div class="form-group">
                                             <input type="tel" class="form-control" name="amount" required="" />
