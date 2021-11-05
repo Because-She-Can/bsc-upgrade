@@ -232,7 +232,9 @@
 
 <!-- Banner Start -->
 
-
+@if(session('status'))
+@include('website.success_modal')
+@endif
 
 
 @endsection

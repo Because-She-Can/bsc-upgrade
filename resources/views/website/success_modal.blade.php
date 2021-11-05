@@ -1,14 +1,14 @@
-<!--Volunteer Modal CSS -->
+<!--Volunteer modal2 CSS -->
 <style>
-    /* The Modal (background) */
-    .modal {
+    /* The modal2 (background) */
+    .modal2 {
         display: none;
         /* Hidden by default */
         position: fixed;
         /* Stay in place */
         z-index: 1;
         /* Sit on top */
-        padding-top: 100px;
+        padding-top: 200px;
         /* Location of the box */
         left: 0;
         top: 0;
@@ -30,17 +30,17 @@
         z-index: 1000;
     }
 
-    /* Modal Content */
-    .modal-content {
+    /* modal2 Content */
+    .modal2-content {
         background-color: #fefefe;
         margin: auto;
-        padding: 20px;
+        padding: 2px 5px;
         border: 1px solid #888;
-        width: 80%;
+        width: 20%;
         color: #000;
     }
 
-    /* The Close Button */
+    /* The close Button */
     .close {
         color: #160202;
         float: right;
@@ -69,30 +69,31 @@
             padding: 2px
         }
 
-        .modal-content {
+        .modal2-content {
             padding: 10px !important;
         }
 
     }
 </style>
-<!-- Volunteer Modal Css End -->
+<!-- Volunteer modal2 Css End -->
 
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
+<!-- The modal2 -->
+<div id="mymodal2" class="modal2">
 
-    <!-- Modal content -->
-    <div class="modal-content">
-        <span class="close">&times;</span>
+    <!-- modal2 content -->
+    <div class="modal2-content">
+        <span id="close" class="close">&times;</span>
         <!-- About Us Style Start -->
         <section style="margin-top:20px;position:relative;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
 
-                    <p> this is a success modal</p>
+                        <p style="color:#477763;"> Your request has been sent successfully, <br> Because She Can will
+                            contact you via email or phone</p>
 
-                        
+
                     </div>
 
                 </div>
@@ -103,34 +104,39 @@
     </div>
 
 </div>
-<!-- End Volunteer Modal Form  -->
+<!-- End Volunteer modal2 Form  -->
 
 
- <!-- Volunteer Modal Javascript  -->
- <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
+<!-- Volunteer modal2 Javascript  -->
+<script>
+    // Get the modal2
+    var modal2 = document.getElementById("mymodal2");
 
-        // Get the button that opens the modal
-        var btn = document.getElementById("my_success_modal");
+    var closemodal = document.getElementById("mymodal2");
 
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
+    // Get the button that opens the modal2
+    var btn = document.getElementById("my_success_modal2");
 
-        // When the user clicks the button, open the modal
-        btn.onclick = function () {
-            modal.style.display = "block";
+    // Get the <span> element that closes the modal2
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal2
+    // btn.onclick = function () {
+    //     modal2.style.display = "block";
+    // }
+    window.onload = function () {
+        modal2.style.display = "block";
+    };
+
+    // When the user clicks on <span> (x), close the modal2
+    closemodal.onclick = function () {
+        modal2.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal2, close it
+    window.onclick = function (event) {
+        if (event.target == modal2) {
+            modal2.style.display = "none";
         }
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function () {
-            modal.style.display = "none";
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
+    }
+</script>

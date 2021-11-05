@@ -701,6 +701,8 @@
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-default mt-3 btn-block">Send Request</button>
+                            
+
 
                         </div>
 
@@ -937,5 +939,8 @@
     }
 </script>
 <!-- Images Gallery Style End -->
+@if(session('status'))
+@include('website.success_modal')
+@endif
 
 @endsection
