@@ -24,7 +24,7 @@
 </style>
 
 <script src="https://checkout.flutterwave.com/v3.js"></script>
-<script src="https://js.paystack.co/v1/inline.js"></script> 
+<!-- <script src="https://js.paystack.co/v1/inline.js"></script>  -->
     <script>
         function makePayment() {
             var x = $("form").serializeArray();
@@ -34,47 +34,47 @@
                 vals[field.name]=field.value;
             });
 
-            // if(vals['email']!==''){
-            //     FlutterwaveCheckout({
-            //         public_key: "FLWPUBK-7c1d70351f180c452e677da44cdc13de-X",
-            //         tx_ref: new Date().getTime(),// vals['email'],
-            //         amount: vals['amount'],
-            //         currency: "GHS",
-            //         country: "GH",
-            //         payment_options: " ", //"card, mobilemoneyghana, ussd",
-            //         customer: vals,
-            //         callback: function (data) {
-            //             console.log(data);      
-            //         },
-            //         onclose: function() {
-            //             // close modal
-            //         },
-            //         customizations: {
-            //             title: "Because She Can",
-            //             description: "Please make your donations",
-            //             logo: "{{asset('assets/images/flutterlogo.jpeg')}}",
-            //         },
-            //     });
-            // }
-            if(vals["email"] !== "") {
-                let handler = PaystackPop.setup({
-                    key: "pk_live_9ba21ef45b5fa9701f368aa25f64283e1feb8c36", // Replace with your public key
-                    email: vals["email"],
-                    amount: vals["amount"] * 100, // the amount value is multiplied by 100 to convert to the lowest currency unit
-                    currency: "GHS", // Use GHS for Ghana Cedis or USD for US Dollars
-                    ref: new Date().getTime(), // Replace with a reference you generated
-                    callback: function(response) {
+             if(vals['email']!==''){
+                 FlutterwaveCheckout({
+                     public_key: "FLWPUBK-7c1d70351f180c452e677da44cdc13de-X",
+                     tx_ref: new Date().getTime(),// vals['email'],
+                     amount: vals['amount'],
+                     currency: "GHS",
+                     country: "GH",
+                     payment_options: " ", //"card, mobilemoneyghana, ussd",
+                     customer: vals,
+                     callback: function (data) {
+                         console.log(data);      
+                     },
+                     onclose: function() {
+                         // close modal
+                     },
+                     customizations: {
+                         title: "Because She Can",
+                         description: "Please make your donations",
+                         logo: "{{asset('assets/images/flutterlogo.jpeg')}}",
+                     },
+                 });
+             }
+            //if(vals["email"] !== "") {
+                //let handler = PaystackPop.setup({
+                    //key: "pk_live_9ba21ef45b5fa9701f368aa25f64283e1feb8c36", // Replace with your public key
+                    //email: vals["email"],
+                    //amount: vals["amount"] * 100, // the amount value is multiplied by 100 to convert to the lowest currency unit
+                    //currency: "GHS", // Use GHS for Ghana Cedis or USD for US Dollars
+                    //ref: new Date().getTime(), // Replace with a reference you generated
+                    //callback: function(response) {
                         //this happens after the payment is completed successfully
-                        var reference = response.reference;
-                        alert('Payment complete! Reference: ' + reference);
+                        //var reference = response.reference;
+                        //alert('Payment complete! Reference: ' + reference);
                         // Make an AJAX call to your server with the reference to verify the transaction
-                    },
-                    onClose: function() {
-                        alert('Transaction was not completed, window closed.');
-                    },
-                });
-                handler.openIframe();
-            }
+                    //},
+                    //onClose: function() {
+                        //alert('Transaction was not completed, window closed.');
+                    //},
+                //});
+                //handler.openIframe();
+            //}
         }
     </script>
 </head>
