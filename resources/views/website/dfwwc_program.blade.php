@@ -121,17 +121,18 @@
                                     <div class="skillbar-bar"></div>
                                 </div>
                                 <div class="d-md-flex align-items-end justify-content-between">
-                                    <ul id="featured-cause" class="list-unstyled list-inline w-50">
-                                        <li class="list-inline-item"><span class="days">00</span>
+                                    <ul id="featured-cause" class="list-unstyled list-inline w-50"
+                                        style="visibility: hidden;">
+                                        <li class="list-inline-item"><span class="days">50</span>
                                             <div class="days_text">Days</div>
                                         </li>
-                                        <li class="list-inline-item"><span class="hours">00</span>
+                                        <li class="list-inline-item"><span class="hours">20</span>
                                             <div class="hours_text">Hours</div>
                                         </li>
-                                        <li class="list-inline-item"><span class="minutes">00</span>
+                                        <li class="list-inline-item"><span class="minutes">10</span>
                                             <div class="minutes_text">Minutes</div>
                                         </li>
-                                        <li class="list-inline-item"><span class="seconds">00</span>
+                                        <li class="list-inline-item"><span class="seconds">10</span>
                                             <div class="seconds_text">Seconds</div>
                                         </li>
                                     </ul>
