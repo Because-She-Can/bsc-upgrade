@@ -350,6 +350,11 @@
 
         }
 
+        .sup{
+            color:red;
+            font-size:14px;
+        
+        }
 
         /* 
         .gee {
@@ -446,8 +451,8 @@
                             <a class="nav-link " href="/">Home</a>
 
                         </li>
-                        <li class="nav-item {{ request()->is('about_us') ? 'active' : '' }}">
-                            <a class="nav-link" href="about_us">About Us</a>
+                        <li class="nav-item {{ request()->is('about') ? 'active' : '' }}">
+                            <a class="nav-link" href="about">About Us</a>
                         </li>
                         <li class="nav-item dropdown {{ request()->is('dfwwc_program') ? 'active' : '' }}">
                             <a class="nav-link dropdown-toggle-mob" href="#" data-toggle="dropdown" aria-haspopup="true"

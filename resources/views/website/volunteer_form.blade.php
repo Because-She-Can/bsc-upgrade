@@ -113,12 +113,16 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="form-group">
+                                        <label>First name <sup class="sup">*</sup></label>
+
                                             <input type="text" class="form-control" id="name" placeholder="First Name"
                                                 name="first_name" />
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
+                                        <label>Last name <sup class="sup">*</sup></label>
+
                                             <input type="text" class="form-control" id="last_name" name="last_name"
                                                 placeholder=" Enter Last Name" />
                                         </div>
@@ -126,6 +130,8 @@
 
                                     <div class="col-md-4">
                                         <div class="form-group">
+                                        <label>Email Address <sup class="sup">*</sup></label>
+
                                             <input type="email" class="form-control" id="email"
                                                 placeholder="Your Email" name="email" />
                                         </div>
@@ -133,6 +139,8 @@
 
                                     <div class="col-md-4">
                                         <div class="form-group">
+                                        <label>Phone Number <sup class="sup">*</sup></label>
+
                                             <input type="tel" id="tel" class="form-control"
                                                 placeholder="Phone number ( Include country code)" maxlength="14" name="phone" />
                                         </div>
@@ -140,6 +148,7 @@
 
                                     <div class="col-md-4">
                                         <div class="form-group">
+                                        <label>Country <sup class="sup">*</sup></label>
 
                                             <select
                                                 class=" theme-combo donation-select js-example-basic-single form-control"
@@ -478,6 +487,8 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
+                                        <label>Zip Code <sup class="sup">*</sup></label>
+
                                             <input type="text" class="form-control" id="zip" placeholder="Zip Code" name="zip" />
                                         </div>
                                     </div>
@@ -489,7 +500,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group" style="min-width: 100%;">
                                             <label for="how-you-know-us"><strong>Which volunteer roles are you
-                                                    interested in? </strong></label>
+                                                    interested in? </strong> <sup class="sup">*</sup></label>
 
                                             <select
                                                 class=" theme-combo donation-select js-example-basic-single form-control"
@@ -523,7 +534,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group" style="min-width: 100%;">
                                             <label for="how-you-know-us"><strong>Availability - Number of months (Please
-                                                    select all available months) </strong></label>
+                                                    select all available months) </strong><sup class="sup">*</sup></label>
 
                                             <select
                                                 class=" theme-combo donation-select js-example-basic-single form-control"
@@ -552,7 +563,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group" style="min-width: 100%;">
                                             <label for="how-you-know-us"><strong>Availability - Number of months (Please
-                                                    select all available months) </strong></label>
+                                                    select all available months) </strong><sup class="sup">*</sup></label>
 
                                             <select
                                                 class=" theme-combo donation-select js-example-basic-single form-control"

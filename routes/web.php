@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('website.index');
 });
 
-Route::get('/about_us', function () {
-    return view('website.about_us');
-});
-
 
 
 Route::get('/get_involved', function () {
@@ -38,9 +34,6 @@ Route::get('/program_list', function () {
     return view('website.program_list');
 });
 
-// Route::get('/donation', function () {
-//     return view('website.donation');
-// });
 Route::get('/about', function () {
     return view('website.about_us');
 });
