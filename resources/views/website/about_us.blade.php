@@ -561,7 +561,7 @@ our-service -->
         <p><small>ND: This is dummy Text, do not take it serious i beg</small></p>
       </div>
       <div class="col-sm-12 text-md-right">
-        <a href="donation-page.html" class="btn btn-default">Join US</a>
+        <a href="donate-page.html" class="btn btn-default">Join US</a>
       </div>
     </div>
   </div>

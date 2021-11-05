@@ -425,7 +425,7 @@
                 <!-- Topbar Buttons Start -->
                 <div class="d-inline-flex request-btn order-lg-last col-auto p-0 align-items-center">
 
-                    <a class="nav-link btn btn-default ml-3 donate-btn" href="donation">Donate</a>
+                    <a class="nav-link btn btn-default ml-3 donate-btn" href="donate">Donate</a>
 
                     <!-- Toggle Button Start -->
                     <button class="navbar-toggler x collapsed" type="button" data-toggle="collapse"
