@@ -112,11 +112,11 @@
 
                         <div class="content-wrap-single">
                             <div class="featured-cause-timer">
-                                <h3><strong class="txt-orange">$26</strong> raised of <strong
+                                <h3><strong class="txt-orange">$41</strong> raised of <strong
                                         class="txt-blue">$5,000</strong></h3>
                                 <div class="skillbar" data-percent="0.52%">
                                     <div class="skillbar-percent">
-                                        <h3><strong>0.52%</strong></h3>
+                                        <h3><strong>0.82%</strong></h3>
                                     </div>
                                     <div class="skillbar-bar"></div>
                                 </div>

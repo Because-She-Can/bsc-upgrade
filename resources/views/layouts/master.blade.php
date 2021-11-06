@@ -628,18 +628,18 @@
     <!-- Needless link i do know why it give me issues when i take it out  -->
 
     <!-- jquery  -->
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> -->
 
     <!-- bootstrap -->
-    <script type="text/javascript" src="js/popper.js"></script>
+    <!-- <script type="text/javascript" src="js/popper.js"></script> -->
 
     <!-- mega-menu -->
-    <script type="text/javascript" src="js/mega-menu/mega_menu.js"></script>
+    <!-- <script type="text/javascript" src="js/mega-menu/mega_menu.js"></script> -->
 
 
 
     <!-- custom -->
-    <script type="text/javascript" src="js/custom.js"></script>
+    <!-- <script type="text/javascript" src="js/custom.js"></script> -->
 
 
     <!-- end of this stupid code tf!! -->
