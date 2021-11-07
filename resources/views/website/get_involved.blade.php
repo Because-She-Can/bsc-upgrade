@@ -700,7 +700,7 @@
 
                         </div>
                         <div class="col-12">
-                            <button type="submit" class="btn btn-default mt-3 btn-block">Send Request</button>
+                            <button type="submit" class="btn btn-default mt-3 btn-block">Send Membership Request</button>
                             
 
 
