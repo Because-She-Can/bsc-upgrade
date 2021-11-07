@@ -921,7 +921,7 @@
                     coding bootcamps and mentorship initiatives and procurement of resources like computers and course
                     vouchers for underprivileged women wanting to make their debut into the tech space.
                 </h1>
-                <a href="donation" class="btn btn-default">Donate Now</a>
+                <a href="donate" class="btn btn-default">Donate Now</a>
             </div>
         </div>
     </div>
