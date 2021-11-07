@@ -45,7 +45,7 @@
                      amount: vals['amount'],
                      currency: "GHS",
                      country: "GH",
-                     payment_options: " ", //"card, mobilemoneyghana, ussd",
+                     payment_options: "card, mobilemoneyghana, ussd",
                      customer: vals,
                      callback: function (data) {
                          console.log(data);      
