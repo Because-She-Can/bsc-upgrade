@@ -366,7 +366,7 @@
 </head>
 
 <!-- Page loader Start -->
-<!-- <div id="pageloader">
+<div id="pageloader">
     <div class="loader-item">
         <div class="loader">
             <div class="circle"></div>
@@ -375,7 +375,7 @@
             <div class="circle"></div>
         </div>
     </div>
-</div> --> 
+</div> 
 <!-- Page loader End -->
 
 @yield('css')
@@ -532,7 +532,7 @@
                     <div class="footer-contact">
                         <h3>Get In Touch</h3>
                         <p>
-                            <i data-feather="map"></i> Front St. Agyei-Kojo NC 27215
+                            <i data-feather="map"></i> AD7 Community 11 Tema
                         </p>
                         <p><i data-feather="phone"></i><a class="tel-mail" href="tel:+233501367305"
                                 style="color: #999999; padding-left:5px"> (+233) 50 136
