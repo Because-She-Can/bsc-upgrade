@@ -19,7 +19,7 @@ class CreateVolunteersTable extends Migration
             $table->string('last_name');
             $table->string('volunteer_country');
             $table->string('phone_number');
-            $table->string('experience_msg');
+            $table->longText('experience_msg');
             $table->string('volunteer_email');
             $table->string('volunteer_role');
             $table->string('availability');
