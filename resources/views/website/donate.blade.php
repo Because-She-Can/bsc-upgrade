@@ -89,7 +89,7 @@
 	<div class="alert  alert-dismissible" role="alert">
   <!-- <button type="button" onclick="this.parentNode.parentNode.removeChild(this.parentNode);" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button> -->
   <!-- <strong><i class="fa fa-warning"></i> Danger!</strong>  -->
-  <marquee><p style="font-family: Impact; font-size: 18pt">Donating Via Mobile Money (MOMO) is NOT working currently. Please use the other modes of payment. We Apologise for the inconvenience</p></marquee>
+  <h4><p style="font-family: Impact; font-size: 18pt">Donating Via Mobile Money (MOMO) is NOT working currently. Please use the other modes of payment. We Apologise for the inconvenience</p></h4>
 </div>
 	</div>
 </div>
