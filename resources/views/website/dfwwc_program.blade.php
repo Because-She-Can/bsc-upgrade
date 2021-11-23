@@ -112,17 +112,17 @@
 
                         <div class="content-wrap-single">
                             <div class="featured-cause-timer">
-                                <h3><strong class="txt-orange">$808.33</strong> raised of <strong
+                                <h3><strong class="txt-orange">$944</strong> raised of <strong
                                         class="txt-blue">$5,000</strong></h3>
                                 <div class="skillbar" data-percent="0.52%">
                                     <div class="skillbar-percent">
-                                        <h3><strong>16%</strong></h3>
+                                        <h3><strong>18%</strong></h3>
                                     </div>
                                     <div class="skillbar-bar"></div>
                                 </div>
                                 <div class="d-md-flex align-items-end justify-content-between">
                                     <ul id="featured-cause" class="list-unstyled list-inline w-50">
-                                        <li class="list-inline-item"><span class="daysx">42</span>
+                                        <li class="list-inline-item"><span class="daysx">39</span>
                                             <div class="days_text">Days</div>
                                         </li>
                                         <li class="list-inline-item"><span class="hours">13</span>
