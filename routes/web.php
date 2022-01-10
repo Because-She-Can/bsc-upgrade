@@ -50,5 +50,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::post('/save_member', [App\Http\Controllers\MemberController::class, 'store'])->name('save_member');
+Route::get('/admin/volunteers/{type}',[App\Http\Controllers\volunteerControler::class, 'volunteers'])->name('admin.volunteers');
+Route::get('/admin/members/{type}',[App\Http\Controllers\MemberController::class, 'members'])->name('admin.members');
 
 Route::post('/save_volunteer', [App\Http\Controllers\volunteerControler::class, 'storevolunteer'])->name('save_volunteer');
