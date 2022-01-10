@@ -153,7 +153,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="table-responsive">
-                    <table class="table table-striped table-bordered w-in-100" id="table" data-server-side="true"
+                    <table class="table table-responsive table-striped table-bordered w-in-100" id="table" data-server-side="true"
                         data-ajax="{{route('admin.volunteers','recent')}}">
                         <thead>
                             <tr>
