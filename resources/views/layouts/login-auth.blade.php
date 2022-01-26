@@ -5,7 +5,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    
+ 
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="assets/css/login.css">
+<link rel="stylesheet" type="text/css" href="assets/css/login-util.css">
+<!--===============================================================================================-->	
+{{-- <!-- Main Theme CSS -->
+<link href="assets/css/style.css" rel="stylesheet" />   --}}
 <!-- Favicon -->
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 
@@ -15,25 +21,12 @@
 <!-- Icofont CSS -->
 <link href="assets/library/icofont/icofont.min.css" rel="stylesheet" />
 
-<!-- Main Theme CSS -->
-<link href="assets/css/style.css" rel="stylesheet" />
-<!--===============================================================================================-->	
 
-	<!-- <link rel="icon" type="image/png" href="images/icons/favicon.ico"/> -->
-<!--===============================================================================================-->
-	{{-- <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">  --}}
+
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	{{-- <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">  --}}
-<!--===============================================================================================-->	
-	 {{-- <link rel="stylesheet" type="text/css" href="assets/vendor/css-hamburgers/hamburgers.min.css">  --}}
-<!--===============================================================================================-->
-	 {{-- <link rel="stylesheet" type="text/css" href="assets/vendor/select2/select2.min.css">  --}}
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="assets/css/login-util.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/login.css">
-<!--===============================================================================================-->
+
+
 </head>
 <!-- Page loader Start -->
 <div id="pageloader">
