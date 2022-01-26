@@ -1,6 +1,6 @@
-@extends('admin.layouts.master')
+@extends('admin.layouts.admin-master')
 
-@section('title', 'Dealer Dashboard')
+@section('title', 'Admin Dashboard')
 
 @section('css')
 
@@ -24,12 +24,12 @@
 <div class="page-header page-header-default row">
     <div class="col-md-6 col-xs-12 page-header-content ">
         <div class="page-title  ">
-            <h5><span class="f-w-700">Dashboard</span> - Administrator</h5>
+            <h4><span class="f-w-700">Dashboard</span></h4>
 
-            <ul class="breadcrumb">
+            {{-- <ul class="breadcrumb">
                 <li><a href="/">Home</a></li>
                 <li class="active">Admin Dashboard</li>
-            </ul>
+            </ul> --}}
         </div>
     </div>
 </div>

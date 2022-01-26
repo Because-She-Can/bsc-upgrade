@@ -41,9 +41,9 @@ Route::get('/about', function () {
 Route::get('/program_list', function () {
     return view('website.program_list');
 });
-Route::get('/newHome', function () {
-    return view('website.newHome');
-});
+// Route::get('/newHome', function () {
+//     return view('website.newHome');
+// });
 
 
 Auth::routes();

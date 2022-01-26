@@ -1,6 +1,6 @@
 @extends('admin.layouts.master')
 
-@section('title', 'Dealer Dashboard')
+@section('title', 'Admin Dashboard')
 
 @section('css')
 
