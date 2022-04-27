@@ -17,27 +17,37 @@
                 <div class="sidebar-spacer">
 
                     <h1 class="heading-main">
-                        <small>The Mentorship You Have Been Looking For</small>
-                        BSC Mentorship Program - Mentee Feedback Form
+                        <small>BSC Mentorship Program </small>
+                        BSC Mentorship Program - Mentee Signup Form
                     </h1>
-                    <p>BSC Mentorship Program - Sign Up as A Mentee
-                        The Because She Can Mentorship program is a program meant support women and girls in the Technology space gain knowledge from industry professionals. 
-                        <br><br>
-                        Over a 12-week period you will be paired with a mentor to work on:
-                        - Building your portfolio
-                        - Job search navigation and strategy
-                        - Industry specific skill building
-                        - Resume and interview preparation
-                        <br> <br>
-                       <strong style="color: #4f0a44;">Program running from 01 June - 31 August</strong>
+                    <p> <strong> Sign Up As A Mentee </strong>
                         <br>
-                        <strong style="color: #4f0a44;"> Application deadline: 21st May 2022 </strong>  
+                        The Because She Can Mentorship program is a program meant support women and girls in the
+                        Technology space gain knowledge from industry professionals.
                         <br><br>
-                       <strong style="color: #477763">Complete this form if you are interested in gaining a mentor in your journey in the world of Tech.</strong>
-                    <!-- Causes Single Wrap -->
+                        Join our mentorship program where you will be paired with some of the
+                        best mentors in Tech.
+                        <br>
+                        Over a 12- week period you will be paired with a mentor to work
+                        on building your skill in your chosen tech field.
+                        <br>
+                        Additional areas may include but not limited to:
+                        <br>
+                        <strong> - Building your portfolio </strong> <br>
+                        <strong> - Job search navigation and strategy</strong> <br>
+                        <strong> - Industry specific skill building</strong> <br>
+                        <strong> - CV writing and Interview preparation etc.</strong> 
+                        <br> <br>
+                        <strong style="color: #4f0a44;">Program running from 01 June - 31 August</strong>
+                        <br>
+                        <strong style="color: #4f0a44;"> Application deadline: 21st May 2022 </strong>
+                        <br><br>
+                        <strong style="color: #477763">Complete this form if you are interested in gaining a mentor in
+                            your journey in the world of Tech.</strong>
+                        <!-- Causes Single Wrap -->
                     <div class="causes-wrap single">
 
-<!-- 
+                        <!-- 
                         <div class="content-wrap-single">
                             <div class="featured-cause-timer">
                                 <h3><strong class="txt-orange">$944</strong> raised of <strong
@@ -76,8 +86,12 @@
                                     width="100%" height="3648" frameborder="0" marginheight="0"
                                     marginwidth="0">Loading…</iframe> -->
 
-                                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfzpcg-BZX4PdDSPI1tihW8sUQrpoLlSU1CUZvH9tAvncv0Aw/viewform?embedded=true" width="100%" height="2854" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-\                            </p>
+                                <iframe
+                                    src="https://docs.google.com/forms/d/e/1FAIpQLSfzpcg-BZX4PdDSPI1tihW8sUQrpoLlSU1CUZvH9tAvncv0Aw/viewform?embedded=true"
+                                    width="100%" height="2854" frameborder="0" marginheight="0"
+                                    marginwidth="0">Loading…</iframe>
+                                \
+                            </p>
 
 
                             <!--div class="row my-5">
@@ -130,18 +144,22 @@
                                 </div>
                                 <div class="pl-4">
                                     <ul class="list-unstyled list-inline mb-0">
-                                        <li class="list-inline-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//becauseshecan.tech/bscmentee" target="blank"><i class="icofont-facebook"></i></a>
+                                        <li class="list-inline-item"><a
+                                                href="https://www.facebook.com/sharer/sharer.php?u=https%3A//becauseshecan.tech/bscmentee"
+                                                target="blank"><i class="icofont-facebook"></i></a>
                                         </li>
-                                        <li class="list-inline-item"><a href="https://twitter.com/intent/tweet?url=https://becauseshecan.tech/bscmentee&text=join%20this%20amazing%20program&hashtags=womenInTech,Mentorship" target="blank">
-                                            <i class="icofont-twitter"></i>
-                                        </a>
+                                        <li class="list-inline-item"><a
+                                                href="https://twitter.com/intent/tweet?url=https://becauseshecan.tech/bscmentee&text=join%20this%20amazing%20program&hashtags=womenInTech,Mentorship"
+                                                target="blank">
+                                                <i class="icofont-twitter"></i>
+                                            </a>
                                         </li>
-                                        <li class="list-inline-item"><a href="#"><i class="icofont-instagram"></i></a>
+                                        <!-- <li class="list-inline-item"><a href="#"><i class="icofont-instagram"></i></a>
                                         </li>
                                         <li class="list-inline-item"><a href="#"><i class="icofont-behance"></i></a>
                                         </li>
                                         <li class="list-inline-item"><a href="#"><i
-                                                    class="icofont-youtube-play"></i></a></li>
+                                                    class="icofont-youtube-play"></i></a></li> -->
                                     </ul>
                                 </div>
                             </div>
