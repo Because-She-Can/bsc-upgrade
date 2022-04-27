@@ -27,6 +27,14 @@ Route::get('dfwwc_program', function () {
     return view('website.dfwwc_program');
 });
 
+Route::get('bscmentee', function () {
+    return view('website.mentee');
+});
+
+Route::get('bscmentor', function () {
+    return view('website.mentor');
+});
+
 Route::get('/donate', function () {
     return view('website.donate');
 });
@@ -41,6 +49,7 @@ Route::get('/about', function () {
 Route::get('/program_list', function () {
     return view('website.program_list');
 });
+
 // Route::get('/newHome', function () {
 //     return view('website.newHome');
 // });

@@ -8,7 +8,7 @@
     <meta name="description" content="Because She Can - WE'RE ON A MISSION TO CLOSE THE GENDER GAP IN TECH" />
     <meta name="author" content="waalatech.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>@yield('title') - Because She Can </title>
+    <title>BSC | @yield('title')  </title>
 
 
 
