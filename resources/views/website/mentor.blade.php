@@ -20,18 +20,33 @@
                         <small>Help Guide A Sister In Tech</small>
                         BSC Mentorship Program - Mentor Feedback Form
                     </h1>
-                    <p> BSC Mentorship Program - Mentor Feedback Form
+                    <p> 
                         The Because She Can Mentorship program is a program meant support women and girls in the Technology space gain knowledge from industry professionals. 
-                        
-                        Over a 12-week period you will be paired with a mentor to work on:
-                        <br> <br>
-                         <strong> - Building your portfolio</strong> 
-                        <br>
-                        <strong> - Job search navigation and strategy</strong> 
+
+                        Over a 12-week period you will be paired with a mentee to work on:
                         <br>
                         <strong> - Industry specific skill building</strong>
                         <br>
-                        <strong> - Resume and interview preparation</strong></p>
+                        <strong> - Building their portfolio</strong>
+                        <br> 
+                        <strong>  - Job search navigation and strategy </strong>
+                        <br>
+                        <strong>- Resume and interview preparation</strong>
+                        <br><br>
+                       
+                        
+                        
+                        This should be in line with the mentees chosen field of Technology
+                        <br>
+                        
+                        Program running from 01 June - 31 August
+                        <br>
+                        
+                        Complete this form if you are interested in impacting the life of a woman/girl in the Tech space positively as a mentor. It does not matter what 'stage' in your professional career you are in. We believe that there is always a thing or two you can share with others, whether, younger, older or a peer. Mentoring positions are open to all genders.
+                        <br>
+                        Because She Can appreciates the kind gesture and it is our hope that our girls benefit as much as they can from the skill and knowledge you are freely offering.
+                        <br>
+                    </p>
                     <!-- Causes Single Wrap -->
                     <div class="causes-wrap single">
                     
@@ -42,8 +57,7 @@
 
                             <p>
                              
-                                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeyqybBmUHGLyvyARKdSHseC3fa5CffOps18ca17jSxfzVYow/viewform?embedded=true" width="100%" height="3586" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                            </p>
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdvJqLm923QaOEynlAKZsa6ARo_-ChnPXlvKz4yVSKO-cr3hA/viewform?embedded=true" width="100%" height="2874" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>                            </p>
 
                         </div>
 
@@ -54,7 +68,7 @@
                                 </div>
                                 <div class="pl-4">
                                     <ul class="list-unstyled list-inline mb-0">
-                                        <li class="list-inline-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//becauseshecan.tech/bscmentor"><i class="icofont-facebook"></i></a>
+                                        <li class="list-inline-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//becauseshecan.tech/bscmentor" target="blank"><i class="icofont-facebook"></i></a>
                                         </li>
                                         <li class="list-inline-item"><a href="https://twitter.com/intent/tweet?url=https://becauseshecan.tech/bscmentor&text=join%20this%20amazing%20program&hashtags=womenInTech,Mentorship" target="blank">
                                             <i class="icofont-twitter"></i>
