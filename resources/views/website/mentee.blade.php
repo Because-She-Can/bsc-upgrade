@@ -22,7 +22,7 @@
                     </h1>
                     <p> <strong> Sign Up As A Mentee </strong>
                         <br>
-                        The Because She Can Mentorship program is a program meant support women and girls in the
+                        The Because She Can Mentorship program is a program meant to support women and girls in the
                         Technology space gain knowledge from industry professionals.
                         <br><br>
                         Join our mentorship program where you will be paired with some of the
@@ -86,11 +86,7 @@
                                     width="100%" height="3648" frameborder="0" marginheight="0"
                                     marginwidth="0">Loading…</iframe> -->
 
-                                <iframe
-                                    src="https://docs.google.com/forms/d/e/1FAIpQLSfzpcg-BZX4PdDSPI1tihW8sUQrpoLlSU1CUZvH9tAvncv0Aw/viewform?embedded=true"
-                                    width="100%" height="2854" frameborder="0" marginheight="0"
-                                    marginwidth="0">Loading…</iframe>
-                                \
+                                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfzpcg-BZX4PdDSPI1tihW8sUQrpoLlSU1CUZvH9tAvncv0Aw/viewform?embedded=true" width="100%" height="2762" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                             </p>
 
 
